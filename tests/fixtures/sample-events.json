@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "generated_at": "2030-06-01T08:00:00+02:00",
+  "events": [
+    {
+      "id": "fictional-sunset-strings-nice-2030-06-15",
+      "title": "Fictional Sunset Strings",
+      "description": "A fictional test concert.",
+      "categories": ["classical_music", "concerts"],
+      "tags": ["major_event"],
+      "start_at": "2030-06-15T19:30:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Imaginary Hall",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": { "codes": ["en"], "importance": "not_applicable", "notes": null },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 25,
+        "maximum": 25,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "available",
+        "official_url": "https://example.test/strings",
+        "sale_starts_at": null,
+        "reservation_required": false
+      },
+      "sources": [
+        {
+          "url": "https://example.test/strings",
+          "name": "Fictional official source",
+          "type": "official_venue",
+          "trust": "high",
+          "checked_at": "2030-06-01T08:00:00+02:00",
+          "supports": ["identity", "date", "time"]
+        }
+      ],
+      "ranking": { "score": 44, "level": "must_go", "reasons": ["Fictional favourite match"] },
+      "tracking": {
+        "first_seen_at": "2030-05-31T08:00:00+02:00",
+        "last_seen_at": "2030-06-01T08:00:00+02:00",
+        "last_verified_at": "2030-06-01T08:00:00+02:00",
+        "content_hash": "test-a"
+      },
+      "status": "scheduled"
+    },
+    {
+      "id": "fictional-free-light-nice-2030-06-08",
+      "title": "Fictional Free Light Walk",
+      "description": null,
+      "categories": ["free_events", "outdoor"],
+      "tags": [],
+      "start_at": "2030-06-08",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Fictional Promenade",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": { "codes": [], "importance": "not_applicable", "notes": null },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "free_entry",
+        "official_url": "https://example.test/light",
+        "sale_starts_at": null,
+        "reservation_required": false
+      },
+      "sources": [
+        {
+          "url": "https://example.test/light",
+          "name": "Fictional official source",
+          "type": "official_city",
+          "trust": "high",
+          "checked_at": "2030-06-01T08:00:00+02:00",
+          "supports": ["identity", "date", "free_entry"]
+        }
+      ],
+      "ranking": { "score": 32, "level": "strong_match", "reasons": ["Fictional free event"] },
+      "tracking": {
+        "first_seen_at": "2030-06-01T08:00:00+02:00",
+        "last_seen_at": "2030-06-01T08:00:00+02:00",
+        "last_verified_at": "2030-06-01T08:00:00+02:00",
+        "content_hash": "test-b"
+      },
+      "status": "announced"
+    },
+    {
+      "id": "fictional-unknown-date-antibes",
+      "title": "Fictional Date To Be Announced",
+      "description": "A fictional event with no confirmed date.",
+      "categories": ["theatre"],
+      "tags": [],
+      "start_at": null,
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "unknown",
+      "venue": {
+        "name": null,
+        "city": "Antibes",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": { "codes": ["uk"], "importance": "high", "notes": null },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "sources": [],
+      "ranking": { "score": 22, "level": "strong_match", "reasons": ["Fictional Ukrainian event"] },
+      "tracking": {
+        "first_seen_at": "2030-06-01T08:00:00+02:00",
+        "last_seen_at": "2030-06-01T08:00:00+02:00",
+        "last_verified_at": null,
+        "content_hash": "test-c"
+      },
+      "status": "unconfirmed"
+    },
+    {
+      "id": "fictional-cancelled-cannes-2030-06-20",
+      "title": "Fictional Cancelled Show",
+      "description": null,
+      "categories": ["concerts"],
+      "tags": [],
+      "start_at": "2030-06-20",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Fictional Theatre",
+        "city": "Cannes",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": { "codes": ["fr"], "importance": "low", "notes": null },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "cancelled",
+        "official_url": "https://example.test/cancelled",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "sources": [
+        {
+          "url": "https://example.test/cancelled",
+          "name": "Fictional source",
+          "type": "official_venue",
+          "trust": "high",
+          "checked_at": "2030-06-01T08:00:00+02:00",
+          "supports": ["status"]
+        }
+      ],
+      "ranking": { "score": 10, "level": "maybe", "reasons": [] },
+      "tracking": {
+        "first_seen_at": "2030-05-20T08:00:00+02:00",
+        "last_seen_at": "2030-06-01T08:00:00+02:00",
+        "last_verified_at": "2030-06-01T08:00:00+02:00",
+        "content_hash": "test-d"
+      },
+      "status": "cancelled"
+    }
+  ]
+}

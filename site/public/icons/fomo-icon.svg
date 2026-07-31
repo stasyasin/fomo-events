@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="FOMO Côte d’Azur">
+  <rect width="192" height="192" rx="48" fill="#192a2e"/>
+  <circle cx="96" cy="96" r="52" fill="none" stroke="#f6c46d" stroke-width="9"/>
+  <path d="M96 36v120M36 96h120" stroke="#f6c46d" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="96" cy="96" r="19" fill="#c94d35"/>
+</svg>

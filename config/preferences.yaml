@@ -1,0 +1,325 @@
+# Public, editable starter profile. Review travel and price values before a real scan.
+version: 1
+
+profile:
+  name: French Riviera FOMO Radar
+  timezone: Europe/Paris
+  output_language: uk
+
+location:
+  home_city: Nice
+  country: France
+  coordinates: null
+  zones:
+    - name: core
+      cities:
+        - Nice
+        - Villefranche-sur-Mer
+        - Saint-Jean-Cap-Ferrat
+        - Beaulieu-sur-Mer
+        - Èze
+        - Cagnes-sur-Mer
+        - Saint-Paul-de-Vence
+        - Vence
+        - Monaco
+        - Antibes
+        - Juan-les-Pins
+      max_minutes: 60
+    - name: extended
+      cities:
+        - Cannes
+        - Mougins
+        - Grasse
+        - Biot
+        - Menton
+        - Roquebrune-Cap-Martin
+        - Sanremo
+        - Bordighera
+      max_minutes: 90
+    - name: exceptional
+      cities:
+        - Marseille
+        - Aix-en-Provence
+        - Toulon
+        - Genoa
+      max_minutes: 180
+
+search_horizons:
+  short_days: 30
+  medium_days: 120
+  long_days: 365
+
+languages:
+  preferred: [uk, en]
+  acceptable: [fr]
+  avoided: []
+  language_independent_categories:
+    - classical_music
+    - opera_and_ballet
+    - jazz_and_blues
+    - exhibitions
+    - museums_and_art
+    - sports
+    - outdoor
+    - astronomy
+    - unusual_experiences
+
+categories:
+  concerts:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [concert, live music, pop, rock, electronic, indie],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  classical_music:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [classical, orchestra, chamber music, symphonic],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  opera_and_ballet:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [opera, ballet, dance],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: { language_independent: true },
+      travel_rules: null,
+    }
+  jazz_and_blues:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [jazz, blues, soul, world music],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  theatre:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [theatre, theater, visual theatre, circus],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: { boost_if: [uk, en], lower_priority_if: [fr] },
+      travel_rules: null,
+    }
+  comedy:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [comedy, stand-up, stand up],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: { boost_if: [en, uk] },
+      travel_rules: null,
+    }
+  museums_and_art:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [museum, art, free museum],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  exhibitions:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [exhibition, gallery opening, vernissage],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: { language_independent: true },
+      travel_rules: null,
+    }
+  festivals:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [festival, celebration, fireworks, drone show],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  city_events:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [public event, celebration, fireworks, drone show],
+      negative_keywords: [],
+      price_limit: 0,
+      language_rules: null,
+      travel_rules: null,
+    }
+  free_events:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [free entry, free event, gratuit],
+      negative_keywords: [],
+      price_limit: 0,
+      language_rules: null,
+      travel_rules: null,
+    }
+  food_and_wine:
+    {
+      enabled: true,
+      weight: 5,
+      keywords:
+        [wine festival, tasting, food festival, cheese, chocolate, truffle, olive, lemon, chestnut],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  markets:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [food market, regional market, marché],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  cinema:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [premiere, screening, open-air cinema, cinema],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: { boost_if: [uk, en] },
+      travel_rules: null,
+    }
+  sports:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [football, match, tournament, major sport],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  business_and_tech:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [startup, AI, product, UX, design, technology, conference, meetup],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: { boost_if: [en, uk] },
+      travel_rules: null,
+    }
+  outdoor:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [outdoor, open-air, nature],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  astronomy:
+    {
+      enabled: true,
+      weight: 4,
+      keywords: [astronomy, stargazing, observatory],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: null,
+    }
+  unusual_experiences:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [immersive, unusual, romantic, seasonal, drone show],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: { core_zone_bonus: true },
+    }
+
+custom_categories: {}
+
+interests:
+  favourite_artists: [The Weeknd]
+  favourite_teams: []
+  favourite_topics: [fireworks, drone shows, Ukrainian culture, wine, food, AI, product, UX, design]
+  priority_keywords:
+    [
+      free classical music,
+      Ukrainian theatre,
+      Ukrainian cultural event,
+      English stand-up,
+      fireworks,
+      drone show,
+      major concert,
+      wine festival,
+      food festival,
+    ]
+  negative_keywords: [generic recurring event, low novelty]
+
+# Conservative starter values, not final personal budget decisions. Edit before scanning.
+pricing:
+  currency: EUR
+  preferred_max_per_person: 80
+  hard_max_per_person: 180
+  free_events_bonus: 10
+
+travel:
+  default_transport: public_transport
+  max_minutes: 90
+  exceptional_max_minutes: 180
+
+ranking:
+  weights:
+    personal_interest: 10
+    category: 5
+    favourite_artist_or_team: 15
+    free_event: 12
+    rarity: 8
+    language_fit: 8
+    travel_convenience: 6
+    price_value: 6
+    urgency: 5
+    ukrainian_event: 14
+    english_standup: 12
+    fireworks_or_drone_show: 14
+    major_local_concert: 12
+    wine_or_food_festival: 10
+    unusual_core_zone_event: 10
+    expensive_weak_fit_penalty: -8
+    nonexceptional_long_distance_penalty: -10
+    text_heavy_french_theatre_penalty: -7
+    generic_recurring_low_novelty_penalty: -6
+  levels:
+    must_go_min: 32
+    strong_match_min: 20
+    maybe_min: 9
+
+outputs:
+  upcoming_markdown: true
+  daily_reports: true
+  weekly_reports: true
+  static_site: true
+
+privacy:
+  public_repository_safe: true

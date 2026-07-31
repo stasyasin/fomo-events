@@ -1,0 +1,17 @@
+{
+  "name": "FOMO Côte d’Azur",
+  "short_name": "FOMO Côte d’Azur",
+  "description": "Події, які шкода пропустити на Лазурному узбережжі.",
+  "start_url": "/fomo-events/",
+  "display": "standalone",
+  "background_color": "#f6f1e8",
+  "theme_color": "#d85b3e",
+  "icons": [
+    {
+      "src": "/fomo-events/icons/fomo-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

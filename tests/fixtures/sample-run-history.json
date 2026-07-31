@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "runs": [
+    {
+      "id": "fictional-full-2030-06-01",
+      "mode": "full",
+      "started_at": "2030-06-01T07:00:00+02:00",
+      "ended_at": "2030-06-01T08:00:00+02:00",
+      "agent": "fictional-test-agent",
+      "provider": "test",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 2,
+      "search_queries": 3,
+      "candidate_events_found": 3,
+      "new_events": 3,
+      "updated_events": 0,
+      "possible_duplicates": 0,
+      "rejected_candidates": 0,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [],
+      "errors": [],
+      "changed_files": ["reports/daily/2030-06-01.md"],
+      "summary": "Fictional test run only."
+    }
+  ]
+}

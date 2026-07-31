@@ -1,0 +1,30 @@
+# Only a small verified starter set is enabled. Add sources only after checking they are
+# official and current; aggregators are leads, not authority. No event discovery is run here.
+version: 1
+sources:
+  - name: Office de Tourisme Nice Côte d’Azur — agenda
+    url: https://www.explorenicecotedazur.com/evenements/agenda-de-tous-les-evenements/
+    type: official_tourism
+    enabled: true
+    geographic_scope: [Nice, Villefranche-sur-Mer, Saint-Jean-Cap-Ferrat, Vence, Cagnes-sur-Mer]
+    category_scope:
+      [concerts, exhibitions, festivals, city_events, free_events, food_and_wine, sports, outdoor]
+    language: fr
+    priority: 90
+    trust: high
+    notes: Official regional agenda; verify high-priority listings against the organiser or venue.
+  - name: Opéra Nice Côte d’Azur — agenda
+    url: https://www.opera-nice.org/agenda/
+    type: official_theatre
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope: [classical_music, opera_and_ballet]
+    language: fr
+    priority: 96
+    trust: high
+    notes: Official programme and ticketing details for opera, ballet, and concerts.
+
+# Disabled placeholders (intentionally not URLs): add a verified official page before
+# adding an enabled source entry for City of Nice; Monaco; Cannes; Antibes/Juan-les-Pins;
+# regional museums and galleries; major concert venues and official ticketing; jazz
+# festivals; official football clubs; and regional business/technology organisations.

@@ -1,0 +1,63 @@
+name: Validate repository
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  local-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Run complete local check
+        run: npm run check
+      - name: Prepare generated site data again
+        run: npm run prepare:data
+      - name: Record generated data checksum
+        id: generated-data
+        run: echo "sha256=$(sha256sum site/public/generated/site-data.json | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
+      - name: Recheck deterministic generated data
+        run: npm run prepare:data
+      - name: Confirm generated data is stable
+        run: test "${{ steps.generated-data.outputs.sha256 }}" = "$(sha256sum site/public/generated/site-data.json | cut -d ' ' -f1)"
+      - name: Confirm canonical files were not changed by the build
+        run: git diff --exit-code
+
+  fomo-agent-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out output repository
+        uses: actions/checkout@v6
+      - name: Check out FOMO Agent contract repository
+        uses: actions/checkout@v6
+        with:
+          repository: stasyasin/fomo-agent
+          path: .fomo-agent
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: .fomo-agent/package-lock.json
+      - name: Install FOMO Agent dependencies
+        working-directory: .fomo-agent
+        run: npm ci
+      - name: Validate preferences with FOMO Agent
+        working-directory: .fomo-agent
+        run: npm run fomo -- validate-config ../config/preferences.yaml
+      - name: Validate event database with FOMO Agent
+        working-directory: .fomo-agent
+        run: npm run fomo -- validate-events ../data/events.json
