@@ -1,5 +1,6 @@
-# Only a small verified starter set is enabled. Add sources only after checking they are
-# official and current; aggregators are leads, not authority. No event discovery is run here.
+# The enabled list contains verified official sources. Add a source only after checking it
+# is official and current; aggregators are leads, not authority. No event discovery is run
+# here.
 version: 1
 sources:
   - name: Office de Tourisme Nice Côte d’Azur — agenda
@@ -23,8 +24,60 @@ sources:
     priority: 96
     trust: high
     notes: Official programme and ticketing details for opera, ballet, and concerts.
+  - name: Mairie de Cannes — agenda
+    url: https://www.cannes.com/fr/agenda/agenda-recherche-par-mots-cles.html
+    type: official_city
+    enabled: true
+    geographic_scope: [Cannes]
+    category_scope:
+      [concerts, theatre, comedy, cinema, exhibitions, festivals, city_events, free_events, outdoor]
+    language: fr
+    priority: 92
+    trust: high
+    notes: >-
+      Official municipal agenda. Inspect individual listings for material facts; during the
+      summer, explicitly check the Festival d'art pyrotechnique and retain each confirmed
+      fireworks date as a separate event rather than assuming a series schedule.
+  - name: Musée national Marc Chagall — official programme
+    url: https://musees-nationaux-alpesmaritimes.fr/chagall/
+    type: official_museum
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope: [museums_and_art, exhibitions, free_events, classical_music]
+    language: fr
+    priority: 94
+    trust: high
+    notes: >-
+      Official museum programme. Check current exhibition pages and practical information;
+      record first-Sunday free admission only when the museum's current official page
+      confirms it, and distinguish admission from paid activities.
+  - name: Musée national Fernand Léger — official programme
+    url: https://musees-nationaux-alpesmaritimes.fr/fleger/
+    type: official_museum
+    enabled: true
+    geographic_scope: [Biot]
+    category_scope: [museums_and_art, exhibitions, free_events]
+    language: fr
+    priority: 93
+    trust: high
+    notes: >-
+      Official museum programme. Check current exhibition pages and practical information;
+      verify any first-Sunday free-admission policy on the museum's current page before
+      adding it.
+  - name: Musée national Pablo Picasso, La Guerre et la Paix — official programme
+    url: https://musees-nationaux-alpesmaritimes.fr/picasso/
+    type: official_museum
+    enabled: true
+    geographic_scope: [Vallauris]
+    category_scope: [museums_and_art, exhibitions, free_events]
+    language: fr
+    priority: 93
+    trust: high
+    notes: >-
+      Official museum programme. Track current exhibitions and events from the museum's
+      own pages; verify admission terms and opening days for each listing.
 
 # Disabled placeholders (intentionally not URLs): add a verified official page before
-# adding an enabled source entry for City of Nice; Monaco; Cannes; Antibes/Juan-les-Pins;
+# adding an enabled source entry for City of Nice; Monaco; Antibes/Juan-les-Pins; other
 # regional museums and galleries; major concert venues and official ticketing; jazz
 # festivals; official football clubs; and regional business/technology organisations.

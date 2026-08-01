@@ -129,7 +129,7 @@ categories:
     {
       enabled: true,
       weight: 4,
-      keywords: [museum, art, free museum],
+      keywords: [museum, art, exhibition, permanent collection, free museum, first Sunday],
       negative_keywords: [],
       price_limit: null,
       language_rules: null,
@@ -139,7 +139,7 @@ categories:
     {
       enabled: true,
       weight: 4,
-      keywords: [exhibition, gallery opening, vernissage],
+      keywords: [exhibition, museum exhibition, gallery opening, vernissage, retrospective],
       negative_keywords: [],
       price_limit: null,
       language_rules: { language_independent: true },
@@ -169,7 +169,7 @@ categories:
     {
       enabled: true,
       weight: 5,
-      keywords: [free entry, free event, gratuit],
+      keywords: [free entry, free event, gratuit, first Sunday, premier dimanche du mois],
       negative_keywords: [],
       price_limit: 0,
       language_rules: null,
@@ -262,10 +262,25 @@ custom_categories: {}
 interests:
   favourite_artists: [The Weeknd]
   favourite_teams: []
-  favourite_topics: [fireworks, drone shows, Ukrainian culture, wine, food, AI, product, UX, design]
+  favourite_topics:
+    [
+      fireworks,
+      drone shows,
+      museum exhibitions,
+      free national-museum Sundays,
+      Ukrainian culture,
+      wine,
+      food,
+      AI,
+      product,
+      UX,
+      design,
+    ]
   priority_keywords:
     [
       free classical music,
+      free museum first Sunday,
+      current museum exhibition,
       Ukrainian theatre,
       Ukrainian cultural event,
       English stand-up,

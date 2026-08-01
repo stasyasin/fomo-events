@@ -25,8 +25,9 @@ considered.
 It prioritises concerts, classical music, opera and ballet, jazz, Ukrainian and
 English-language cultural events, festivals, public/free events, food and wine, art,
 cinema, football and selected sport, business/technology, outdoor, astronomy, and
-unusual experiences. See [preferences](config/preferences.yaml) for the precise,
-editable priorities and starter budget values.
+unusual experiences. A new owner first edits the plain-language
+[“My FOMO profile”](config/PREFERENCES.md); Codex then synchronises it into the precise,
+machine-validated [preferences.yaml](config/preferences.yaml).
 
 ## Repository map
 
@@ -93,10 +94,19 @@ FOMO_AGENT_PATH=/path/to/fomo-agent npm run validate:agent
 
 ## Editing the public configuration
 
-Edit [config/preferences.yaml](config/preferences.yaml) to adjust zones, horizons,
-language fit, categories, favourite artists, travel, budget, and ranking. The initial
-values are conservative public starter values, not final personal choices. Do not add
-a home address or precise coordinates.
+For normal personalisation, edit only [config/PREFERENCES.md](config/PREFERENCES.md): it
+is a short English plain-language questionnaire with examples. Then ask your Codex,
+Claude, or another coding agent to follow
+[automation/sync-profile-prompt.md](automation/sync-profile-prompt.md). It translates
+clear requests into the YAML, validates the result, leaves it uncommitted, and reports
+anything ambiguous. This is deliberately a separate step: a scheduled scan must never
+silently rewrite the owner's preferences.
+
+[config/preferences.yaml](config/preferences.yaml) is the machine-validated version used
+by the scheduler. It is for advanced/manual edits to zones, horizons, language fit,
+enabled categories, travel, budget, and ranking. The initial values are conservative
+public starter values, not final personal choices. Do not add a home address or precise
+coordinates.
 
 Edit [config/sources.yaml](config/sources.yaml) to add only verified official sources.
 It begins with a deliberately small set and clearly names categories that still need a
@@ -107,9 +117,18 @@ social sources should be leads, not proof of an event fact.
 
 Use a fresh clone of that person's fork rather than reusing someone else's output and
 preferences. Everything in this repository is public. Before the first scan, the new
-owner must replace the public preferences and sources with their own broad, non-sensitive
-choices, then remove every event, report, and run history belonging to the previous
-profile. Never retain another person's favourites, attended/rejected list, or scan report.
+owner must:
+
+1. Replace [config/PREFERENCES.md](config/PREFERENCES.md) with their own broad,
+   non-sensitive answers.
+2. Ask their Codex, Claude, or another coding agent: **“Update
+   `config/preferences.yaml` from `config/PREFERENCES.md` by following
+   `automation/sync-profile-prompt.md`.”**
+3. Review the resulting `config/preferences.yaml` and all configured sources.
+
+They must also remove every event, report, and run history belonging to the previous
+profile. Never retain another person's favourites, attended/rejected list, or scan
+report.
 
 In the new clone, make these canonical JSON containers empty and valid:
 
