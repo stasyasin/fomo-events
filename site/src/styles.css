@@ -123,6 +123,41 @@ button {
   gap: 1rem;
 }
 
+.masthead__actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.language-switcher {
+  display: inline-flex;
+  overflow: hidden;
+  border: 1px solid rgba(255, 250, 242, 0.38);
+  border-radius: 999px;
+}
+
+.language-switcher button {
+  border: 0;
+  background: transparent;
+  color: #fffaf2;
+  padding: 0.42rem 0.52rem;
+  font-size: 0.7rem;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+}
+
+.language-switcher button[aria-pressed='true'] {
+  background: #f6c46d;
+  color: var(--ink);
+}
+
+.language-switcher button:not([aria-pressed='true']):hover {
+  background: rgba(255, 250, 242, 0.14);
+}
+
 h1,
 h2,
 h3,
@@ -690,6 +725,17 @@ h1 {
   }
   .event-card__main {
     padding: 1.2rem;
+  }
+}
+
+@media (max-width: 35rem) {
+  .masthead__topline {
+    flex-direction: column;
+  }
+
+  .masthead__actions {
+    width: 100%;
+    justify-content: space-between;
   }
 }
 

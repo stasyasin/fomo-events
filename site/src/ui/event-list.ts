@@ -1,4 +1,5 @@
 import { daysBetween, eventDateKey, parisDateKey } from '../dates.js';
+import { translate, type Locale } from '../i18n.js';
 import type { FomoEvent } from '../types.js';
 import { renderEventCard } from './event-card.js';
 
@@ -7,7 +8,7 @@ interface EventGroup {
   events: FomoEvent[];
 }
 
-function groupEvents(events: FomoEvent[]): EventGroup[] {
+function groupEvents(events: FomoEvent[], locale: Locale): EventGroup[] {
   const today = parisDateKey();
   const nextSeven: FomoEvent[] = [];
   const laterThisMonth: FomoEvent[] = [];
@@ -27,20 +28,20 @@ function groupEvents(events: FomoEvent[]): EventGroup[] {
   }
 
   return [
-    { title: 'Наступні сім днів', events: nextSeven },
-    { title: 'Пізніше цього місяця', events: laterThisMonth },
-    { title: 'Найближчі місяці', events: comingMonths },
-    { title: 'Дата ще не підтверджена', events: unknownDate },
+    { title: translate(locale, 'groupNextSeven'), events: nextSeven },
+    { title: translate(locale, 'groupLaterThisMonth'), events: laterThisMonth },
+    { title: translate(locale, 'groupComingMonths'), events: comingMonths },
+    { title: translate(locale, 'groupUnknownDate'), events: unknownDate },
   ].filter((group) => group.events.length > 0);
 }
 
-export function renderEventList(events: FomoEvent[]): string {
-  return groupEvents(events)
+export function renderEventList(events: FomoEvent[], locale: Locale): string {
+  return groupEvents(events, locale)
     .map(
       (group) => `
         <section class="event-group" aria-label="${group.title}">
           <h2>${group.title}</h2>
-          <div class="event-list">${group.events.map(renderEventCard).join('')}</div>
+          <div class="event-list">${group.events.map((event) => renderEventCard(event, locale)).join('')}</div>
         </section>
       `,
     )

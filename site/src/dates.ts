@@ -1,4 +1,6 @@
 import type { FomoEvent } from './types.js';
+import type { Locale } from './i18n.js';
+import { translate } from './i18n.js';
 
 const paris = 'Europe/Paris';
 
@@ -37,9 +39,9 @@ export function compareDateKeys(first: string, second: string): number {
   return first.localeCompare(second);
 }
 
-export function formatDateKey(dateKey: string): string {
+export function formatDateKey(dateKey: string, locale: Locale = 'uk'): string {
   const date = new Date(`${dateKey}T12:00:00Z`);
-  return new Intl.DateTimeFormat('uk-UA', {
+  return new Intl.DateTimeFormat(locale === 'uk' ? 'uk-UA' : 'en-GB', {
     timeZone: paris,
     day: 'numeric',
     month: 'long',
@@ -47,22 +49,23 @@ export function formatDateKey(dateKey: string): string {
   }).format(date);
 }
 
-export function formatEventDate(event: FomoEvent): string {
-  if (!event.start_at || event.date_precision === 'unknown') return 'Дата уточнюється';
+export function formatEventDate(event: FomoEvent, locale: Locale = 'uk'): string {
+  if (!event.start_at || event.date_precision === 'unknown')
+    return translate(locale, 'dateUnknown');
   if (event.date_precision === 'month' && /^\d{4}-\d{2}$/.test(event.start_at)) {
-    return new Intl.DateTimeFormat('uk-UA', {
+    return new Intl.DateTimeFormat(locale === 'uk' ? 'uk-UA' : 'en-GB', {
       timeZone: paris,
       month: 'long',
       year: 'numeric',
     }).format(new Date(`${event.start_at}-01T12:00:00Z`));
   }
   const dateKey = eventDateKey(event);
-  if (!dateKey) return 'Дата уточнюється';
-  const start = formatDateKey(dateKey);
+  if (!dateKey) return translate(locale, 'dateUnknown');
+  const start = formatDateKey(dateKey, locale);
   if (event.date_precision === 'datetime') {
     const parsed = new Date(event.start_at);
     if (!Number.isNaN(parsed.getTime())) {
-      const time = new Intl.DateTimeFormat('uk-UA', {
+      const time = new Intl.DateTimeFormat(locale === 'uk' ? 'uk-UA' : 'en-GB', {
         timeZone: event.timezone ?? paris,
         hour: '2-digit',
         minute: '2-digit',
@@ -72,15 +75,15 @@ export function formatEventDate(event: FomoEvent): string {
   }
   const endKey = event.end_at ? event.end_at.slice(0, 10) : null;
   return event.date_precision === 'range' && endKey && endKey !== dateKey
-    ? `${start} — ${formatDateKey(endKey)}`
+    ? `${start} — ${formatDateKey(endKey, locale)}`
     : start;
 }
 
-export function formatUpdatedAt(value: string | null): string {
-  if (!value) return 'ще не оновлювали';
+export function formatUpdatedAt(value: string | null, locale: Locale = 'uk'): string {
+  if (!value) return translate(locale, 'neverUpdated');
   const parsed = new Date(value);
-  if (Number.isNaN(parsed.getTime())) return 'дата оновлення не вказана';
-  return new Intl.DateTimeFormat('uk-UA', {
+  if (Number.isNaN(parsed.getTime())) return translate(locale, 'updatedAtUnknown');
+  return new Intl.DateTimeFormat(locale === 'uk' ? 'uk-UA' : 'en-GB', {
     timeZone: paris,
     day: 'numeric',
     month: 'long',

@@ -29,4 +29,33 @@ describe('pricing', () => {
       }),
     ).toBe('Безкоштовно');
   });
+
+  it('uses the selected language for free and unknown-price labels', () => {
+    expect(
+      formatPrice(
+        {
+          currency: 'EUR',
+          minimum: 0,
+          maximum: 0,
+          is_free: true,
+          is_price_confirmed: true,
+          notes: null,
+        },
+        'en',
+      ),
+    ).toBe('Free');
+    expect(
+      formatPrice(
+        {
+          currency: null,
+          minimum: null,
+          maximum: null,
+          is_free: false,
+          is_price_confirmed: false,
+          notes: null,
+        },
+        'en',
+      ),
+    ).toBe('Price not specified');
+  });
 });

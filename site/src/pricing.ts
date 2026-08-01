@@ -1,26 +1,29 @@
 import type { Pricing } from './types.js';
+import type { Locale } from './i18n.js';
+import { translate } from './i18n.js';
 
-function formatMoney(value: number, currency: string | null): string {
+function formatMoney(value: number, currency: string | null, locale: Locale): string {
   if (!currency) {
-    return `${new Intl.NumberFormat('uk-UA', { maximumFractionDigits: 2 }).format(value)} (валюту не вказано)`;
+    return `${new Intl.NumberFormat(locale === 'uk' ? 'uk-UA' : 'en-GB', { maximumFractionDigits: 2 }).format(value)} (${translate(locale, 'currencyUnknown')})`;
   }
-  return new Intl.NumberFormat('uk-UA', {
+  return new Intl.NumberFormat(locale === 'uk' ? 'uk-UA' : 'en-GB', {
     style: 'currency',
     currency,
     maximumFractionDigits: 2,
   }).format(value);
 }
 
-export function formatPrice(pricing: Pricing): string {
-  if (pricing.is_free) return 'Безкоштовно';
-  if (pricing.minimum === null && pricing.maximum === null) return 'Ціну не вказано';
+export function formatPrice(pricing: Pricing, locale: Locale = 'uk'): string {
+  if (pricing.is_free) return translate(locale, 'free');
+  if (pricing.minimum === null && pricing.maximum === null)
+    return translate(locale, 'priceUnknown');
   const currency = pricing.currency;
   if (pricing.minimum !== null && pricing.maximum !== null) {
     return pricing.minimum === pricing.maximum
-      ? formatMoney(pricing.minimum, currency)
-      : `${formatMoney(pricing.minimum, currency)} — ${formatMoney(pricing.maximum, currency)}`;
+      ? formatMoney(pricing.minimum, currency, locale)
+      : `${formatMoney(pricing.minimum, currency, locale)} — ${formatMoney(pricing.maximum, currency, locale)}`;
   }
-  return formatMoney(pricing.minimum ?? pricing.maximum ?? 0, currency);
+  return formatMoney(pricing.minimum ?? pricing.maximum ?? 0, currency, locale);
 }
 
 export function isKnownFree(pricing: Pricing): boolean {

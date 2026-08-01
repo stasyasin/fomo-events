@@ -1,9 +1,11 @@
-export function renderEmptyState(firstScanPending: boolean): string {
+import { translate, type Locale } from '../i18n.js';
+
+export function renderEmptyState(firstScanPending: boolean, locale: Locale): string {
   return `
     <section class="empty-state">
       <span class="empty-state__star" aria-hidden="true">✦</span>
-      <h2>${firstScanPending ? 'Поки що тут тихо' : 'Нічого не збіглося з фільтрами'}</h2>
-      <p>${firstScanPending ? 'Перший повний скан FOMO Agent ще не завершено. Коли в канонічній базі з’являться перевірені події, вони автоматично з’являться тут.' : 'Спробуйте очистити або змінити фільтри. Ми не показуємо вигаданих подій замість чесної порожньої добірки.'}</p>
+      <h2>${translate(locale, firstScanPending ? 'emptyFirstScanTitle' : 'emptyNoResultsTitle')}</h2>
+      <p>${translate(locale, firstScanPending ? 'emptyFirstScanBody' : 'emptyNoResultsBody')}</p>
     </section>
   `;
 }

@@ -15,6 +15,10 @@ describe('dates', () => {
     expect(formatEventDate(dateOnlyEvent)).toBe('15 червня 2030 р.');
   });
 
+  it('formats date-only event dates in English when selected', () => {
+    expect(formatEventDate(dateOnlyEvent, 'en')).toBe('15 June 2030');
+  });
+
   it('keeps unknown dates separate', () => {
     expect(
       eventDateKey({ ...dateOnlyEvent, start_at: null, date_precision: 'unknown' }),
