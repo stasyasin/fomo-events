@@ -200,9 +200,11 @@ systemd --user timer → run-scheduled-scan.sh → codex exec → validation →
 `--mode auto` performs the first scan as `full` while `data/events.json` is empty, then
 uses `daily` for later runs. A run begins only from a clean `main` checkout, first
 fast-forwards it from `origin/main`, and refuses to commit anything outside canonical
-data and Markdown reports. It never changes Git identity or remotes. If Codex, a
-validator, commit, or push fails, the script stops; after Codex changes, those files are
-left uncommitted for review rather than being reset or pushed partially.
+data and Markdown reports. Before its full validation gate, it applies the local
+Prettier formatter only to that allowlisted scan output. It never changes Git identity or
+remotes. If Codex, a validator, commit, or push fails, the script stops; after Codex
+changes, those files are left uncommitted for review rather than being reset or pushed
+partially.
 
 ### One-time setup
 

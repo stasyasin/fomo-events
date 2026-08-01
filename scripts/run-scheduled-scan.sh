@@ -200,6 +200,12 @@ if ((${#changed_paths[@]} == 0)); then
   exit 0
 fi
 
+log "Formatting ${#changed_paths[@]} allowed output change(s) with local Prettier."
+# Scan output is intentionally restricted to the whitelist above. Formatting only that
+# list keeps the repository-wide formatting gate useful without modifying source code or
+# unrelated local work.
+npm exec prettier -- --write "${changed_paths[@]}"
+
 log "Validating ${#changed_paths[@]} allowed output change(s)."
 npm run validate:data
 FOMO_AGENT_PATH="$AGENT_ROOT" npm run validate:agent
