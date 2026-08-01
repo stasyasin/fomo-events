@@ -1,4 +1,37 @@
 {
   "version": 1,
-  "runs": []
+  "runs": [
+    {
+      "id": "full-2026-08-01-0230",
+      "mode": "full",
+      "started_at": "2026-08-01T02:30:07+02:00",
+      "ended_at": "2026-08-01T02:33:12+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 2,
+      "search_queries": 8,
+      "candidate_events_found": 16,
+      "new_events": 14,
+      "updated_events": 0,
+      "possible_duplicates": 0,
+      "rejected_candidates": 2,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "Only the two enabled sources were checked; they do not provide dedicated official coverage for every configured zone and category.",
+        "Several official tourism listings omit general-admission prices, ticketing details, language, or programme detail; those fields remain unknown.",
+        "The checked Opéra pages show booking links, but the external ticket supplier could not be independently loaded in this environment."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-01.md"
+      ],
+      "summary": "Initial full scan added 14 individually verified listings from the two enabled official sources; no existing records were updated."
+    }
+  ]
 }
