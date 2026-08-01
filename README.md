@@ -206,12 +206,13 @@ remotes. If Codex, a validator, commit, or push fails, the script stops; after C
 changes, those files are left uncommitted for review rather than being reset or pushed
 partially.
 
-### One-time setup
+### One-time setup and first scan
 
 Use a dedicated clone for the timer, so normal development work cannot block it. The
 paths in the templates match the current local layout; edit them first if yours differs.
 The Node/Codex path is explicit because `systemd --user` does not load NVM from
-`.bashrc`.
+`.bashrc`. Commit any changes in this checkout before a real run: the wrapper correctly
+refuses a dirty worktree.
 
 ```bash
 cd ~/git_clones/my-github/fomo/fomo-events
@@ -227,18 +228,53 @@ cp automation/fomo-events-scan.timer ~/.config/systemd/user/
 # Review/edit the copied service if checkout paths or the Node version differ.
 systemctl --user daemon-reload
 
-# First run the service deliberately and inspect its journal before enabling the timer.
-systemctl --user start fomo-events-scan.service
-journalctl --user -u fomo-events-scan.service -n 200 --no-pager
+# Start one real scan now. With an empty event database, `--mode auto` selects `full`.
+# --no-block returns the terminal immediately; the service continues in the background.
+systemctl --user start --no-block fomo-events-scan.service
 
-# Only after the manual service run is satisfactory:
+# Follow the live scan log. Ctrl+C stops only this log viewer, not the service.
+journalctl --user -fu fomo-events-scan.service
+```
+
+It is safe to close the terminal after the `systemctl --user start` command: the
+user-level service keeps running. The wrapper pushes nothing until Codex has finished
+and validation, formatting, tests, linting, type checking, and the site build all pass.
+If it fails after Codex has changed output, it leaves those files uncommitted for review
+rather than pushing a partial result.
+
+If the live log makes no progress for roughly 15 minutes, stop the service safely and
+inspect the remaining uncommitted output:
+
+```bash
+systemctl --user stop fomo-events-scan.service
+git status --short
+```
+
+Do not run `systemctl --user start fomo-events-scan.service` merely to enable the
+schedule: it always starts an immediate real scan.
+
+### Enable the daily timer
+
+After the first manual service run is satisfactory, enable the timer. This starts only
+the schedule; it does **not** start another scan immediately.
+
+```bash
 systemctl --user enable --now fomo-events-scan.timer
-systemctl --user list-timers fomo-events-scan.timer
+systemctl --user status fomo-events-scan.timer --no-pager
+systemctl --user list-timers --all fomo-events-scan.timer
 ```
 
 The initial timer runs daily around 08:30 in `Europe/Paris` with up to 20 minutes of
-random delay and catches up once after a powered-off interval (`Persistent=true`). Edit
-the copied timer and run `systemctl --user daemon-reload` to change the schedule.
+random delay. A calendar event missed during suspend is handled once after resume, and
+`Persistent=true` catches up once when the timer was inactive (for example after the
+computer was powered down). Edit the copied timer and run `systemctl --user daemon-reload`
+to change the schedule.
+
+View the most recent completed run without following live output:
+
+```bash
+journalctl --user -u fomo-events-scan.service -n 200 --no-pager
+```
 
 For an intentional manual first scan, use one of the following commands only when ready
 for real event discovery and a possible commit/push:
@@ -252,7 +288,8 @@ The service needs the same non-interactive Git authentication that makes
 `git push origin main` work on this machine. If its journal reports an SSH-agent or
 credential error, fix the local user-level Git/SSH setup and retest the service; never
 store a personal access token, private key, or passphrase in this repository or service
-template. If scans should continue after logout/reboot, enable user lingering manually:
+template. If scans should continue after logout/reboot without an open desktop session,
+enable user lingering manually:
 
 ```bash
 loginctl enable-linger "$USER"
@@ -273,7 +310,8 @@ their original sources; linked third-party content is not relicensed by this rep
 
 ## Current status and next steps
 
-The installation is ready for its first real full scan, but contains no real or
-fictional production event. Next: review the public preferences and sources, add more
-verified official sources, perform the GitHub Pages steps above, and then request a
-careful FOMO Agent full scan.
+The first full scan completed on 2026-08-01 using the two enabled official sources. Its
+14 records, run history, and daily report are deliberately a limited starting point, not
+complete regional coverage. Next: review the public event data, add more verified
+official sources, perform the GitHub Pages steps above, and let the daily timer maintain
+the database.
