@@ -103,6 +103,49 @@ It begins with a deliberately small set and clearly names categories that still 
 source. Disabled placeholders are comments rather than invented URLs. Aggregators and
 social sources should be leads, not proof of an event fact.
 
+### Starting again for a different person
+
+Use a fresh clone of that person's fork rather than reusing someone else's output and
+preferences. Everything in this repository is public. Before the first scan, the new
+owner must replace the public preferences and sources with their own broad, non-sensitive
+choices, then remove every event, report, and run history belonging to the previous
+profile. Never retain another person's favourites, attended/rejected list, or scan report.
+
+In the new clone, make these canonical JSON containers empty and valid:
+
+```jsonc
+// data/events.json
+{ "version": 1, "generated_at": null, "events": [] }
+
+// data/run-history.json
+{ "version": 1, "runs": [] }
+
+// data/rejected-events.json and data/attended-events.json
+{ "version": 1, "events": [] }
+```
+
+Delete the dated Markdown files in `reports/daily/` and `reports/weekly/`, while keeping
+their `.gitkeep` files. Reset `UPCOMING.md` and `THIS-WEEKEND.md` to their neutral
+"No events have been discovered yet" placeholders. Then review the public
+`config/preferences.yaml` and `config/sources.yaml` again: do not put in a home address,
+precise coordinates, booking information, secrets, or unverified source URLs.
+
+The scheduled wrapper only starts from a clean `main` checkout, so validate and commit
+this blank, person-specific baseline before the first real scan:
+
+```bash
+npm run validate:data
+FOMO_AGENT_PATH=../fomo-agent npm run validate:agent
+git diff --check
+git status --short       # inspect every deletion and replacement
+git add -A config data reports UPCOMING.md THIS-WEEKEND.md
+git commit -m "chore: initialize public FOMO profile"
+```
+
+After that commit, `scripts/run-scheduled-scan.sh --mode auto` correctly selects a
+`full` scan. Do not use a reset command in a clone that contains output you may still
+need; first keep a backup branch or clone.
+
 ## Future FOMO Agent scans
 
 Before a scan, an AI agent must read the active configuration here and the current
@@ -183,9 +226,10 @@ No deployment is claimed to be active until that process succeeds.
 
 ## Local scheduled scans on Ubuntu
 
-This repository can run scans locally through an existing **Codex CLI login**. It does
-not need `OPENAI_API_KEY`, an API billing account, a ChatGPT/Codex desktop application,
-or a server. The versioned [wrapper](scripts/run-scheduled-scan.sh) invokes
+This is the **Ubuntu/Linux systemd** option for local scans through an existing **Codex
+CLI login**. It does not need `OPENAI_API_KEY`, an API billing account, a
+ChatGPT/Codex desktop application, or a server. The versioned
+[wrapper](scripts/run-scheduled-scan.sh) invokes
 `codex exec` with the current local authentication, validates the result, and then
 commits/pushes an allowlisted set of public data/report files to `origin/main`.
 
@@ -205,6 +249,38 @@ Prettier formatter only to that allowlisted scan output. It never changes Git id
 remotes. If Codex, a validator, commit, or push fails, the script stops; after Codex
 changes, those files are left uncommitted for review rather than being reset or pushed
 partially.
+
+After laptop resume, Wi-Fi/DNS can be available a little later than the user service.
+The wrapper therefore retries remote Git fetch, fast-forward, and push operations up to
+five times with a 15-second delay. It does not retry Codex or validation failures. A
+final push that still fails leaves the local scan commit intact; the next clean run tries
+to push that commit before it starts a new scan.
+
+### Model configuration for the scheduled Codex run
+
+The scheduler pins Codex to `gpt-5.6-terra` with `high` reasoning in the two readonly
+settings near the top of
+[scripts/run-scheduled-scan.sh](scripts/run-scheduled-scan.sh). The actual `codex exec`
+command passes both `--model` and `--config model_reasoning_effort=…` explicitly. This
+means the scheduled run cannot inherit the model or reasoning effort last used in an
+interactive Codex session.
+
+To change the scheduled model later, edit `CODEX_MODEL` and
+`CODEX_REASONING_EFFORT` in that script, run the dry-run command below, inspect and
+commit the change, then let the next timer invocation use it. `high` gives the scan more
+time to reason and check evidence, at the cost of a slower run and more usage.
+
+For manual Codex work in a trusted clone, the analogous optional project configuration
+is:
+
+```toml
+# .codex/config.toml
+model = "gpt-5.6-terra"
+model_reasoning_effort = "high"
+```
+
+That TOML controls manual sessions which load the trusted project configuration; it is
+not required for the timer because the wrapper already pins its own invocation.
 
 ### One-time setup and first scan
 
@@ -297,6 +373,22 @@ loginctl enable-linger "$USER"
 
 This command is optional and changes a system setting, so it is intentionally not run by
 the repository tooling.
+
+### Alternative: scheduled work in the Codex desktop app
+
+The `systemd --user` instructions above are an Ubuntu-specific execution option, not a
+requirement of FOMO. A user can instead open this repository as a project in the Codex
+desktop app and create a scheduled task there. Choose the local project only when it is
+clean and you deliberately want that task to change the live checkout; choose a worktree
+when isolation is more important. The computer and desktop app must be running for a
+task that needs local files.
+
+Use [automation/fomo-scan-prompt.md](automation/fomo-scan-prompt.md) as the durable
+scan brief, choose `gpt-5.6-terra` and High reasoning in the task's model controls if
+that is the desired policy, and review the result before committing or pushing it. The
+desktop task is an alternative to this timer: do not enable both schedules for the same
+checkout. It does not invoke the shell wrapper, so it does not automatically receive the
+wrapper's strict changed-file allowlist or its automatic commit/push sequence.
 
 ## Public-data privacy and licence
 

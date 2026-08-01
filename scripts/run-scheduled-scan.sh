@@ -15,6 +15,12 @@ readonly DEFAULT_AGENT_PATH="$REPOSITORY_ROOT/../fomo-agent"
 
 MODE="auto"
 DRY_RUN=false
+# Pin the scheduled agent independently from the model selected in an interactive
+# Codex session. These two values are the scheduler's model configuration.
+readonly CODEX_MODEL="gpt-5.6-terra"
+readonly CODEX_REASONING_EFFORT="high"
+readonly NETWORK_RETRY_ATTEMPTS=5
+readonly NETWORK_RETRY_DELAY_SECONDS=15
 
 log() {
   printf '[%s] %s\n' "$SCRIPT_NAME" "$*"
@@ -80,6 +86,32 @@ esac
 
 require_command() {
   command -v "$1" >/dev/null 2>&1 || fail "Required command is unavailable: $1"
+}
+
+# Wi-Fi and DNS commonly take a short time to recover after a laptop resumes. Retry
+# only the remote Git operations, with a fixed upper bound, so a timer run never waits
+# indefinitely. A failed final push still leaves its local commit for the next clean run
+# to publish before it starts a new scan.
+retry_remote_git() {
+  local description="$1"
+  shift
+
+  local attempt
+  local exit_code
+  for ((attempt = 1; attempt <= NETWORK_RETRY_ATTEMPTS; attempt += 1)); do
+    if "$@"; then
+      return 0
+    else
+      exit_code=$?
+    fi
+
+    if ((attempt == NETWORK_RETRY_ATTEMPTS)); then
+      fail "$description failed after $NETWORK_RETRY_ATTEMPTS attempt(s) (last exit code: $exit_code)."
+    fi
+
+    log "$description failed (exit $exit_code); retrying in ${NETWORK_RETRY_DELAY_SECONDS}s (attempt $((attempt + 1))/$NETWORK_RETRY_ATTEMPTS)."
+    sleep "$NETWORK_RETRY_DELAY_SECONDS"
+  done
 }
 
 is_allowed_output_path() {
@@ -160,22 +192,29 @@ fi
 export GIT_TERMINAL_PROMPT=0
 
 log "Synchronising the clean main checkout with origin/main."
-git fetch --quiet origin main
-git pull --ff-only --quiet origin main
+retry_remote_git "Fetching origin/main" git fetch --quiet origin main
+retry_remote_git "Fast-forwarding main from origin/main" git pull --ff-only --quiet origin main
 
 # Recover cleanly if a prior completed scan committed successfully but its push failed.
 log "Ensuring origin/main has no pending local scan commit."
-git push --porcelain origin main
+retry_remote_git "Pushing a pending local scan commit" git push --porcelain origin main
 
 readonly SCAN_PROMPT="$REPOSITORY_ROOT/automation/fomo-scan-prompt.md"
 [[ -f "$SCAN_PROMPT" ]] || fail "Missing scheduled scan prompt: $SCAN_PROMPT"
 
-log "Starting Codex. It will use the existing local Codex login; no API key is read."
+log "Starting Codex with $CODEX_MODEL reasoning $CODEX_REASONING_EFFORT. It will use the existing local Codex login; no API key is read."
 {
   cat "$SCAN_PROMPT"
   printf '\n\n## Invocation details\n\n- Scan mode: `%s`\n- Output repository: `%s`\n- FOMO Agent checkout: `%s`\n' \
     "$MODE" "$REPOSITORY_ROOT" "$AGENT_ROOT"
-} | FOMO_AGENT_PATH="$AGENT_ROOT" codex exec --ephemeral --color never --sandbox workspace-write --cd "$REPOSITORY_ROOT" -
+} | FOMO_AGENT_PATH="$AGENT_ROOT" codex exec \
+  --ephemeral \
+  --color never \
+  --sandbox workspace-write \
+  --model "$CODEX_MODEL" \
+  --config "model_reasoning_effort=\"$CODEX_REASONING_EFFORT\"" \
+  --cd "$REPOSITORY_ROOT" \
+  -
 
 changed_paths=()
 while IFS= read -r -d '' entry; do
@@ -225,5 +264,5 @@ log "Committing the validated $MODE scan output."
 git commit -m "chore(events): $MODE FOMO scan $TODAY"
 
 log "Pushing the scan commit to origin/main."
-git push origin main
+retry_remote_git "Pushing the scan commit" git push origin main
 log "Scheduled $MODE scan completed successfully."
