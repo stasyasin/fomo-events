@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-01T17:17:27+02:00",
+  "generated_at": "2026-08-01T19:49:57+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -1289,6 +1289,1112 @@
         "first_seen_at": "2026-08-01T17:17:27+02:00",
         "last_seen_at": "2026-08-01T17:17:27+02:00",
         "last_verified_at": "2026-08-01T17:17:27+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-lorient-nice-2026-08-22",
+      "title": "OGC Nice vs Lorient",
+      "description": "Ligue 1 McDonald's, Matchday 1. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2026-08-22T20:45:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "time", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-le-mans-nice-2026-09-05",
+      "title": "OGC Nice vs Le Mans",
+      "description": "Ligue 1 McDonald's, Matchday 3. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2026-09-05T20:45:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "time", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-lille-nice-2026-09-19",
+      "title": "OGC Nice vs Lille",
+      "description": "Ligue 1 McDonald's, Matchday 5. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2026-09-19",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-strasbourg-nice-2026-10-10",
+      "title": "OGC Nice vs Strasbourg",
+      "description": "Ligue 1 McDonald's, Matchday 6. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2026-10-10",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-rennes-nice-2026-10-31",
+      "title": "OGC Nice vs Rennes",
+      "description": "Ligue 1 McDonald's, Matchday 9. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2026-10-31",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-paris-sg-nice-2026-11-21",
+      "title": "OGC Nice vs Paris SG",
+      "description": "Ligue 1 McDonald's, Matchday 11. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2026-11-21",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-troyes-nice-2026-11-28",
+      "title": "OGC Nice vs Troyes",
+      "description": "Ligue 1 McDonald's, Matchday 12. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2026-11-28",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-lens-nice-2026-12-12",
+      "title": "OGC Nice vs Lens",
+      "description": "Ligue 1 McDonald's, Matchday 14. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2026-12-12",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-le-havre-nice-2027-01-16",
+      "title": "OGC Nice vs Le Havre",
+      "description": "Ligue 1 McDonald's, Matchday 16. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2027-01-16",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-brest-nice-2027-02-06",
+      "title": "OGC Nice vs Brest",
+      "description": "Ligue 1 McDonald's, Matchday 19. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2027-02-06",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-auxerre-nice-2027-02-20",
+      "title": "OGC Nice vs Auxerre",
+      "description": "Ligue 1 McDonald's, Matchday 21. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2027-02-20",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-toulouse-nice-2027-03-13",
+      "title": "OGC Nice vs Toulouse",
+      "description": "Ligue 1 McDonald's, Matchday 24. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2027-03-13",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-lyon-nice-2027-04-03",
+      "title": "OGC Nice vs Lyon",
+      "description": "Ligue 1 McDonald's, Matchday 26. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2027-04-03",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-paris-fc-nice-2027-04-10",
+      "title": "OGC Nice vs Paris FC",
+      "description": "Ligue 1 McDonald's, Matchday 27. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2027-04-10",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-angers-nice-2027-04-24",
+      "title": "OGC Nice vs Angers",
+      "description": "Ligue 1 McDonald's, Matchday 29. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2027-04-24",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-marseille-nice-2027-05-08",
+      "title": "OGC Nice vs Marseille",
+      "description": "Ligue 1 McDonald's, Matchday 31. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2027-05-08",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ogc-nice-vs-monaco-nice-2027-05-22",
+      "title": "OGC Nice vs Monaco",
+      "description": "Ligue 1 McDonald's, Matchday 33. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "categories": ["sports", "football"],
+      "tags": ["major_event"],
+      "start_at": "2027-05-22",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "date",
+      "venue": {
+        "name": "Allianz Riviera",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "Ticket price is not published on the official fixture listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 36,
+        "level": "must_go",
+        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
+          "name": "OGC Nice — 2026–27 first-team fixtures",
+          "type": "official_sports",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "venue", "status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "rolex-monte-carlo-masters-2027-roquebrune-cap-martin-2027-04-03",
+      "title": "Rolex Monte-Carlo Masters 2027",
+      "description": "The official tournament announces the 2027 Rolex Monte-Carlo Masters from 3 to 11 April, with general-public ticket sales opening on 15 October 2026.",
+      "categories": ["sports", "tennis"],
+      "tags": ["major_event"],
+      "start_at": "2027-04-03",
+      "end_at": "2027-04-11",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Monte-Carlo Country Club",
+        "city": "Roquebrune-Cap-Martin",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official tournament says 2027 pricing will be announced at the beginning of September."
+      },
+      "ticketing": {
+        "status": "not_on_sale",
+        "official_url": "https://montecarlotennismasters.com/en/dates-and-tickets-2027/",
+        "sale_starts_at": "2026-10-15T09:00:00+02:00",
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 33,
+        "level": "must_go",
+        "reasons": ["Nearby official tennis tournament", "ATP Masters 1000", "Extended travel zone"]
+      },
+      "status": "announced",
+      "sources": [
+        {
+          "url": "https://montecarlotennismasters.com/en/dates-and-tickets-2027/",
+          "name": "Rolex Monte-Carlo Masters — Dates and Tickets 2027",
+          "type": "official_organizer",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["identity", "date", "ticket_status", "ticket_url"]
+        },
+        {
+          "url": "https://montecarlotennismasters.com/en/tournament/tournament-info/",
+          "name": "Rolex Monte-Carlo Masters — Tournament info",
+          "type": "official_organizer",
+          "trust": "high",
+          "checked_at": "2026-08-01T19:44:06+02:00",
+          "supports": ["venue", "city"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-08-01T19:44:06+02:00",
+        "last_verified_at": "2026-08-01T19:44:06+02:00",
         "content_hash": null
       }
     }

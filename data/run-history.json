@@ -64,6 +64,39 @@
         "reports/daily/2026-08-01.md"
       ],
       "summary": "Daily scan checked all six enabled official sources, added three individually verified upcoming Cannes fireworks dates and two current national-museum exhibitions, and found no material changes to selected existing listings."
+    },
+    {
+      "id": "daily-2026-08-01-1944",
+      "mode": "daily",
+      "started_at": "2026-08-01T19:44:06+02:00",
+      "ended_at": "2026-08-01T19:50:35+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 11,
+      "search_queries": 2,
+      "candidate_events_found": 18,
+      "new_events": 18,
+      "updated_events": 0,
+      "possible_duplicates": 0,
+      "rejected_candidates": 0,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "The Ville de Nice agenda returned an internal error in this environment, and the Cannes agenda requires JavaScript; no new unverified entries were inferred from either page.",
+        "The Observatoire and IMCCE pages available here were not freshly crawled; no dated astronomy record was added from stale or non-local evidence.",
+        "PREFERENCES.md still names Vallauris as a destination, but Vallauris is absent from preferences.yaml zones. YAML remains authoritative until the profile is synchronised.",
+        "Ticket prices and per-match ticket availability for the OGC Nice fixtures are not published on the official fixture list and remain unknown."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-01.md"
+      ],
+      "summary": "Daily scan checked 11 enabled official sources, added all 17 confirmed 2026–27 OGC Nice Ligue 1 home fixtures and the announced 2027 Rolex Monte-Carlo Masters; no selected existing record had a material change."
     }
   ]
 }
