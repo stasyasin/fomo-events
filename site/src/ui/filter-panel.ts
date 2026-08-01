@@ -11,8 +11,48 @@ import { translate, type Locale } from '../i18n.js';
 import type { FilterState, SiteData } from '../types.js';
 import { escapeHtml } from './render.js';
 
-function option(value: string, label: string, selected: boolean): string {
-  return `<option value="${escapeHtml(value)}"${selected ? ' selected' : ''}>${escapeHtml(label)}</option>`;
+interface SelectOption {
+  value: string;
+  label: string;
+}
+
+function filterSelect(
+  id: string,
+  name: string,
+  label: string,
+  value: string,
+  options: SelectOption[],
+): string {
+  const selected = options.find((option) => option.value === value) ?? options[0];
+  if (!selected) return '';
+  const labelId = `${id}-label`;
+  const menuId = `${id}-options`;
+  return `
+    <div class="field field--select">
+      <span id="${labelId}">${escapeHtml(label)}</span>
+      <input type="hidden" name="${escapeHtml(name)}" value="${escapeHtml(selected.value)}" />
+      <details class="select-menu" name="event-filter-menu">
+        <summary aria-labelledby="${labelId}" aria-controls="${menuId}">
+          <span class="select-menu__value">${escapeHtml(selected.label)}</span>
+        </summary>
+        <div id="${menuId}" class="select-menu__options" role="listbox" aria-labelledby="${labelId}">
+          ${options
+            .map(
+              (option) => `
+                <button
+                  type="button"
+                  role="option"
+                  aria-selected="${option.value === selected.value}"
+                  data-filter-option
+                  data-filter-name="${escapeHtml(name)}"
+                  data-filter-value="${escapeHtml(option.value)}"
+                >${escapeHtml(option.label)}</button>`,
+            )
+            .join('')}
+        </div>
+      </details>
+    </div>
+  `;
 }
 
 export function renderFilterPanel(data: SiteData, filters: FilterState, locale: Locale): string {
@@ -24,6 +64,32 @@ export function renderFilterPanel(data: SiteData, filters: FilterState, locale: 
   const languages = [
     ...new Set(data.events.events.flatMap((event) => event.language.codes)),
   ].sort();
+  const categoryOptions = [
+    { value: 'all', label: translate(locale, 'allCategories') },
+    ...categories.map((category) => ({ value: category, label: categoryLabel(category, locale) })),
+  ];
+  const cityOptions = [
+    { value: 'all', label: translate(locale, 'allCities') },
+    ...cities.map((city) => ({ value: city, label: city })),
+  ];
+  const horizonOptions = [
+    { value: 'all', label: translate(locale, 'allFutureDates') },
+    { value: 'week', label: translate(locale, 'nextSevenDays') },
+    { value: 'weekend', label: translate(locale, 'thisWeekend') },
+    { value: 'month', label: translate(locale, 'laterThisMonth') },
+  ];
+  const rankingOptions = [
+    { value: 'all', label: translate(locale, 'allLevels') },
+    ...rankingLevels.map((value) => ({ value, label: rankingLabel(value, locale) })),
+  ];
+  const languageOptions = [
+    { value: 'all', label: translate(locale, 'anyLanguage') },
+    ...languages.map((language) => ({ value: language, label: languageLabel(language, locale) })),
+  ];
+  const ticketOptions = [
+    { value: 'all', label: translate(locale, 'anyTicketStatus') },
+    ...ticketStatuses.map((value) => ({ value, label: ticketLabel(value, locale) })),
+  ];
 
   return `
     <form class="filter-panel" data-filter-form>
@@ -35,52 +101,12 @@ export function renderFilterPanel(data: SiteData, filters: FilterState, locale: 
         <span>${translate(locale, 'search')}</span>
         <input id="event-search" name="q" type="search" placeholder="${translate(locale, 'searchPlaceholder')}" value="${escapeHtml(filters.text)}" autocomplete="off" />
       </label>
-      <label class="field" for="event-category">
-        <span>${translate(locale, 'category')}</span>
-        <select id="event-category" name="category">
-          ${option('all', translate(locale, 'allCategories'), filters.category === 'all')}
-          ${categories.map((category) => option(category, categoryLabel(category, locale), filters.category === category)).join('')}
-        </select>
-      </label>
-      <label class="field" for="event-city">
-        <span>${translate(locale, 'city')}</span>
-        <select id="event-city" name="city">
-          ${option('all', translate(locale, 'allCities'), filters.city === 'all')}
-          ${cities.map((city) => option(city, city, filters.city === city)).join('')}
-        </select>
-      </label>
-      <label class="field" for="event-horizon">
-        <span>${translate(locale, 'when')}</span>
-        <select id="event-horizon" name="horizon">
-          ${option('all', translate(locale, 'allFutureDates'), filters.horizon === 'all')}
-          ${option('week', translate(locale, 'nextSevenDays'), filters.horizon === 'week')}
-          ${option('weekend', translate(locale, 'thisWeekend'), filters.horizon === 'weekend')}
-          ${option('month', translate(locale, 'laterThisMonth'), filters.horizon === 'month')}
-        </select>
-      </label>
-      <label class="field" for="event-ranking">
-        <span>${translate(locale, 'matchLevel')}</span>
-        <select id="event-ranking" name="ranking">
-          ${option('all', translate(locale, 'allLevels'), filters.ranking === 'all')}
-          ${rankingLevels
-            .map((value) => option(value, rankingLabel(value, locale), filters.ranking === value))
-            .join('')}
-        </select>
-      </label>
-      <label class="field" for="event-language">
-        <span>${translate(locale, 'language')}</span>
-        <select id="event-language" name="language">
-          ${option('all', translate(locale, 'anyLanguage'), filters.language === 'all')}
-          ${languages.map((language) => option(language, languageLabel(language, locale), filters.language === language)).join('')}
-        </select>
-      </label>
-      <label class="field" for="event-tickets">
-        <span>${translate(locale, 'tickets')}</span>
-        <select id="event-tickets" name="tickets">
-          ${option('all', translate(locale, 'anyTicketStatus'), filters.ticketStatus === 'all')}
-          ${ticketStatuses.map((value) => option(value, ticketLabel(value, locale), filters.ticketStatus === value)).join('')}
-        </select>
-      </label>
+      ${filterSelect('event-category', 'category', translate(locale, 'category'), filters.category, categoryOptions)}
+      ${filterSelect('event-city', 'city', translate(locale, 'city'), filters.city, cityOptions)}
+      ${filterSelect('event-horizon', 'horizon', translate(locale, 'when'), filters.horizon, horizonOptions)}
+      ${filterSelect('event-ranking', 'ranking', translate(locale, 'matchLevel'), filters.ranking, rankingOptions)}
+      ${filterSelect('event-language', 'language', translate(locale, 'language'), filters.language, languageOptions)}
+      ${filterSelect('event-tickets', 'tickets', translate(locale, 'tickets'), filters.ticketStatus, ticketOptions)}
       <label class="check-field" for="only-free">
         <input id="only-free" name="free" type="checkbox"${filters.freeOnly ? ' checked' : ''} />
         <span>${translate(locale, 'onlyFree')}</span>

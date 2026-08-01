@@ -55,6 +55,18 @@ export async function startApp(): Promise<void> {
   });
   root.addEventListener('click', (event) => {
     const target = event.target as Element;
+    const filterOption = target.closest<HTMLButtonElement>('[data-filter-option]');
+    if (filterOption) {
+      const form = filterOption.closest<HTMLFormElement>('[data-filter-form]');
+      const name = filterOption.dataset.filterName;
+      const value = filterOption.dataset.filterValue;
+      const input = name ? form?.elements.namedItem(name) : null;
+      if (form && input instanceof HTMLInputElement && value !== undefined) {
+        input.value = value;
+        update(formFilters(form));
+      }
+      return;
+    }
     const languageButton = target.closest<HTMLButtonElement>('[data-locale]');
     if (languageButton && isLocale(languageButton.dataset.locale)) {
       locale = languageButton.dataset.locale;
@@ -75,6 +87,13 @@ export async function startApp(): Promise<void> {
     const eventId = calendarButton?.dataset.calendarEvent;
     const selectedEvent = data.events.events.find((item) => item.id === eventId);
     if (selectedEvent) downloadCalendarFile(selectedEvent);
+  });
+  root.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    const menu = (event.target as Element).closest<HTMLDetailsElement>('.select-menu[open]');
+    if (!menu) return;
+    menu.open = false;
+    menu.querySelector<HTMLElement>('summary')?.focus();
   });
   window.addEventListener('popstate', () => {
     locale = localeFromSearch();
