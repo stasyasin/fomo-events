@@ -39,6 +39,12 @@ export function renderPage(
   const hasNoEvents = data.events.events.length === 0;
   const repositoryUrl = escapeHtml(data.metadata.repository_url);
   root.innerHTML = `
+    <div class="site-atmosphere" aria-hidden="true">
+      <span class="site-atmosphere__flare"></span>
+      <span class="site-atmosphere__orbit site-atmosphere__orbit--one"></span>
+      <span class="site-atmosphere__orbit site-atmosphere__orbit--two"></span>
+      <span class="site-atmosphere__scan"></span>
+    </div>
     <div class="site-shell">
       <header class="masthead">
         <div class="masthead__eyebrow"><span aria-hidden="true">✦</span> ${translate(locale, 'radar')}</div>
