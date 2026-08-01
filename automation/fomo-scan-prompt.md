@@ -48,6 +48,47 @@ when appropriate. Never infer that all museums share a free-admission policy: ve
 museum by museum, and keep the free entry distinct from any paid workshop, guided visit,
 or temporary programme.
 
+## Category-specific selection rules
+
+The owner wants high-signal, practical recommendations, not exhaustive timetables. Use
+the following rules in addition to the active YAML configuration.
+
+- **OGC Nice football:** check the configured official first-team fixture list. Add every
+  individually confirmed **home** match at Allianz Riviera with `sports` and `football`.
+  Include opponent and competition; keep the date date-only or the kick-off unconfirmed
+  until the club fixes it. Do not add away matches, training sessions, or friendlies that
+  the public cannot attend. If the official club says a home competitive match is behind
+  closed doors, it may remain as a factual schedule entry, but must say so plainly and
+  must never be presented as ticketable.
+- **Tennis:** look for confirmed tournaments in the configured core and extended zones,
+  especially the Rolex Monte-Carlo Masters. Use `sports` and `tennis`. Do not turn
+  individual matches or an unannounced draw into separate events; a confirmed tournament
+  is one date-range record unless the official organiser publishes separately meaningful
+  public sessions.
+- **Cinema:** create a concise monthly shortlist, not one record per showing or every
+  film on a multiplex page. Use `cinema` and `cinema_highlights` only when the selection
+  has a concrete reason recorded in its ranking: a major event release, official
+  festival/cinema recommendation, original-version screening, preview, restoration, or
+  a director/cast discussion. The owner's film examples describe taste, not proof that a
+  title is currently playing. A cinema's official programme must confirm actual current
+  availability, dates, and venue.
+- **Open-air music and DJs:** select individually confirmed public performances in
+  squares, parks, beaches, courtyards, or other distinctive outdoor settings. Use
+  `concerts` plus `open_air_music`, and also `dj_and_electronic` for a DJ/electronic set.
+  Do not infer an outdoor venue, artist lineup, or ticket status from a festival landing
+  page; verify the individual listing.
+- **Creative workshops:** look for genuinely hands-on workshops such as pottery,
+  ceramics, clay modelling, or wheel throwing. Use `creative_workshops`, optionally with
+  another accurate category. Prefer adult or general-public sessions; omit routine
+  children-only, school-only, or after-school classes unless the owner later asks for
+  them.
+- **Astronomy:** use `astronomy` for public Observatory events and for genuinely notable
+  sky phenomena. An eclipse, meteor shower, conjunction, or planet observation requires
+  an authoritative source with visibility/circumstances applicable to Nice. Do not add a
+  global astronomical event merely because it is visible somewhere else. Record an
+  observatory visit as a venue event; a locally visible celestial phenomenon may have a
+  null venue or a carefully stated general local venue only when supported by evidence.
+
 ## Non-negotiable public-data rules
 
 - Never invent events, dates, start times, prices, ticket availability, venues, cities,

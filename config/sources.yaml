@@ -9,11 +9,113 @@ sources:
     enabled: true
     geographic_scope: [Nice, Villefranche-sur-Mer, Saint-Jean-Cap-Ferrat, Vence, Cagnes-sur-Mer]
     category_scope:
-      [concerts, exhibitions, festivals, city_events, free_events, food_and_wine, sports, outdoor]
+      [
+        concerts,
+        exhibitions,
+        festivals,
+        city_events,
+        free_events,
+        food_and_wine,
+        sports,
+        tennis,
+        cinema,
+        open_air_music,
+        dj_and_electronic,
+        creative_workshops,
+        astronomy,
+        outdoor,
+      ]
     language: fr
     priority: 90
     trust: high
     notes: Official regional agenda; verify high-priority listings against the organiser or venue.
+  - name: Ville de Nice — agenda
+    url: https://www.nice.fr/agenda/
+    type: official_city
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope:
+      [
+        concerts,
+        cinema,
+        cinema_highlights,
+        exhibitions,
+        city_events,
+        free_events,
+        outdoor,
+        open_air_music,
+        dj_and_electronic,
+        creative_workshops,
+        astronomy,
+      ]
+    language: fr
+    priority: 97
+    trust: high
+    notes: >-
+      Official city agenda for public programming. Use individual listings for facts. For cinema,
+      music, DJs, and workshops, apply the owner's curation rules instead of adding every routine
+      activity or every screening.
+  - name: OGC Nice — first-team fixtures
+    url: https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro
+    type: official_sports
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope: [sports, football]
+    language: en
+    priority: 99
+    trust: high
+    notes: >-
+      Official first-team fixture list. Add individually confirmed OGC Nice home matches at Allianz
+      Riviera only; preserve a date or kick-off as unconfirmed when the club has not fixed it.
+      Review this season-specific URL when the next season's calendar is published.
+  - name: Pathé Nice — official cinema programme
+    url: https://www.pathe.fr/cinemas/ville/nice
+    type: official_venue
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope: [cinema, cinema_highlights]
+    language: fr
+    priority: 86
+    trust: high
+    notes: >-
+      Official programme for Pathé Masséna, Gare du Sud, and Lingostière. Keep a concise monthly
+      shortlist of high-signal films and special screenings; never import the complete showtime grid.
+  - name: Rolex Monte-Carlo Masters — official tournament
+    url: https://montecarlotennismasters.com/en/
+    type: official_organizer
+    enabled: true
+    geographic_scope: [Roquebrune-Cap-Martin, Monaco]
+    category_scope: [sports, tennis]
+    language: en
+    priority: 96
+    trust: high
+    notes: >-
+      Official tournament website and ticketing links. Add a tournament only after its dates,
+      venue, and access details are confirmed on the current official programme.
+  - name: Observatoire de la Côte d’Azur — public events
+    url: https://geoazur.oca.eu/fr/tout-public/evenements-culturels/manifestations
+    type: other
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope: [astronomy, creative_workshops]
+    language: fr
+    priority: 91
+    trust: high
+    notes: >-
+      Official Observatory public programme. Record tours, talks, and public observing activities
+      only when an individual listing confirms date, place, and access conditions.
+  - name: IMCCE — astronomical phenomena and ephemerides
+    url: https://promenade.imcce.fr/fr/
+    type: other
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope: [astronomy]
+    language: fr
+    priority: 89
+    trust: high
+    notes: >-
+      Official astronomical reference. A global celestial event is not sufficient: add it only when
+      an authoritative source confirms local visibility or provides valid circumstances for Nice.
   - name: Opéra Nice Côte d’Azur — agenda
     url: https://www.opera-nice.org/agenda/
     type: official_theatre
@@ -30,7 +132,21 @@ sources:
     enabled: true
     geographic_scope: [Cannes]
     category_scope:
-      [concerts, theatre, comedy, cinema, exhibitions, festivals, city_events, free_events, outdoor]
+      [
+        concerts,
+        theatre,
+        comedy,
+        cinema,
+        cinema_highlights,
+        exhibitions,
+        festivals,
+        city_events,
+        free_events,
+        outdoor,
+        open_air_music,
+        dj_and_electronic,
+        creative_workshops,
+      ]
     language: fr
     priority: 92
     trust: high
@@ -78,6 +194,6 @@ sources:
       own pages; verify admission terms and opening days for each listing.
 
 # Disabled placeholders (intentionally not URLs): add a verified official page before
-# adding an enabled source entry for City of Nice; Monaco; Antibes/Juan-les-Pins; other
-# regional museums and galleries; major concert venues and official ticketing; jazz
-# festivals; official football clubs; and regional business/technology organisations.
+# adding an enabled source entry for Monaco; Antibes/Juan-les-Pins; other regional museums
+# and galleries; major concert venues and official ticketing; jazz festivals; other sports
+# organisers; and regional business/technology organisations.

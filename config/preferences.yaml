@@ -60,7 +60,11 @@ languages:
     - exhibitions
     - museums_and_art
     - sports
+    - football
+    - tennis
     - outdoor
+    - open_air_music
+    - dj_and_electronic
     - astronomy
     - unusual_experiences
 
@@ -199,8 +203,17 @@ categories:
   cinema:
     {
       enabled: true,
-      weight: 4,
-      keywords: [premiere, screening, open-air cinema, cinema],
+      weight: 5,
+      keywords:
+        [
+          premiere,
+          preview,
+          special screening,
+          open-air cinema,
+          cinema,
+          original version,
+          restoration,
+        ],
       negative_keywords: [],
       price_limit: null,
       language_rules: { boost_if: [uk, en] },
@@ -209,8 +222,8 @@ categories:
   sports:
     {
       enabled: true,
-      weight: 4,
-      keywords: [football, match, tournament, major sport],
+      weight: 5,
+      keywords: [football, match, tournament, major sport, tennis],
       negative_keywords: [],
       price_limit: null,
       language_rules: null,
@@ -229,8 +242,8 @@ categories:
   outdoor:
     {
       enabled: true,
-      weight: 4,
-      keywords: [outdoor, open-air, nature],
+      weight: 5,
+      keywords: [outdoor, open-air, open air, square, park, beach],
       negative_keywords: [],
       price_limit: null,
       language_rules: null,
@@ -239,8 +252,9 @@ categories:
   astronomy:
     {
       enabled: true,
-      weight: 4,
-      keywords: [astronomy, stargazing, observatory],
+      weight: 5,
+      keywords:
+        [astronomy, stargazing, observatory, eclipse, meteor shower, conjunction, planets, Venus],
       negative_keywords: [],
       price_limit: null,
       language_rules: null,
@@ -256,12 +270,92 @@ categories:
       language_rules: null,
       travel_rules: { core_zone_bonus: true },
     }
-
-custom_categories: {}
+custom_categories:
+  football:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [OGC Nice, Allianz Riviera, football, Ligue 1, matchday],
+      negative_keywords: [away match, training],
+      price_limit: null,
+      language_rules: { language_independent: true },
+      travel_rules: { prefer_home_team: OGC Nice, venue: Allianz Riviera },
+    }
+  tennis:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [tennis, ATP, WTA, Rolex Monte-Carlo Masters, Monte-Carlo Country Club],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: { language_independent: true },
+      travel_rules: { core_or_extended_zone_only: true },
+    }
+  cinema_highlights:
+    {
+      enabled: true,
+      weight: 5,
+      keywords:
+        [
+          event release,
+          festival selection,
+          original version,
+          preview,
+          director Q&A,
+          restoration,
+          special screening,
+        ],
+      negative_keywords: [children-only, school screening],
+      price_limit: null,
+      language_rules: { boost_if: [uk, en] },
+      travel_rules: { concise_monthly_shortlist: true },
+    }
+  open_air_music:
+    {
+      enabled: true,
+      weight: 5,
+      keywords:
+        [open-air concert, open air concert, concert in the square, beach concert, park concert],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: { language_independent: true },
+      travel_rules: { core_or_extended_zone_only: true },
+    }
+  dj_and_electronic:
+    {
+      enabled: true,
+      weight: 5,
+      keywords: [DJ set, electronic music, house, techno, electro, open decks],
+      negative_keywords: [],
+      price_limit: null,
+      language_rules: { language_independent: true },
+      travel_rules: { core_or_extended_zone_only: true },
+    }
+  creative_workshops:
+    {
+      enabled: true,
+      weight: 4,
+      keywords:
+        [
+          pottery,
+          ceramics,
+          ceramic,
+          clay,
+          modelling,
+          modelage,
+          argile,
+          wheel throwing,
+          creative workshop,
+        ],
+      negative_keywords: [children-only, school group, after-school],
+      price_limit: null,
+      language_rules: null,
+      travel_rules: { core_or_extended_zone_only: true },
+    }
 
 interests:
   favourite_artists: [The Weeknd]
-  favourite_teams: []
+  favourite_teams: [OGC Nice]
   favourite_topics:
     [
       fireworks,
@@ -269,6 +363,14 @@ interests:
       museum exhibitions,
       free national-museum Sundays,
       Ukrainian culture,
+      OGC Nice,
+      football,
+      tennis,
+      curated cinema,
+      open-air concerts,
+      DJs,
+      creative workshops,
+      locally visible astronomy,
       wine,
       food,
       AI,
@@ -287,6 +389,18 @@ interests:
       fireworks,
       drone show,
       major concert,
+      OGC Nice home match,
+      Allianz Riviera,
+      Rolex Monte-Carlo Masters,
+      cinema highlight,
+      original version screening,
+      open-air concert,
+      DJ set,
+      pottery workshop,
+      ceramic workshop,
+      locally visible eclipse,
+      meteor shower,
+      planetary conjunction,
       wine festival,
       food festival,
     ]
@@ -319,6 +433,12 @@ ranking:
     english_standup: 12
     fireworks_or_drone_show: 14
     major_local_concert: 12
+    ogc_nice_home_match: 16
+    nearby_tennis_tournament: 12
+    curated_cinema_pick: 12
+    open_air_concert_or_dj: 12
+    hands_on_creative_workshop: 10
+    locally_visible_astronomy: 12
     wine_or_food_festival: 10
     unusual_core_zone_event: 10
     expensive_weak_fit_penalty: -8

@@ -24,8 +24,9 @@ considered.
 
 It prioritises concerts, classical music, opera and ballet, jazz, Ukrainian and
 English-language cultural events, festivals, public/free events, food and wine, art,
-cinema, football and selected sport, business/technology, outdoor, astronomy, and
-unusual experiences. A new owner first edits the plain-language
+curated cinema highlights, OGC Nice home football, nearby tennis, business/technology,
+open-air music and DJs, creative workshops, locally visible astronomy, and unusual
+experiences. A new owner first edits the plain-language
 [“My FOMO profile”](config/PREFERENCES.md); Codex then synchronises it into the precise,
 machine-validated [preferences.yaml](config/preferences.yaml).
 
