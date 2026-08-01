@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-01T02:33:12+02:00",
+  "generated_at": "2026-08-01T17:17:27+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -137,8 +137,8 @@
       ],
       "tracking": {
         "first_seen_at": "2026-08-01T02:33:12+02:00",
-        "last_seen_at": "2026-08-01T02:33:12+02:00",
-        "last_verified_at": "2026-08-01T02:33:12+02:00",
+        "last_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_verified_at": "2026-08-01T17:17:27+02:00",
         "content_hash": null
       }
     },
@@ -207,8 +207,8 @@
       ],
       "tracking": {
         "first_seen_at": "2026-08-01T02:33:12+02:00",
-        "last_seen_at": "2026-08-01T02:33:12+02:00",
-        "last_verified_at": "2026-08-01T02:33:12+02:00",
+        "last_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_verified_at": "2026-08-01T17:17:27+02:00",
         "content_hash": null
       }
     },
@@ -933,6 +933,362 @@
         "first_seen_at": "2026-08-01T02:33:12+02:00",
         "last_seen_at": "2026-08-01T02:33:12+02:00",
         "last_verified_at": "2026-08-01T02:33:12+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "aquareve-france-cannes-2026-08-04",
+      "title": "Aquarêve (France)",
+      "description": "French entry in Cannes's 2026 Festival d'art pyrotechnique, themed Lux Abyssus — Le Chant de l'Océan.",
+      "categories": ["festivals", "city_events", "free_events", "unusual_experiences"],
+      "tags": ["major_event"],
+      "start_at": "2026-08-04T22:00:00+02:00",
+      "end_at": "2026-08-04T22:30:00+02:00",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Baie de Cannes",
+        "city": "Cannes",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "free_entry",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 40,
+        "level": "must_go",
+        "reasons": ["Extended travel zone", "Fireworks directly prioritised", "Free entry"]
+      },
+      "status": "scheduled",
+      "timezone": "Europe/Paris",
+      "sources": [
+        {
+          "url": "https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/aquareve-france.html",
+          "name": "Mairie de Cannes — Aquarêve (France)",
+          "type": "official_city",
+          "trust": "high",
+          "checked_at": "2026-08-01T17:17:27+02:00",
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "free_entry",
+            "identity",
+            "status",
+            "time",
+            "venue"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_verified_at": "2026-08-01T17:17:27+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "joho-pyro-professional-fireworks-ab-finlande-cannes-2026-08-15",
+      "title": "Joho Pyro Professional Fireworks AB (Finlande)",
+      "description": "Finnish entry in Cannes's 2026 Festival d'art pyrotechnique, themed Brume en Feu.",
+      "categories": ["festivals", "city_events", "free_events", "unusual_experiences"],
+      "tags": ["major_event"],
+      "start_at": "2026-08-15T22:00:00+02:00",
+      "end_at": "2026-08-15T22:30:00+02:00",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Baie de Cannes",
+        "city": "Cannes",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "free_entry",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 40,
+        "level": "must_go",
+        "reasons": ["Extended travel zone", "Fireworks directly prioritised", "Free entry"]
+      },
+      "status": "scheduled",
+      "timezone": "Europe/Paris",
+      "sources": [
+        {
+          "url": "https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/joho-pyro-professional-fireworks-ab-finlande.html",
+          "name": "Mairie de Cannes — Joho Pyro Professional Fireworks AB (Finlande)",
+          "type": "official_city",
+          "trust": "high",
+          "checked_at": "2026-08-01T17:17:27+02:00",
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "free_entry",
+            "identity",
+            "status",
+            "time",
+            "venue"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_verified_at": "2026-08-01T17:17:27+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "flash-barrandov-special-effects-republique-tcheque-cannes-2026-08-24",
+      "title": "Flash Barrandov Special Effects (République Tchèque)",
+      "description": "Czech fireworks display in Cannes's 2026 Festival d'art pyrotechnique, presented out of competition.",
+      "categories": ["festivals", "city_events", "free_events", "unusual_experiences"],
+      "tags": ["major_event"],
+      "start_at": "2026-08-24T22:00:00+02:00",
+      "end_at": "2026-08-24T22:30:00+02:00",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Baie de Cannes",
+        "city": "Cannes",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "free_entry",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 40,
+        "level": "must_go",
+        "reasons": ["Extended travel zone", "Fireworks directly prioritised", "Free entry"]
+      },
+      "status": "scheduled",
+      "timezone": "Europe/Paris",
+      "sources": [
+        {
+          "url": "https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/flash-barrandov-special-effects-republique-tcheque.html",
+          "name": "Mairie de Cannes — Flash Barrandov Special Effects (République Tchèque)",
+          "type": "official_city",
+          "trust": "high",
+          "checked_at": "2026-08-01T17:17:27+02:00",
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "free_entry",
+            "identity",
+            "status",
+            "time",
+            "venue"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_verified_at": "2026-08-01T17:17:27+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "chagall-a-l-oeuvre-un-pret-d-exception-au-musee-nice-2026-05-23",
+      "title": "Chagall à l'oeuvre. Un prêt d'exception au musée",
+      "description": "Second part of an exhibition of works by Marc Chagall, including studies for the Opéra Garnier ceiling and costumes and curtains for L'Oiseau de feu.",
+      "categories": ["exhibitions", "museums_and_art"],
+      "tags": ["major_event"],
+      "start_at": "2026-05-23",
+      "end_at": "2026-09-21",
+      "date_precision": "range",
+      "venue": {
+        "name": "Musée national Marc Chagall",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "Exhibition language is not stated in the checked official listing."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 12,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Full exhibition price; reduced and group rates are also listed."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 26,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Current museum exhibition",
+          "Price within preferred budget"
+        ]
+      },
+      "status": "scheduled",
+      "timezone": "Europe/Paris",
+      "sources": [
+        {
+          "url": "https://musees-nationaux-alpesmaritimes.fr/chagall/agenda/evenement/chagall-loeuvre-un-pret-dexception-au-musee",
+          "name": "Musée national Marc Chagall — Chagall à l'oeuvre. Un prêt d'exception au musée",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-01T17:17:27+02:00",
+          "supports": ["city", "date", "description", "identity", "price", "venue"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_verified_at": "2026-08-01T17:17:27+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "leger-et-la-creation-du-monde-un-ballet-d-avant-garde-biot-2026-06-13",
+      "title": "Léger et La Création du monde. Un ballet d'avant-garde",
+      "description": "Exhibition exploring Fernand Léger's modernist ballet through preparatory drawings and recreated costumes.",
+      "categories": ["exhibitions", "museums_and_art"],
+      "tags": ["major_event"],
+      "start_at": "2026-06-13",
+      "end_at": "2026-10-12",
+      "date_precision": "range",
+      "venue": {
+        "name": "Musée national Fernand Léger",
+        "city": "Biot",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "Exhibition language is not stated in the checked official listing."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 10,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Full admission during exhibitions; the museum also lists reduced and group rates."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 24,
+        "level": "strong_match",
+        "reasons": [
+          "Extended travel zone",
+          "Current museum exhibition",
+          "Price within preferred budget"
+        ]
+      },
+      "status": "scheduled",
+      "timezone": "Europe/Paris",
+      "sources": [
+        {
+          "url": "https://musees-nationaux-alpesmaritimes.fr/fleger/agenda/evenement/leger-et-la-creation-du-monde-un-ballet-davant-garde",
+          "name": "Musée national Fernand Léger — Léger et La Création du monde. Un ballet d'avant-garde",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-01T17:17:27+02:00",
+          "supports": ["city", "description", "identity", "venue"]
+        },
+        {
+          "url": "https://musees-nationaux-alpesmaritimes.fr/fleger/espace-presse",
+          "name": "Musée national Fernand Léger — Espace presse",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-01T17:17:27+02:00",
+          "supports": ["date"]
+        },
+        {
+          "url": "https://musees-nationaux-alpesmaritimes.fr/fleger/informations-pratiques",
+          "name": "Musée national Fernand Léger — Informations pratiques",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-01T17:17:27+02:00",
+          "supports": ["price"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_seen_at": "2026-08-01T17:17:27+02:00",
+        "last_verified_at": "2026-08-01T17:17:27+02:00",
         "content_hash": null
       }
     }

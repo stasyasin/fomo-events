@@ -14,6 +14,30 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Vikings : L'Odyssée jusqu'aux confins du monde – Cités Immersives](https://www.explorenicecotedazur.com/evenement/vikings-lodyssee-jusquaux-confins-du-monde-cites-immersives/)
 - **Last verified:** 2026-08-01T02:33:12+02:00
 
+## Chagall à l'oeuvre. Un prêt d'exception au musée
+
+- **When:** 2026-05-23
+- **Where:** Musée national Marc Chagall, Nice
+- **Categories:** exhibitions, museums_and_art
+- **Price:** EUR 12
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Current museum exhibition; Price within preferred budget
+- **Source:** [Musée national Marc Chagall — Chagall à l'oeuvre. Un prêt d'exception au musée](https://musees-nationaux-alpesmaritimes.fr/chagall/agenda/evenement/chagall-loeuvre-un-pret-dexception-au-musee)
+- **Last verified:** 2026-08-01T17:17:27+02:00
+
+## Léger et La Création du monde. Un ballet d'avant-garde
+
+- **When:** 2026-06-13
+- **Where:** Musée national Fernand Léger, Biot
+- **Categories:** exhibitions, museums_and_art
+- **Price:** EUR 10
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Extended travel zone; Current museum exhibition; Price within preferred budget
+- **Source:** [Musée national Fernand Léger — Léger et La Création du monde. Un ballet d'avant-garde](https://musees-nationaux-alpesmaritimes.fr/fleger/agenda/evenement/leger-et-la-creation-du-monde-un-ballet-davant-garde)
+- **Last verified:** 2026-08-01T17:17:27+02:00
+
 ## Grande Nuit Vénitienne
 
 - **When:** 2026-08-01 20:45 GMT+2
@@ -24,7 +48,19 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** free_entry
 - **Ranking:** must_go — Core travel zone; Fireworks listed in the programme; Free entry; Same-day event
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Grande Nuit Vénitienne](https://www.explorenicecotedazur.com/evenement/grande-nuit-venitienne/)
-- **Last verified:** 2026-08-01T02:33:12+02:00
+- **Last verified:** 2026-08-01T17:17:27+02:00
+
+## Aquarêve (France)
+
+- **When:** 2026-08-04 22:00 GMT+2
+- **Where:** Baie de Cannes, Cannes
+- **Categories:** festivals, city_events, free_events, unusual_experiences
+- **Price:** Free (confirmed)
+- **Language:** Language unknown
+- **Tickets:** free_entry
+- **Ranking:** must_go — Extended travel zone; Fireworks directly prioritised; Free entry
+- **Source:** [Mairie de Cannes — Aquarêve (France)](https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/aquareve-france.html)
+- **Last verified:** 2026-08-01T17:17:27+02:00
 
 ## Festival Saint Jazz Cap Ferrat – 14ème édition
 
@@ -36,7 +72,19 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** available
 - **Ranking:** strong_match — Core travel zone; Jazz festival; Price within preferred budget
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Festival Saint Jazz Cap Ferrat – 14ème édition](https://www.explorenicecotedazur.com/evenement/festival-saint-jazz-cap-ferrat-14eme-edition/)
-- **Last verified:** 2026-08-01T02:33:12+02:00
+- **Last verified:** 2026-08-01T17:17:27+02:00
+
+## Joho Pyro Professional Fireworks AB (Finlande)
+
+- **When:** 2026-08-15 22:00 GMT+2
+- **Where:** Baie de Cannes, Cannes
+- **Categories:** festivals, city_events, free_events, unusual_experiences
+- **Price:** Free (confirmed)
+- **Language:** Language unknown
+- **Tickets:** free_entry
+- **Ranking:** must_go — Extended travel zone; Fireworks directly prioritised; Free entry
+- **Source:** [Mairie de Cannes — Joho Pyro Professional Fireworks AB (Finlande)](https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/joho-pyro-professional-fireworks-ab-finlande.html)
+- **Last verified:** 2026-08-01T17:17:27+02:00
 
 ## Championnat du monde de boules carrées
 
@@ -49,6 +97,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** maybe — Admission details need clarification; Core travel zone; Unusual local sports event
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Championnat du monde de boules carrées](https://www.explorenicecotedazur.com/evenement/championnat-du-monde-de-boules-carrees/)
 - **Last verified:** 2026-08-01T02:33:12+02:00
+
+## Flash Barrandov Special Effects (République Tchèque)
+
+- **When:** 2026-08-24 22:00 GMT+2
+- **Where:** Baie de Cannes, Cannes
+- **Categories:** festivals, city_events, free_events, unusual_experiences
+- **Price:** Free (confirmed)
+- **Language:** Language unknown
+- **Tickets:** free_entry
+- **Ranking:** must_go — Extended travel zone; Fireworks directly prioritised; Free entry
+- **Source:** [Mairie de Cannes — Flash Barrandov Special Effects (République Tchèque)](https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/flash-barrandov-special-effects-republique-tcheque.html)
+- **Last verified:** 2026-08-01T17:17:27+02:00
 
 ## Brahms / Chostakovitch
 
