@@ -1,0 +1,14 @@
+# Copy this versioned template to ~/.config/systemd/user/fomo-events-scan.timer.
+# The initial schedule is daily at roughly 08:30 Europe/Paris. Adjust it to taste.
+
+[Unit]
+Description=Daily timer for the local FOMO Côte d’Azur scan
+
+[Timer]
+OnCalendar=*-*-* 08:30:00 Europe/Paris
+RandomizedDelaySec=20m
+Persistent=true
+Unit=fomo-events-scan.service
+
+[Install]
+WantedBy=timers.target

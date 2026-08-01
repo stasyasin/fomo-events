@@ -181,6 +181,84 @@ After review, the owner must do these manual GitHub steps:
 
 No deployment is claimed to be active until that process succeeds.
 
+## Local scheduled scans on Ubuntu
+
+This repository can run scans locally through an existing **Codex CLI login**. It does
+not need `OPENAI_API_KEY`, an API billing account, a ChatGPT/Codex desktop application,
+or a server. The versioned [wrapper](scripts/run-scheduled-scan.sh) invokes
+`codex exec` with the current local authentication, validates the result, and then
+commits/pushes an allowlisted set of public data/report files to `origin/main`.
+
+The intended sequence is:
+
+```text
+systemd --user timer → run-scheduled-scan.sh → codex exec → validation → commit/push main
+                                                                    ↓
+                                              GitHub validation + Pages workflows
+```
+
+`--mode auto` performs the first scan as `full` while `data/events.json` is empty, then
+uses `daily` for later runs. A run begins only from a clean `main` checkout, first
+fast-forwards it from `origin/main`, and refuses to commit anything outside canonical
+data and Markdown reports. It never changes Git identity or remotes. If Codex, a
+validator, commit, or push fails, the script stops; after Codex changes, those files are
+left uncommitted for review rather than being reset or pushed partially.
+
+### One-time setup
+
+Use a dedicated clone for the timer, so normal development work cannot block it. The
+paths in the templates match the current local layout; edit them first if yours differs.
+The Node/Codex path is explicit because `systemd --user` does not load NVM from
+`.bashrc`.
+
+```bash
+cd ~/git_clones/my-github/fomo/fomo-events
+chmod +x scripts/run-scheduled-scan.sh
+
+# This checks the local CLI, FOMO Agent checkout, current config, and event database.
+# It does not browse, change files, commit, or push.
+FOMO_AGENT_PATH=../fomo-agent scripts/run-scheduled-scan.sh --mode auto --dry-run
+
+mkdir -p ~/.config/systemd/user
+cp automation/fomo-events-scan.service ~/.config/systemd/user/
+cp automation/fomo-events-scan.timer ~/.config/systemd/user/
+# Review/edit the copied service if checkout paths or the Node version differ.
+systemctl --user daemon-reload
+
+# First run the service deliberately and inspect its journal before enabling the timer.
+systemctl --user start fomo-events-scan.service
+journalctl --user -u fomo-events-scan.service -n 200 --no-pager
+
+# Only after the manual service run is satisfactory:
+systemctl --user enable --now fomo-events-scan.timer
+systemctl --user list-timers fomo-events-scan.timer
+```
+
+The initial timer runs daily around 08:30 in `Europe/Paris` with up to 20 minutes of
+random delay and catches up once after a powered-off interval (`Persistent=true`). Edit
+the copied timer and run `systemctl --user daemon-reload` to change the schedule.
+
+For an intentional manual first scan, use one of the following commands only when ready
+for real event discovery and a possible commit/push:
+
+```bash
+scripts/run-scheduled-scan.sh --mode full
+scripts/run-scheduled-scan.sh --mode daily
+```
+
+The service needs the same non-interactive Git authentication that makes
+`git push origin main` work on this machine. If its journal reports an SSH-agent or
+credential error, fix the local user-level Git/SSH setup and retest the service; never
+store a personal access token, private key, or passphrase in this repository or service
+template. If scans should continue after logout/reboot, enable user lingering manually:
+
+```bash
+loginctl enable-linger "$USER"
+```
+
+This command is optional and changes a system setting, so it is intentionally not run by
+the repository tooling.
+
 ## Public-data privacy and licence
 
 Everything committed here, including preferences, event choices, reports, and Git

@@ -16,3 +16,6 @@ the reusable discovery engine. When available, read the contracts in sibling
 - Do not modify `../fomo-agent`, Git remotes, identity, or SSH configuration without an
   explicit separate request.
 - Do not commit or push unless the repository owner explicitly asks.
+- `scripts/run-scheduled-scan.sh` is the sole versioned automated path that may commit
+  and push an allowlisted scan result when the owner explicitly installs/runs its
+  `systemd --user` timer. Other coding sessions still require explicit permission.

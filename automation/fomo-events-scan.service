@@ -1,0 +1,23 @@
+# Copy this versioned template to ~/.config/systemd/user/fomo-events-scan.service.
+# Edit the three paths below if your repositories or Node.js installation live elsewhere.
+
+[Unit]
+Description=FOMO Côte d’Azur scheduled local scan
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/git_clones/my-github/fomo/fomo-events
+Environment=HOME=%h
+Environment=FOMO_AGENT_PATH=%h/git_clones/my-github/fomo/fomo-agent
+# systemd --user does not load nvm from .bashrc. This is the Node/Codex path currently
+# used in this checkout; replace v24.2.0 after a Node upgrade.
+Environment=PATH=%h/.nvm/versions/node/v24.2.0/bin:/usr/local/bin:/usr/bin:/bin
+# A timer cannot answer a Git credentials prompt. Keep credentials in your normal local
+# SSH/credential setup; do not put tokens, keys, or passphrases in this file.
+Environment=GIT_TERMINAL_PROMPT=0
+ExecStart=%h/git_clones/my-github/fomo/fomo-events/scripts/run-scheduled-scan.sh --mode auto
+StandardOutput=journal
+StandardError=journal
+
