@@ -34,6 +34,7 @@ export function renderPage(
   data: SiteData,
   filters: FilterState,
   locale: Locale,
+  filterPanelExpanded: boolean,
 ): void {
   const filteredEvents = filterEvents(data.events.events, filters);
   const hasNoEvents = data.events.events.length === 0;
@@ -76,7 +77,7 @@ export function renderPage(
 
       <section class="content-grid" aria-label="${translate(locale, 'eventCollection')}">
         <aside class="filters-wrap">
-          ${renderFilterPanel(data, filters, locale)}
+          ${renderFilterPanel(data, filters, locale, filterPanelExpanded)}
         </aside>
         <div class="event-area">
           <div class="results-heading">

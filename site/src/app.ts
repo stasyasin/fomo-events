@@ -36,13 +36,14 @@ export async function startApp(): Promise<void> {
   const data: SiteData = await loadSiteData();
   let filters = filtersFromSearch();
   let locale = localeFromSearch();
+  let filterPanelExpanded = false;
 
   const update = (next: FilterState, updateUrl = true): void => {
     filters = next;
     document.documentElement.lang = locale;
     document.title = `FOMO Côte d’Azur — ${translate(locale, 'eventCollection')}`;
     if (updateUrl) writeFilters(filters, locale);
-    renderPage(root, data, filters, locale);
+    renderPage(root, data, filters, locale, filterPanelExpanded);
   };
 
   root.addEventListener('input', (event) => {
@@ -55,6 +56,12 @@ export async function startApp(): Promise<void> {
   });
   root.addEventListener('click', (event) => {
     const target = event.target as Element;
+    const filterPanelToggle = target.closest<HTMLButtonElement>('[data-toggle-filter-panel]');
+    if (filterPanelToggle) {
+      filterPanelExpanded = !filterPanelExpanded;
+      update(filters, false);
+      return;
+    }
     const filterOption = target.closest<HTMLButtonElement>('[data-filter-option]');
     if (filterOption) {
       const form = filterOption.closest<HTMLFormElement>('[data-filter-form]');

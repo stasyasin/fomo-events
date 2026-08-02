@@ -55,7 +55,12 @@ function filterSelect(
   `;
 }
 
-export function renderFilterPanel(data: SiteData, filters: FilterState, locale: Locale): string {
+export function renderFilterPanel(
+  data: SiteData,
+  filters: FilterState,
+  locale: Locale,
+  expanded: boolean,
+): string {
   const categories = [...new Set([...categoryIds, ...data.metadata.available_categories])].sort(
     (first, second) =>
       categoryLabel(first, locale).localeCompare(categoryLabel(second, locale), locale),
@@ -92,25 +97,35 @@ export function renderFilterPanel(data: SiteData, filters: FilterState, locale: 
   ];
 
   return `
-    <form class="filter-panel" data-filter-form>
+    <form class="filter-panel" data-filter-form data-expanded="${expanded}">
       <div class="filter-panel__heading">
-        <h2>${translate(locale, 'filters')}</h2>
+        <h2>
+          <button
+            type="button"
+            class="filter-panel__toggle"
+            data-toggle-filter-panel
+            aria-controls="filter-panel-body"
+            aria-expanded="${expanded}"
+          >${translate(locale, 'filters')}</button>
+        </h2>
         <button type="button" class="text-button" data-reset-filters>${translate(locale, 'clear')}</button>
       </div>
-      <label class="field field--search" for="event-search">
-        <span>${translate(locale, 'search')}</span>
-        <input id="event-search" name="q" type="search" placeholder="${translate(locale, 'searchPlaceholder')}" value="${escapeHtml(filters.text)}" autocomplete="off" />
-      </label>
-      ${filterSelect('event-category', 'category', translate(locale, 'category'), filters.category, categoryOptions)}
-      ${filterSelect('event-city', 'city', translate(locale, 'city'), filters.city, cityOptions)}
-      ${filterSelect('event-horizon', 'horizon', translate(locale, 'when'), filters.horizon, horizonOptions)}
-      ${filterSelect('event-ranking', 'ranking', translate(locale, 'matchLevel'), filters.ranking, rankingOptions)}
-      ${filterSelect('event-language', 'language', translate(locale, 'language'), filters.language, languageOptions)}
-      ${filterSelect('event-tickets', 'tickets', translate(locale, 'tickets'), filters.ticketStatus, ticketOptions)}
-      <label class="check-field" for="only-free">
-        <input id="only-free" name="free" type="checkbox"${filters.freeOnly ? ' checked' : ''} />
-        <span>${translate(locale, 'onlyFree')}</span>
-      </label>
+      <div id="filter-panel-body" class="filter-panel__body">
+        <label class="field field--search" for="event-search">
+          <span>${translate(locale, 'search')}</span>
+          <input id="event-search" name="q" type="search" placeholder="${translate(locale, 'searchPlaceholder')}" value="${escapeHtml(filters.text)}" autocomplete="off" />
+        </label>
+        ${filterSelect('event-category', 'category', translate(locale, 'category'), filters.category, categoryOptions)}
+        ${filterSelect('event-city', 'city', translate(locale, 'city'), filters.city, cityOptions)}
+        ${filterSelect('event-horizon', 'horizon', translate(locale, 'when'), filters.horizon, horizonOptions)}
+        ${filterSelect('event-ranking', 'ranking', translate(locale, 'matchLevel'), filters.ranking, rankingOptions)}
+        ${filterSelect('event-language', 'language', translate(locale, 'language'), filters.language, languageOptions)}
+        ${filterSelect('event-tickets', 'tickets', translate(locale, 'tickets'), filters.ticketStatus, ticketOptions)}
+        <label class="check-field" for="only-free">
+          <input id="only-free" name="free" type="checkbox"${filters.freeOnly ? ' checked' : ''} />
+          <span>${translate(locale, 'onlyFree')}</span>
+        </label>
+      </div>
     </form>
   `;
 }
