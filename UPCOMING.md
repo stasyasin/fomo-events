@@ -38,6 +38,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Musée national Fernand Léger — Léger et La Création du monde. Un ballet d'avant-garde](https://musees-nationaux-alpesmaritimes.fr/fleger/agenda/evenement/leger-et-la-creation-du-monde-un-ballet-davant-garde)
 - **Last verified:** 2026-08-01T17:17:27+02:00
 
+## Étoiles grandeur nature
+
+- **When:** 2026-06-19
+- **Where:** Col de Vence, Vence
+- **Categories:** astronomy
+- **Price:** EUR 12.5
+- **Language:** fr
+- **Tickets:** available
+- **Ranking:** strong_match — Core travel zone; Locally observable astronomy activity; Published remaining summer dates
+- **Source:** [Office de Tourisme Nice Côte d’Azur — Étoiles grandeur nature](https://www.explorenicecotedazur.com/evenement/etoiles-grandeur-nature/)
+- **Last verified:** 2026-08-02T10:54:51+02:00
+
 ## Grande Nuit Vénitienne
 
 - **When:** 2026-08-01 20:45 GMT+2
@@ -157,6 +169,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** strong_match — Classical music; Core travel zone; Free entry
 - **Source:** [Opéra Nice Côte d’Azur — agenda — Chopin](https://www.opera-nice.org/agenda/?_season=saison-2026-2027)
 - **Last verified:** 2026-08-01T02:33:12+02:00
+
+## Journées Européennes du Patrimoine 2026 – Observatoire de la Côte d’Azur, Mont-Gros
+
+- **When:** 2026-09-19
+- **Where:** Observatoire de la Côte d’Azur – Mont-Gros, Nice
+- **Categories:** astronomy, city_events
+- **Price:** Price unknown
+- **Language:** fr
+- **Tickets:** not_on_sale
+- **Ranking:** strong_match — Core travel zone; Public Observatory visit; Astronomy and heritage programme
+- **Source:** [Observatoire de la Côte d’Azur — Journées Européennes du Patrimoine 2026](https://geoazur.oca.eu/fr/manifestation/5893-jep26)
+- **Last verified:** 2026-08-02T10:54:51+02:00
 
 ## OGC Nice vs Lille
 

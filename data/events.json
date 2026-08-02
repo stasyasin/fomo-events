@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-01T19:49:57+02:00",
+  "generated_at": "2026-08-02T10:54:51+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -2395,6 +2395,143 @@
         "first_seen_at": "2026-08-01T19:44:06+02:00",
         "last_seen_at": "2026-08-01T19:44:06+02:00",
         "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "etoiles-grandeur-nature-vence-2026-06-19",
+      "title": "Étoiles grandeur nature",
+      "description": "Public guided stargazing sessions at Col de Vence, using naked-eye observation and a telescope. The official listing says the programme is subject to suitable weather and observing conditions.",
+      "categories": ["astronomy"],
+      "start_at": "2026-06-19",
+      "end_at": "2026-09-11",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Col de Vence",
+        "city": "Vence",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": ["fr"],
+        "importance": "medium",
+        "notes": "The official listing is in French; language of the activity is not otherwise specified."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 12.5,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Adult price; the official listing also gives EUR 10 for ages 6–12 and free entry for children under six."
+      },
+      "ticketing": {
+        "status": "available",
+        "official_url": "https://www.billetweb.fr/etoiles-grandeur-nature-2026",
+        "sale_starts_at": null,
+        "reservation_required": true
+      },
+      "ranking": {
+        "score": 26,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Locally observable astronomy activity",
+          "Published remaining summer dates"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/evenement/etoiles-grandeur-nature/",
+          "name": "Office de Tourisme Nice Côte d’Azur — Étoiles grandeur nature",
+          "type": "official_tourism",
+          "trust": "high",
+          "checked_at": "2026-08-02T10:54:51+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "venue",
+            "description",
+            "price",
+            "ticket_status",
+            "ticket_url"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-02T10:54:51+02:00",
+        "last_seen_at": "2026-08-02T10:54:51+02:00",
+        "last_verified_at": "2026-08-02T10:54:51+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "journees-europeennes-du-patrimoine-2026-observatoire-de-la-cote-d-azur-mont-gros-nice-2026-09-19",
+      "title": "Journées Européennes du Patrimoine 2026 – Observatoire de la Côte d’Azur, Mont-Gros",
+      "description": "Public guided visits of the Grande Coupole and the restored historic library at the Observatoire de la Côte d’Azur’s Mont-Gros site. One-hour visits run on both days in scheduled slots.",
+      "categories": ["astronomy", "city_events"],
+      "start_at": "2026-09-19",
+      "end_at": "2026-09-20",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Observatoire de la Côte d’Azur – Mont-Gros",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": ["fr"],
+        "importance": "medium",
+        "notes": "The official listing is in French; language of the visits is not otherwise specified."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "No admission price is stated on the official listing."
+      },
+      "ticketing": {
+        "status": "not_on_sale",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": true
+      },
+      "ranking": {
+        "score": 25,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Public Observatory visit",
+          "Astronomy and heritage programme"
+        ]
+      },
+      "status": "announced",
+      "sources": [
+        {
+          "url": "https://geoazur.oca.eu/fr/manifestation/5893-jep26",
+          "name": "Observatoire de la Côte d’Azur — Journées Européennes du Patrimoine 2026",
+          "type": "other",
+          "trust": "high",
+          "checked_at": "2026-08-02T10:54:51+02:00",
+          "supports": ["identity", "date", "time", "venue", "description", "ticket_status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-02T10:54:51+02:00",
+        "last_seen_at": "2026-08-02T10:54:51+02:00",
+        "last_verified_at": "2026-08-02T10:54:51+02:00",
         "content_hash": null
       }
     }
