@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-03T13:30:45+02:00",
+  "generated_at": "2026-08-03T13:59:49+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -25,7 +25,7 @@
         "address": null,
         "latitude": null,
         "longitude": null
-      },
+    },
       "language": {
         "codes": [
           "en",
@@ -3235,6 +3235,97 @@
         "first_seen_at": "2026-08-03T13:30:45+02:00",
         "last_seen_at": "2026-08-03T13:30:45+02:00",
         "last_verified_at": "2026-08-03T13:30:45+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "partial-solar-eclipse-visible-from-nice-nice-2026-08-12",
+      "title": "Partial solar eclipse visible from Nice",
+      "description": "Nice will see a deep partial phase of the global 12 August total solar eclipse. It starts at 19:31 CEST; the 95.1% maximum is at 20:24, with the Sun below 2° above the horizon. An unobstructed western seaward or flat horizon is essential. Direct solar viewing requires eclipse glasses meeting ISO 12312-2.",
+      "categories": [
+        "astronomy",
+        "outdoor"
+      ],
+      "tags": [
+        "major_event",
+        "sky_phenomenon"
+      ],
+      "start_at": "2026-08-12T19:31:00+02:00",
+      "end_at": "2026-08-12T21:14:00+02:00",
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Open western or seaward horizon",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [
+          "fr"
+        ],
+        "importance": "medium",
+        "notes": "The cited French astronomy material provides the local circumstances and viewing guidance."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "This is a self-guided sky phenomenon; no organised admission is stated."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 46,
+        "level": "must_go",
+        "reasons": [
+          "95.1% local obscuration confirmed for Nice",
+          "High-priority locally visible astronomy",
+          "Rare deep partial solar eclipse with published local circumstances"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.afastronomie.fr/media/default/0001/28/DP_ECLIPSEinfo-web-69f3.pdf",
+          "name": "Association Française d’Astronomie — Éclipse Info: circumstances for Nice",
+          "type": "other",
+          "trust": "high",
+          "checked_at": "2026-08-03T13:59:49+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "city",
+            "description"
+          ]
+        },
+        {
+          "url": "https://www.imcce.fr/news/solar-eclipse-2022-10",
+          "name": "IMCCE — 2026 solar eclipse visibility in metropolitan France",
+          "type": "other",
+          "trust": "high",
+          "checked_at": "2026-08-03T13:59:49+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "description"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-03T13:59:49+02:00",
+        "last_seen_at": "2026-08-03T13:59:49+02:00",
+        "last_verified_at": "2026-08-03T13:59:49+02:00",
         "content_hash": null
       }
     }

@@ -83,11 +83,26 @@ the following rules in addition to the active YAML configuration.
   children-only, school-only, or after-school classes unless the owner later asks for
   them.
 - **Astronomy:** use `astronomy` for public Observatory events and for genuinely notable
-  sky phenomena. An eclipse, meteor shower, conjunction, or planet observation requires
-  an authoritative source with visibility/circumstances applicable to Nice. Do not add a
-  global astronomical event merely because it is visible somewhere else. Record an
-  observatory visit as a venue event; a locally visible celestial phenomenon may have a
-  null venue or a carefully stated general local venue only when supported by evidence.
+  sky phenomena. Astronomy is visibility-based, not venue-based: assess Nice and every configured
+  French Riviera travel zone using the local date/time, solar or target altitude, direction,
+  horizon, and material weather/seasonal limitations. Do not use “Northern Hemisphere” or
+  “Eastern Hemisphere” as a geography rule; it is far too broad. A global astronomical event is
+  eligible only if authoritative local circumstances confirm it is observable from a configured
+  zone, or if a nearby public observation event is individually confirmed.
+
+  Treat the 12 August 2026 eclipse as a permanent quality-control example: the global event is
+  total, but Nice sees a deep **partial** phase. The record must preserve local circumstances,
+  including the low western/seaward horizon at maximum, rather than reject it for lacking a venue
+  or incorrectly label it total in Nice. Use the configured IMCCE and Association Française
+  d’Astronomie / Éclipse Info sources for such circumstances. For every full scan and every daily
+  scan while an astronomy phenomenon falls within the configured long horizon, explicitly recheck
+  the official astronomy sources plus one current authoritative local-circumstances source. Give
+  direct-viewing safety guidance only when the cited authority states it; never imply that an
+  ordinary telescope or binoculars makes solar observation safe.
+
+  Record an observatory visit as a venue event; a locally visible celestial phenomenon may have a
+  null venue or a carefully stated general local venue only when supported by evidence. In reports,
+  distinguish a regional travel recommendation from a phenomenon directly observable from Nice.
 
 ## Non-negotiable public-data rules
 

@@ -252,9 +252,22 @@ categories:
   astronomy:
     {
       enabled: true,
-      weight: 5,
+      weight: 6,
       keywords:
-        [astronomy, stargazing, observatory, eclipse, meteor shower, conjunction, planets, Venus],
+        [
+          astronomy,
+          stargazing,
+          observatory,
+          solar eclipse,
+          lunar eclipse,
+          eclipse,
+          meteor shower,
+          Perseids,
+          conjunction,
+          planetary alignment,
+          planets,
+          Venus,
+        ],
       negative_keywords: [],
       price_limit: null,
       language_rules: null,
@@ -371,6 +384,8 @@ interests:
       DJs,
       creative workshops,
       locally visible astronomy,
+      astronomy visible from the French Riviera,
+      deep partial solar eclipse,
       wine,
       food,
       AI,
@@ -399,7 +414,10 @@ interests:
       pottery workshop,
       ceramic workshop,
       locally visible eclipse,
+      12 August 2026 solar eclipse,
+      deep partial solar eclipse Nice,
       meteor shower,
+      Perseids,
       planetary conjunction,
       wine festival,
       food festival,
@@ -438,7 +456,7 @@ ranking:
     curated_cinema_pick: 12
     open_air_concert_or_dj: 12
     hands_on_creative_workshop: 10
-    locally_visible_astronomy: 12
+    locally_visible_astronomy: 18
     wine_or_food_festival: 10
     unusual_core_zone_event: 10
     expensive_weak_fit_penalty: -8

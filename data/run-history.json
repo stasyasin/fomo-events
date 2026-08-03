@@ -163,6 +163,34 @@
         "reports/daily/2026-08-03.md"
       ],
       "summary": "Daily scan checked all 12 enabled official sources, added three individually verified current Nice museum exhibitions, and archived one past dated record; selected existing records had no material change."
+    },
+    {
+      "id": "daily-2026-08-03-1401",
+      "mode": "daily",
+      "started_at": "2026-08-03T13:43:00+02:00",
+      "ended_at": "2026-08-03T14:01:31+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 2,
+      "search_queries": 7,
+      "candidate_events_found": 1,
+      "new_events": 1,
+      "updated_events": 0,
+      "possible_duplicates": 0,
+      "rejected_candidates": 0,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-03.md"
+      ],
+      "summary": "Focused astronomy evidence check added the 12 August 2026 deep partial solar eclipse visible from Nice, using current local circumstances from the Association Française d’Astronomie and IMCCE."
     }
   ]
 }

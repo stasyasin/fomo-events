@@ -122,6 +122,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Festival Saint Jazz Cap Ferrat – 14ème édition](https://www.explorenicecotedazur.com/evenement/festival-saint-jazz-cap-ferrat-14eme-edition/)
 - **Last verified:** 2026-08-01T17:17:27+02:00
 
+## Partial solar eclipse visible from Nice
+
+- **When:** 2026-08-12 19:31 GMT+2
+- **Where:** Open western or seaward horizon, Nice
+- **Categories:** astronomy, outdoor
+- **Price:** Price unknown
+- **Language:** fr
+- **Tickets:** unknown
+- **Ranking:** must_go — 95.1% local obscuration confirmed for Nice; High-priority locally visible astronomy; Rare deep partial solar eclipse with published local circumstances
+- **Source:** [Association Française d’Astronomie — Éclipse Info: circumstances for Nice](https://www.afastronomie.fr/media/default/0001/28/DP_ECLIPSEinfo-web-69f3.pdf)
+- **Last verified:** 2026-08-03T13:59:49+02:00
+
 ## Joho Pyro Professional Fireworks AB (Finlande)
 
 - **When:** 2026-08-15 22:00 GMT+2
@@ -157,6 +169,7 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-08-01T19:44:06+02:00
+
 ## Flash Barrandov Special Effects (République Tchèque)
 
 - **When:** 2026-08-24 22:00 GMT+2

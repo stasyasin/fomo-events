@@ -59,10 +59,14 @@ programme confirms it.
 I am also interested in concerts in squares, parks, beaches, or other open-air places;
 DJ and electronic sets in distinctive venues; hands-on creative workshops such as pottery,
 ceramics, clay modelling, or wheel throwing; and astronomy. For astronomy, include public
-observatory activities and genuinely notable sky phenomena only when they are visible from
-the Nice area (for example, an eclipse, meteor shower, conjunction, or good planetary
-visibility). Give practical viewing or booking information only when an official source
-publishes it.
+observatory activities and genuinely notable sky phenomena when they can actually be seen
+from Nice or another configured French Riviera travel zone. Astronomy is about local sky
+visibility, not the city hosting an event: check the date, local time, altitude/direction,
+and any horizon or weather limitation. A major phenomenon in southern France can be included
+only when it fits the configured travel limit and has a clearly better observing case.
+Do not use broad labels such as “Northern Hemisphere” or “Eastern Hemisphere” as a shortcut:
+they are too broad to be useful. Give practical viewing, safety, or booking information only
+when an authoritative source publishes it.
 
 ### What should always receive special attention?
 
@@ -77,8 +81,10 @@ publishes it.
   shortlist rather than an exhaustive timetable.
 - Outdoor live music, DJs/electronic music, and adult-friendly creative workshops. Do not
   treat every children's activity or routine class as a recommendation.
-- Astronomical phenomena that are locally observable from Nice. A global phenomenon or an
-  eclipse visible elsewhere is not enough.
+- Astronomical phenomena visible from Nice or the configured French Riviera travel zones.
+  Treat the 12 August 2026 deep partial solar eclipse in Nice as a priority example: verify
+  local circumstances and a clear western/seaward horizon, rather than rejecting it because
+  there is no venue. A global phenomenon or an eclipse visible only elsewhere is not enough.
 
 ### What budget feels right?
 

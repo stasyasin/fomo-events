@@ -108,14 +108,30 @@ sources:
     url: https://promenade.imcce.fr/fr/
     type: other
     enabled: true
-    geographic_scope: [Nice]
+    geographic_scope: [Nice, French Riviera, South of France]
     category_scope: [astronomy]
     language: fr
     priority: 89
     trust: high
     notes: >-
       Official astronomical reference. A global celestial event is not sufficient: add it only when
-      an authoritative source confirms local visibility or provides valid circumstances for Nice.
+      an authoritative source confirms local visibility or provides valid circumstances for Nice or
+      another configured French Riviera travel zone. Record horizon, altitude, and local-time limits
+      where they materially affect whether an observation is possible.
+  - name: Association Française d’Astronomie — Éclipse Info and sky phenomena
+    url: https://www.afastronomie.fr/
+    type: other
+    enabled: true
+    geographic_scope: [Nice, French Riviera, South of France]
+    category_scope: [astronomy]
+    language: fr
+    priority: 94
+    trust: high
+    notes: >-
+      Trusted French astronomical association coordinating Éclipse Info with scientific and public
+      institutions. Use its current local-circumstances material for important phenomena such as the
+      12 August 2026 eclipse; preserve the distinction between a globally total eclipse and the
+      locally visible partial phase.
   - name: Opéra Nice Côte d’Azur — agenda
     url: https://www.opera-nice.org/agenda/
     type: official_theatre
