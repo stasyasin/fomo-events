@@ -1,13 +1,19 @@
 {
   "version": 1,
-  "generated_at": "2026-08-02T10:54:51+02:00",
+  "generated_at": "2026-08-03T13:30:45+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
       "title": "Vikings : L'Odyssée jusqu'aux confins du monde – Cités Immersives",
       "description": "Immersive exhibition about the Viking world; the official listing says its audio guide is available in French and English.",
-      "categories": ["exhibitions", "museums_and_art", "unusual_experiences"],
-      "tags": ["major_event"],
+      "categories": [
+        "exhibitions",
+        "museums_and_art",
+        "unusual_experiences"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-02-06",
       "end_at": "2026-08-30",
       "date_precision": "range",
@@ -21,7 +27,10 @@
         "longitude": null
       },
       "language": {
-        "codes": ["en", "fr"],
+        "codes": [
+          "en",
+          "fr"
+        ],
         "importance": "medium",
         "notes": "Audio guide listed in French and English."
       },
@@ -57,7 +66,15 @@
           "type": "official_tourism",
           "trust": "high",
           "checked_at": "2026-08-01T02:33:12+02:00",
-          "supports": ["city", "date", "description", "identity", "price", "time", "venue"]
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "identity",
+            "price",
+            "time",
+            "venue"
+          ]
         }
       ],
       "tracking": {
@@ -71,8 +88,15 @@
       "id": "grande-nuit-venitienne-saint-jean-cap-ferrat-2026-08-01",
       "title": "Grande Nuit Vénitienne",
       "description": "The official programme lists a parade, fireworks and a ball in Saint-Jean-Cap-Ferrat.",
-      "categories": ["city_events", "festivals", "free_events", "unusual_experiences"],
-      "tags": ["major_event"],
+      "categories": [
+        "city_events",
+        "festivals",
+        "free_events",
+        "unusual_experiences"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-08-01T20:45:00+02:00",
       "end_at": null,
       "date_precision": "datetime",
@@ -114,7 +138,7 @@
           "Same-day event"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "timezone": "Europe/Paris",
       "sources": [
         {
@@ -146,8 +170,13 @@
       "id": "festival-saint-jazz-cap-ferrat-14eme-edition-saint-jean-cap-ferrat-2026-08-06",
       "title": "Festival Saint Jazz Cap Ferrat – 14ème édition",
       "description": "Three-night jazz festival with sets by Abraham Réunion, Alfredo Rodriguez, Cécile Brocas, André Manoukian, ALA.NI and Henri Texier.",
-      "categories": ["festivals", "jazz_and_blues"],
-      "tags": ["major_event"],
+      "categories": [
+        "festivals",
+        "jazz_and_blues"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-08-06",
       "end_at": "2026-08-08",
       "date_precision": "range",
@@ -182,7 +211,11 @@
       "ranking": {
         "score": 24,
         "level": "strong_match",
-        "reasons": ["Core travel zone", "Jazz festival", "Price within preferred budget"]
+        "reasons": [
+          "Core travel zone",
+          "Jazz festival",
+          "Price within preferred budget"
+        ]
       },
       "status": "on_sale",
       "timezone": "Europe/Paris",
@@ -216,8 +249,13 @@
       "id": "championnat-du-monde-de-boules-carrees-cagnes-sur-mer-2026-08-22",
       "title": "Championnat du monde de boules carrées",
       "description": "Annual Cagnes-sur-Mer boules carrées championship, with the final listed for 23 August.",
-      "categories": ["sports", "unusual_experiences"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "unusual_experiences"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-08-22",
       "end_at": "2026-08-23",
       "date_precision": "range",
@@ -267,7 +305,14 @@
           "type": "official_tourism",
           "trust": "high",
           "checked_at": "2026-08-01T02:33:12+02:00",
-          "supports": ["city", "date", "description", "identity", "price", "venue"]
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "identity",
+            "price",
+            "venue"
+          ]
         }
       ],
       "tracking": {
@@ -281,7 +326,9 @@
       "id": "brahms-chostakovitch-nice-2026-09-11",
       "title": "Brahms / Chostakovitch",
       "description": "Sayaka Shoji performs Brahms’s Violin Concerto; Lionel Bringuier conducts Chostakovitch’s Symphony No. 6.",
-      "categories": ["classical_music"],
+      "categories": [
+        "classical_music"
+      ],
       "start_at": "2026-09-11",
       "end_at": "2026-09-12",
       "date_precision": "range",
@@ -316,7 +363,11 @@
       "ranking": {
         "score": 22,
         "level": "strong_match",
-        "reasons": ["Classical music", "Core travel zone", "Official price listed"]
+        "reasons": [
+          "Classical music",
+          "Core travel zone",
+          "Official price listed"
+        ]
       },
       "status": "on_sale",
       "timezone": "Europe/Paris",
@@ -351,7 +402,10 @@
       "id": "chopin-nice-2026-09-18",
       "title": "Chopin",
       "description": "Piano recital by Katherine Nikitine featuring Chopin’s 24 Études, followed by an artist meeting and album signing.",
-      "categories": ["classical_music", "free_events"],
+      "categories": [
+        "classical_music",
+        "free_events"
+      ],
       "start_at": "2026-09-18T18:00:00+02:00",
       "end_at": null,
       "date_precision": "datetime",
@@ -386,7 +440,11 @@
       "ranking": {
         "score": 28,
         "level": "strong_match",
-        "reasons": ["Classical music", "Core travel zone", "Free entry"]
+        "reasons": [
+          "Classical music",
+          "Core travel zone",
+          "Free entry"
+        ]
       },
       "status": "scheduled",
       "timezone": "Europe/Paris",
@@ -397,7 +455,15 @@
           "type": "official_theatre",
           "trust": "high",
           "checked_at": "2026-08-01T02:33:12+02:00",
-          "supports": ["city", "date", "description", "free_entry", "identity", "time", "venue"]
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "free_entry",
+            "identity",
+            "time",
+            "venue"
+          ]
         }
       ],
       "tracking": {
@@ -411,8 +477,12 @@
       "id": "orlando-nice-2026-09-30",
       "title": "Orlando",
       "description": "Handel opera conducted by Jean-Christophe Spinosi and directed by Mariame Clément.",
-      "categories": ["opera_and_ballet"],
-      "tags": ["major_event"],
+      "categories": [
+        "opera_and_ballet"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-09-30",
       "end_at": "2026-10-06",
       "date_precision": "range",
@@ -426,7 +496,11 @@
         "longitude": null
       },
       "language": {
-        "codes": ["en", "fr", "it"],
+        "codes": [
+          "en",
+          "fr",
+          "it"
+        ],
         "importance": "medium",
         "notes": "Italian, with French and English surtitles."
       },
@@ -447,7 +521,11 @@
       "ranking": {
         "score": 18,
         "level": "maybe",
-        "reasons": ["Core travel zone", "English surtitles listed", "Opera and ballet priority"]
+        "reasons": [
+          "Core travel zone",
+          "English surtitles listed",
+          "Opera and ballet priority"
+        ]
       },
       "status": "on_sale",
       "timezone": "Europe/Paris",
@@ -482,8 +560,13 @@
       "id": "un-festival-c-est-trop-court-nice-2026-10-02",
       "title": "Un festival c'est trop court",
       "description": "European short-film festival in multiple Nice venues, focused on emerging filmmakers.",
-      "categories": ["cinema", "festivals"],
-      "tags": ["major_event"],
+      "categories": [
+        "cinema",
+        "festivals"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-10-02",
       "end_at": "2026-10-09",
       "date_precision": "range",
@@ -518,7 +601,11 @@
       "ranking": {
         "score": 16,
         "level": "maybe",
-        "reasons": ["Cinema festival", "Core travel zone", "Dates confirmed by official listing"]
+        "reasons": [
+          "Cinema festival",
+          "Core travel zone",
+          "Dates confirmed by official listing"
+        ]
       },
       "status": "scheduled",
       "timezone": "Europe/Paris",
@@ -529,7 +616,13 @@
           "type": "official_tourism",
           "trust": "high",
           "checked_at": "2026-08-01T02:33:12+02:00",
-          "supports": ["city", "date", "description", "identity", "venue"]
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "identity",
+            "venue"
+          ]
         }
       ],
       "tracking": {
@@ -543,8 +636,12 @@
       "id": "evo-france-2026-nice-2026-10-09",
       "title": "EVO FRANCE 2026",
       "description": "International fighting-game competition at Nice’s Palais des Expositions.",
-      "categories": ["sports"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-10-09",
       "end_at": "2026-10-11",
       "date_precision": "range",
@@ -594,7 +691,13 @@
           "type": "official_tourism",
           "trust": "high",
           "checked_at": "2026-08-01T02:33:12+02:00",
-          "supports": ["city", "date", "description", "identity", "venue"]
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "identity",
+            "venue"
+          ]
         }
       ],
       "tracking": {
@@ -608,7 +711,9 @@
       "id": "jean-christophe-maillot-and-ioannis-mandafounis-nice-2026-10-17",
       "title": "Jean-Christophe Maillot & Ioannis Mandafounis",
       "description": "Ballet programme featuring choreography by Jean-Christophe Maillot and Ioannis Mandafounis.",
-      "categories": ["opera_and_ballet"],
+      "categories": [
+        "opera_and_ballet"
+      ],
       "start_at": "2026-10-17",
       "end_at": "2026-10-25",
       "date_precision": "range",
@@ -643,7 +748,11 @@
       "ranking": {
         "score": 18,
         "level": "maybe",
-        "reasons": ["Core travel zone", "Official price listed", "Opera and ballet priority"]
+        "reasons": [
+          "Core travel zone",
+          "Official price listed",
+          "Opera and ballet priority"
+        ]
       },
       "status": "on_sale",
       "timezone": "Europe/Paris",
@@ -678,8 +787,13 @@
       "id": "terravini-salon-authentique-des-vins-et-de-la-gastronomie-nice-2026-10-24",
       "title": "Terravini – Salon authentique des vins et de la gastronomie",
       "description": "Fifth edition of a food and wine fair at Palais Nikaïa.",
-      "categories": ["festivals", "food_and_wine"],
-      "tags": ["major_event"],
+      "categories": [
+        "festivals",
+        "food_and_wine"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-10-24",
       "end_at": "2026-10-25",
       "date_precision": "range",
@@ -714,7 +828,11 @@
       "ranking": {
         "score": 26,
         "level": "strong_match",
-        "reasons": ["Core travel zone", "Food and wine interest", "Official dates confirmed"]
+        "reasons": [
+          "Core travel zone",
+          "Food and wine interest",
+          "Official dates confirmed"
+        ]
       },
       "status": "scheduled",
       "timezone": "Europe/Paris",
@@ -725,7 +843,14 @@
           "type": "official_tourism",
           "trust": "high",
           "checked_at": "2026-08-01T02:33:12+02:00",
-          "supports": ["city", "date", "description", "free_entry", "identity", "venue"]
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "free_entry",
+            "identity",
+            "venue"
+          ]
         }
       ],
       "tracking": {
@@ -739,8 +864,12 @@
       "id": "laura-pausini-io-canto-world-tour-nice-2026-10-30",
       "title": "LAURA PAUSINI IO CANTO WORLD TOUR",
       "description": "Laura Pausini’s IO CANTO WORLD TOUR stop at Palais Nikaïa.",
-      "categories": ["concerts"],
-      "tags": ["major_event"],
+      "categories": [
+        "concerts"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-10-30",
       "end_at": null,
       "date_precision": "date",
@@ -775,7 +904,11 @@
       "ranking": {
         "score": 23,
         "level": "strong_match",
-        "reasons": ["Core travel zone", "Major concert", "Official date and venue confirmed"]
+        "reasons": [
+          "Core travel zone",
+          "Major concert",
+          "Official date and venue confirmed"
+        ]
       },
       "status": "scheduled",
       "timezone": "Europe/Paris",
@@ -786,7 +919,13 @@
           "type": "official_tourism",
           "trust": "high",
           "checked_at": "2026-08-01T02:33:12+02:00",
-          "supports": ["city", "date", "description", "identity", "venue"]
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "identity",
+            "venue"
+          ]
         }
       ],
       "tracking": {
@@ -800,7 +939,9 @@
       "id": "strauss-brahms-nice-2026-10-30",
       "title": "Strauss / Brahms",
       "description": "Concert conducted by Marc Leroy-Calatayud with the Opéra de Nice orchestra and chorus.",
-      "categories": ["classical_music"],
+      "categories": [
+        "classical_music"
+      ],
       "start_at": "2026-10-30T20:00:00+01:00",
       "end_at": null,
       "date_precision": "datetime",
@@ -835,7 +976,11 @@
       "ranking": {
         "score": 18,
         "level": "maybe",
-        "reasons": ["Classical music", "Core travel zone", "Official price listed"]
+        "reasons": [
+          "Classical music",
+          "Core travel zone",
+          "Official price listed"
+        ]
       },
       "status": "on_sale",
       "timezone": "Europe/Paris",
@@ -870,7 +1015,9 @@
       "id": "alice-au-pays-des-merveilles-nice-2027-03-09",
       "title": "Alice au pays des merveilles",
       "description": "Unsuk Chin’s opera Alice in Wonderland, conducted by Léo Warynski.",
-      "categories": ["opera_and_ballet"],
+      "categories": [
+        "opera_and_ballet"
+      ],
       "start_at": "2027-03-09",
       "end_at": "2027-03-14",
       "date_precision": "range",
@@ -905,7 +1052,11 @@
       "ranking": {
         "score": 14,
         "level": "maybe",
-        "reasons": ["Core travel zone", "Official price listed", "Opera and ballet priority"]
+        "reasons": [
+          "Core travel zone",
+          "Official price listed",
+          "Opera and ballet priority"
+        ]
       },
       "status": "on_sale",
       "timezone": "Europe/Paris",
@@ -940,8 +1091,15 @@
       "id": "aquareve-france-cannes-2026-08-04",
       "title": "Aquarêve (France)",
       "description": "French entry in Cannes's 2026 Festival d'art pyrotechnique, themed Lux Abyssus — Le Chant de l'Océan.",
-      "categories": ["festivals", "city_events", "free_events", "unusual_experiences"],
-      "tags": ["major_event"],
+      "categories": [
+        "festivals",
+        "city_events",
+        "free_events",
+        "unusual_experiences"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-08-04T22:00:00+02:00",
       "end_at": "2026-08-04T22:30:00+02:00",
       "date_precision": "datetime",
@@ -976,7 +1134,11 @@
       "ranking": {
         "score": 40,
         "level": "must_go",
-        "reasons": ["Extended travel zone", "Fireworks directly prioritised", "Free entry"]
+        "reasons": [
+          "Extended travel zone",
+          "Fireworks directly prioritised",
+          "Free entry"
+        ]
       },
       "status": "scheduled",
       "timezone": "Europe/Paris",
@@ -1010,8 +1172,15 @@
       "id": "joho-pyro-professional-fireworks-ab-finlande-cannes-2026-08-15",
       "title": "Joho Pyro Professional Fireworks AB (Finlande)",
       "description": "Finnish entry in Cannes's 2026 Festival d'art pyrotechnique, themed Brume en Feu.",
-      "categories": ["festivals", "city_events", "free_events", "unusual_experiences"],
-      "tags": ["major_event"],
+      "categories": [
+        "festivals",
+        "city_events",
+        "free_events",
+        "unusual_experiences"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-08-15T22:00:00+02:00",
       "end_at": "2026-08-15T22:30:00+02:00",
       "date_precision": "datetime",
@@ -1046,7 +1215,11 @@
       "ranking": {
         "score": 40,
         "level": "must_go",
-        "reasons": ["Extended travel zone", "Fireworks directly prioritised", "Free entry"]
+        "reasons": [
+          "Extended travel zone",
+          "Fireworks directly prioritised",
+          "Free entry"
+        ]
       },
       "status": "scheduled",
       "timezone": "Europe/Paris",
@@ -1080,8 +1253,15 @@
       "id": "flash-barrandov-special-effects-republique-tcheque-cannes-2026-08-24",
       "title": "Flash Barrandov Special Effects (République Tchèque)",
       "description": "Czech fireworks display in Cannes's 2026 Festival d'art pyrotechnique, presented out of competition.",
-      "categories": ["festivals", "city_events", "free_events", "unusual_experiences"],
-      "tags": ["major_event"],
+      "categories": [
+        "festivals",
+        "city_events",
+        "free_events",
+        "unusual_experiences"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-08-24T22:00:00+02:00",
       "end_at": "2026-08-24T22:30:00+02:00",
       "date_precision": "datetime",
@@ -1116,7 +1296,11 @@
       "ranking": {
         "score": 40,
         "level": "must_go",
-        "reasons": ["Extended travel zone", "Fireworks directly prioritised", "Free entry"]
+        "reasons": [
+          "Extended travel zone",
+          "Fireworks directly prioritised",
+          "Free entry"
+        ]
       },
       "status": "scheduled",
       "timezone": "Europe/Paris",
@@ -1150,8 +1334,13 @@
       "id": "chagall-a-l-oeuvre-un-pret-d-exception-au-musee-nice-2026-05-23",
       "title": "Chagall à l'oeuvre. Un prêt d'exception au musée",
       "description": "Second part of an exhibition of works by Marc Chagall, including studies for the Opéra Garnier ceiling and costumes and curtains for L'Oiseau de feu.",
-      "categories": ["exhibitions", "museums_and_art"],
-      "tags": ["major_event"],
+      "categories": [
+        "exhibitions",
+        "museums_and_art"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-05-23",
       "end_at": "2026-09-21",
       "date_precision": "range",
@@ -1201,7 +1390,14 @@
           "type": "official_museum",
           "trust": "high",
           "checked_at": "2026-08-01T17:17:27+02:00",
-          "supports": ["city", "date", "description", "identity", "price", "venue"]
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "identity",
+            "price",
+            "venue"
+          ]
         }
       ],
       "tracking": {
@@ -1215,8 +1411,13 @@
       "id": "leger-et-la-creation-du-monde-un-ballet-d-avant-garde-biot-2026-06-13",
       "title": "Léger et La Création du monde. Un ballet d'avant-garde",
       "description": "Exhibition exploring Fernand Léger's modernist ballet through preparatory drawings and recreated costumes.",
-      "categories": ["exhibitions", "museums_and_art"],
-      "tags": ["major_event"],
+      "categories": [
+        "exhibitions",
+        "museums_and_art"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-06-13",
       "end_at": "2026-10-12",
       "date_precision": "range",
@@ -1266,7 +1467,12 @@
           "type": "official_museum",
           "trust": "high",
           "checked_at": "2026-08-01T17:17:27+02:00",
-          "supports": ["city", "description", "identity", "venue"]
+          "supports": [
+            "city",
+            "description",
+            "identity",
+            "venue"
+          ]
         },
         {
           "url": "https://musees-nationaux-alpesmaritimes.fr/fleger/espace-presse",
@@ -1274,7 +1480,9 @@
           "type": "official_museum",
           "trust": "high",
           "checked_at": "2026-08-01T17:17:27+02:00",
-          "supports": ["date"]
+          "supports": [
+            "date"
+          ]
         },
         {
           "url": "https://musees-nationaux-alpesmaritimes.fr/fleger/informations-pratiques",
@@ -1282,7 +1490,9 @@
           "type": "official_museum",
           "trust": "high",
           "checked_at": "2026-08-01T17:17:27+02:00",
-          "supports": ["price"]
+          "supports": [
+            "price"
+          ]
         }
       ],
       "tracking": {
@@ -1296,8 +1506,13 @@
       "id": "ogc-nice-vs-lorient-nice-2026-08-22",
       "title": "OGC Nice vs Lorient",
       "description": "Ligue 1 McDonald's, Matchday 1. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-08-22T20:45:00+02:00",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1333,7 +1548,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1343,7 +1562,13 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "time", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1357,8 +1582,13 @@
       "id": "ogc-nice-vs-le-mans-nice-2026-09-05",
       "title": "OGC Nice vs Le Mans",
       "description": "Ligue 1 McDonald's, Matchday 3. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-09-05T20:45:00+02:00",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1394,7 +1624,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1404,7 +1638,13 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "time", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1418,8 +1658,13 @@
       "id": "ogc-nice-vs-lille-nice-2026-09-19",
       "title": "OGC Nice vs Lille",
       "description": "Ligue 1 McDonald's, Matchday 5. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-09-19",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1455,7 +1700,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1465,7 +1714,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1479,8 +1733,13 @@
       "id": "ogc-nice-vs-strasbourg-nice-2026-10-10",
       "title": "OGC Nice vs Strasbourg",
       "description": "Ligue 1 McDonald's, Matchday 6. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-10-10",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1516,7 +1775,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1526,7 +1789,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1540,8 +1808,13 @@
       "id": "ogc-nice-vs-rennes-nice-2026-10-31",
       "title": "OGC Nice vs Rennes",
       "description": "Ligue 1 McDonald's, Matchday 9. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-10-31",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1577,7 +1850,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1587,7 +1864,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1601,8 +1883,13 @@
       "id": "ogc-nice-vs-paris-sg-nice-2026-11-21",
       "title": "OGC Nice vs Paris SG",
       "description": "Ligue 1 McDonald's, Matchday 11. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-11-21",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1638,7 +1925,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1648,7 +1939,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1662,8 +1958,13 @@
       "id": "ogc-nice-vs-troyes-nice-2026-11-28",
       "title": "OGC Nice vs Troyes",
       "description": "Ligue 1 McDonald's, Matchday 12. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-11-28",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1699,7 +2000,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1709,7 +2014,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1723,8 +2033,13 @@
       "id": "ogc-nice-vs-lens-nice-2026-12-12",
       "title": "OGC Nice vs Lens",
       "description": "Ligue 1 McDonald's, Matchday 14. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2026-12-12",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1760,7 +2075,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1770,7 +2089,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1784,8 +2108,13 @@
       "id": "ogc-nice-vs-le-havre-nice-2027-01-16",
       "title": "OGC Nice vs Le Havre",
       "description": "Ligue 1 McDonald's, Matchday 16. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-01-16",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1821,7 +2150,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1831,7 +2164,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1845,8 +2183,13 @@
       "id": "ogc-nice-vs-brest-nice-2027-02-06",
       "title": "OGC Nice vs Brest",
       "description": "Ligue 1 McDonald's, Matchday 19. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-02-06",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1882,7 +2225,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1892,7 +2239,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1906,8 +2258,13 @@
       "id": "ogc-nice-vs-auxerre-nice-2027-02-20",
       "title": "OGC Nice vs Auxerre",
       "description": "Ligue 1 McDonald's, Matchday 21. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-02-20",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -1943,7 +2300,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -1953,7 +2314,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -1967,8 +2333,13 @@
       "id": "ogc-nice-vs-toulouse-nice-2027-03-13",
       "title": "OGC Nice vs Toulouse",
       "description": "Ligue 1 McDonald's, Matchday 24. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-03-13",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -2004,7 +2375,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -2014,7 +2389,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -2028,8 +2408,13 @@
       "id": "ogc-nice-vs-lyon-nice-2027-04-03",
       "title": "OGC Nice vs Lyon",
       "description": "Ligue 1 McDonald's, Matchday 26. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-04-03",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -2065,7 +2450,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -2075,7 +2464,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -2089,8 +2483,13 @@
       "id": "ogc-nice-vs-paris-fc-nice-2027-04-10",
       "title": "OGC Nice vs Paris FC",
       "description": "Ligue 1 McDonald's, Matchday 27. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-04-10",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -2126,7 +2525,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -2136,7 +2539,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -2150,8 +2558,13 @@
       "id": "ogc-nice-vs-angers-nice-2027-04-24",
       "title": "OGC Nice vs Angers",
       "description": "Ligue 1 McDonald's, Matchday 29. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-04-24",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -2187,7 +2600,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -2197,7 +2614,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -2211,8 +2633,13 @@
       "id": "ogc-nice-vs-marseille-nice-2027-05-08",
       "title": "OGC Nice vs Marseille",
       "description": "Ligue 1 McDonald's, Matchday 31. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-05-08",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -2248,7 +2675,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -2258,7 +2689,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -2272,8 +2708,13 @@
       "id": "ogc-nice-vs-monaco-nice-2027-05-22",
       "title": "OGC Nice vs Monaco",
       "description": "Ligue 1 McDonald's, Matchday 33. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
-      "categories": ["sports", "football"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "football"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-05-22",
       "end_at": null,
       "timezone": "Europe/Paris",
@@ -2309,7 +2750,11 @@
       "ranking": {
         "score": 36,
         "level": "must_go",
-        "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
+        "reasons": [
+          "Favourite team",
+          "OGC Nice home match at Allianz Riviera",
+          "Core travel zone"
+        ]
       },
       "status": "scheduled",
       "sources": [
@@ -2319,7 +2764,12 @@
           "type": "official_sports",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "status"
+          ]
         }
       ],
       "tracking": {
@@ -2333,8 +2783,13 @@
       "id": "rolex-monte-carlo-masters-2027-roquebrune-cap-martin-2027-04-03",
       "title": "Rolex Monte-Carlo Masters 2027",
       "description": "The official tournament announces the 2027 Rolex Monte-Carlo Masters from 3 to 11 April, with general-public ticket sales opening on 15 October 2026.",
-      "categories": ["sports", "tennis"],
-      "tags": ["major_event"],
+      "categories": [
+        "sports",
+        "tennis"
+      ],
+      "tags": [
+        "major_event"
+      ],
       "start_at": "2027-04-03",
       "end_at": "2027-04-11",
       "timezone": "Europe/Paris",
@@ -2370,7 +2825,11 @@
       "ranking": {
         "score": 33,
         "level": "must_go",
-        "reasons": ["Nearby official tennis tournament", "ATP Masters 1000", "Extended travel zone"]
+        "reasons": [
+          "Nearby official tennis tournament",
+          "ATP Masters 1000",
+          "Extended travel zone"
+        ]
       },
       "status": "announced",
       "sources": [
@@ -2380,7 +2839,12 @@
           "type": "official_organizer",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "ticket_status", "ticket_url"]
+          "supports": [
+            "identity",
+            "date",
+            "ticket_status",
+            "ticket_url"
+          ]
         },
         {
           "url": "https://montecarlotennismasters.com/en/tournament/tournament-info/",
@@ -2388,7 +2852,10 @@
           "type": "official_organizer",
           "trust": "high",
           "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["venue", "city"]
+          "supports": [
+            "venue",
+            "city"
+          ]
         }
       ],
       "tracking": {
@@ -2402,7 +2869,9 @@
       "id": "etoiles-grandeur-nature-vence-2026-06-19",
       "title": "Étoiles grandeur nature",
       "description": "Public guided stargazing sessions at Col de Vence, using naked-eye observation and a telescope. The official listing says the programme is subject to suitable weather and observing conditions.",
-      "categories": ["astronomy"],
+      "categories": [
+        "astronomy"
+      ],
       "start_at": "2026-06-19",
       "end_at": "2026-09-11",
       "timezone": "Europe/Paris",
@@ -2417,7 +2886,9 @@
         "longitude": null
       },
       "language": {
-        "codes": ["fr"],
+        "codes": [
+          "fr"
+        ],
         "importance": "medium",
         "notes": "The official listing is in French; language of the activity is not otherwise specified."
       },
@@ -2475,7 +2946,10 @@
       "id": "journees-europeennes-du-patrimoine-2026-observatoire-de-la-cote-d-azur-mont-gros-nice-2026-09-19",
       "title": "Journées Européennes du Patrimoine 2026 – Observatoire de la Côte d’Azur, Mont-Gros",
       "description": "Public guided visits of the Grande Coupole and the restored historic library at the Observatoire de la Côte d’Azur’s Mont-Gros site. One-hour visits run on both days in scheduled slots.",
-      "categories": ["astronomy", "city_events"],
+      "categories": [
+        "astronomy",
+        "city_events"
+      ],
       "start_at": "2026-09-19",
       "end_at": "2026-09-20",
       "timezone": "Europe/Paris",
@@ -2490,7 +2964,9 @@
         "longitude": null
       },
       "language": {
-        "codes": ["fr"],
+        "codes": [
+          "fr"
+        ],
         "importance": "medium",
         "notes": "The official listing is in French; language of the visits is not otherwise specified."
       },
@@ -2525,13 +3001,240 @@
           "type": "other",
           "trust": "high",
           "checked_at": "2026-08-02T10:54:51+02:00",
-          "supports": ["identity", "date", "time", "venue", "description", "ticket_status"]
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "venue",
+            "description",
+            "ticket_status"
+          ]
         }
       ],
       "tracking": {
         "first_seen_at": "2026-08-02T10:54:51+02:00",
         "last_seen_at": "2026-08-02T10:54:51+02:00",
         "last_verified_at": "2026-08-02T10:54:51+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "merveilles-et-curiosites-du-palais-lascaris-nice-2026-02-13",
+      "title": "Merveilles et curiosités du Palais Lascaris",
+      "description": "Exhibition inspired by Renaissance cabinets of curiosities, bringing natural and human-made objects into an immersive display.",
+      "categories": [
+        "exhibitions",
+        "museums_and_art",
+        "unusual_experiences"
+      ],
+      "start_at": "2026-02-13",
+      "end_at": "2027-01-11",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Palais Lascaris",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 5,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Single published rate for the exhibition."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 25,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Current museum exhibition",
+          "Distinctive immersive history-and-art theme",
+          "Confirmed EUR 5 admission"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/evenement/merveilles-et-curiosites-du-palais-lascaris/",
+          "name": "Office de Tourisme Nice Côte d’Azur — Merveilles et curiosités du Palais Lascaris",
+          "type": "official_tourism",
+          "trust": "high",
+          "checked_at": "2026-08-03T13:30:45+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "description",
+            "price"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-03T13:30:45+02:00",
+        "last_seen_at": "2026-08-03T13:30:45+02:00",
+        "last_verified_at": "2026-08-03T13:30:45+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "henri-matisse-yves-saint-laurent-le-beau-la-mode-et-le-bonheur-nice-2026-06-17",
+      "title": "Henri Matisse – Yves Saint Laurent. Le beau, la mode et le bonheur",
+      "description": "Major exhibition by the Musée Matisse Nice and Musée Yves Saint Laurent Paris, presenting 160 works around the relationship between the two creators.",
+      "categories": [
+        "exhibitions",
+        "museums_and_art"
+      ],
+      "start_at": "2026-06-17",
+      "end_at": "2026-09-28",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Musée Matisse",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 12,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Published full rate."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 28,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Current major museum exhibition",
+          "Confirmed price within preferred budget"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/evenement/henri-matisse-yves-saint-laurent-le-beau-la-mode-et-le-bonheur/",
+          "name": "Office de Tourisme Nice Côte d’Azur — Henri Matisse – Yves Saint Laurent. Le beau, la mode et le bonheur",
+          "type": "official_tourism",
+          "trust": "high",
+          "checked_at": "2026-08-03T13:30:45+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "description",
+            "price"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-03T13:30:45+02:00",
+        "last_seen_at": "2026-08-03T13:30:45+02:00",
+        "last_verified_at": "2026-08-03T13:30:45+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "de-la-scene-a-la-toile-artistes-et-mondaines-de-la-belle-epoque-nice-2026-06-19",
+      "title": "De la scène à la toile. Artistes et mondaines de la Belle Époque",
+      "description": "A new display at the Musée des Beaux-Arts Jules Chéret on Nice’s Belle Époque artists, performers and social figures.",
+      "categories": [
+        "exhibitions",
+        "museums_and_art"
+      ],
+      "start_at": "2026-06-19",
+      "end_at": "2027-04-04",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Musée des Beaux-Arts Jules Chéret",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "No admission price is stated on the checked listing."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 22,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Current museum exhibition",
+          "Long-running cultural exhibition"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/evenement/de-la-scene-a-la-toile-artistes-et-mondaines-de-la-belle-epoque/",
+          "name": "Office de Tourisme Nice Côte d’Azur — De la scène à la toile. Artistes et mondaines de la Belle Époque",
+          "type": "official_tourism",
+          "trust": "high",
+          "checked_at": "2026-08-03T13:30:45+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "venue",
+            "description"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-03T13:30:45+02:00",
+        "last_seen_at": "2026-08-03T13:30:45+02:00",
+        "last_verified_at": "2026-08-03T13:30:45+02:00",
         "content_hash": null
       }
     }

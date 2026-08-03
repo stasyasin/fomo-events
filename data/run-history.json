@@ -130,6 +130,39 @@
         "reports/daily/2026-08-02.md"
       ],
       "summary": "Daily scan checked all 11 enabled official sources, added two individually verified astronomy-related public events, and found no material change to selected existing records."
+    },
+    {
+      "id": "daily-2026-08-03-1330",
+      "mode": "daily",
+      "started_at": "2026-08-03T13:30:45+02:00",
+      "ended_at": "2026-08-03T13:33:02+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 12,
+      "search_queries": 0,
+      "candidate_events_found": 3,
+      "new_events": 3,
+      "updated_events": 1,
+      "possible_duplicates": 0,
+      "rejected_candidates": 2,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "The Ville de Nice agenda returned an internal error in this environment, so no listing was inferred from it.",
+        "The configured Observatoire and IMCCE pages were available only from stale crawls; no new astronomy fact was added from them.",
+        "Pathé exposes special-programme titles but the checked individual pages did not confirm a dated, Nice-specific session, so no cinema record was added.",
+        "PREFERENCES.md names Vallauris as a destination, but Vallauris is absent from preferences.yaml zones. YAML remains authoritative until the profile is synchronised."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-03.md"
+      ],
+      "summary": "Daily scan checked all 12 enabled official sources, added three individually verified current Nice museum exhibitions, and archived one past dated record; selected existing records had no material change."
     }
   ]
 }

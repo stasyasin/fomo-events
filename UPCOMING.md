@@ -14,6 +14,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Vikings : L'Odyssée jusqu'aux confins du monde – Cités Immersives](https://www.explorenicecotedazur.com/evenement/vikings-lodyssee-jusquaux-confins-du-monde-cites-immersives/)
 - **Last verified:** 2026-08-01T02:33:12+02:00
 
+## Merveilles et curiosités du Palais Lascaris
+
+- **When:** 2026-02-13
+- **Where:** Palais Lascaris, Nice
+- **Categories:** exhibitions, museums_and_art, unusual_experiences
+- **Price:** EUR 5
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Current museum exhibition; Distinctive immersive history-and-art theme; Confirmed EUR 5 admission
+- **Source:** [Office de Tourisme Nice Côte d’Azur — Merveilles et curiosités du Palais Lascaris](https://www.explorenicecotedazur.com/evenement/merveilles-et-curiosites-du-palais-lascaris/)
+- **Last verified:** 2026-08-03T13:30:45+02:00
+
 ## Chagall à l'oeuvre. Un prêt d'exception au musée
 
 - **When:** 2026-05-23
@@ -37,6 +49,30 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** strong_match — Extended travel zone; Current museum exhibition; Price within preferred budget
 - **Source:** [Musée national Fernand Léger — Léger et La Création du monde. Un ballet d'avant-garde](https://musees-nationaux-alpesmaritimes.fr/fleger/agenda/evenement/leger-et-la-creation-du-monde-un-ballet-davant-garde)
 - **Last verified:** 2026-08-01T17:17:27+02:00
+
+## Henri Matisse – Yves Saint Laurent. Le beau, la mode et le bonheur
+
+- **When:** 2026-06-17
+- **Where:** Musée Matisse, Nice
+- **Categories:** exhibitions, museums_and_art
+- **Price:** EUR 12
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Current major museum exhibition; Confirmed price within preferred budget
+- **Source:** [Office de Tourisme Nice Côte d’Azur — Henri Matisse – Yves Saint Laurent. Le beau, la mode et le bonheur](https://www.explorenicecotedazur.com/evenement/henri-matisse-yves-saint-laurent-le-beau-la-mode-et-le-bonheur/)
+- **Last verified:** 2026-08-03T13:30:45+02:00
+
+## De la scène à la toile. Artistes et mondaines de la Belle Époque
+
+- **When:** 2026-06-19
+- **Where:** Musée des Beaux-Arts Jules Chéret, Nice
+- **Categories:** exhibitions, museums_and_art
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Current museum exhibition; Long-running cultural exhibition
+- **Source:** [Office de Tourisme Nice Côte d’Azur — De la scène à la toile. Artistes et mondaines de la Belle Époque](https://www.explorenicecotedazur.com/evenement/de-la-scene-a-la-toile-artistes-et-mondaines-de-la-belle-epoque/)
+- **Last verified:** 2026-08-03T13:30:45+02:00
 
 ## Étoiles grandeur nature
 
@@ -121,7 +157,6 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-08-01T19:44:06+02:00
-
 ## Flash Barrandov Special Effects (République Tchèque)
 
 - **When:** 2026-08-24 22:00 GMT+2

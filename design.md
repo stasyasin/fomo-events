@@ -1,142 +1,135 @@
-# FOMO Côte d’Azur — visual system
+# FOMO Côte d’Azur — design language
 
-This document captures the design language of the current
-`sample_to_extract_designmd.html` and the deliberate FOMO adaptation. It is a
-design reference only: no source branding, copy, imagery, scripts, or menus are
-copied into this project.
+This document is the visual source of truth for the public event radar. It is an
+adaptation of the UI language in `sample_again.html`, not a copy of that file’s
+content, branding, imagery, third-party scripts, or markup.
 
-## Direction
+## Direction: Riviera daybook
 
-**Midnight atelier.** FOMO should feel like a considered cultural journal for a
-night on the Côte d’Azur: spacious, quiet, editorial, and a little cinematic.
-The event data is the subject. Warm gold is used as a small signpost, never as a
-signal of an event’s importance or availability.
+The site should feel like a well-made local guide read in a sunlit café: calm,
+editorial, warm and useful. It is deliberately light, with generous breathing
+room, fine brown rules, confident serif headlines and quiet sans-serif details.
+Terracotta is an accent for actions and selected states, never a full-page
+background. Information remains the focus; the interface must not imitate a
+restaurant menu or rely on decorative photography.
 
-## Extracted reference system
+## Typography
 
-| Area                 | Reference value or pattern                                                        |
-| -------------------- | --------------------------------------------------------------------------------- |
-| Body font            | `Jost`, weights 300, 400, 500                                                     |
-| Display font         | `Cormorant Garamond`, weights 300, 400, 500; italic 300 and 400                   |
-| Page base            | `#0A0A0A`, with close alternates `#080808` and `#0D0D0D`                          |
-| Surface              | `#171717` or `rgba(23, 23, 23, 0.2–0.4)`                                          |
-| Accent               | `#C5A059` gold; hover `#D6B472`                                                   |
-| Hairline borders     | `#171717`, `#262626`, `#404040`; 1 px throughout                                  |
-| Text                 | headline `#FAFAFA`; supporting `#D4D4D4`, `#A3A3A3`, `#737373`                    |
-| Shape language       | Square, framed, and almost unrounded; circular forms are reserved for icons       |
-| Hero display type    | 3 rem mobile, 4.5 rem tablet, 6 rem desktop; `0.9` line-height and tight tracking |
-| Section display type | 1.875 rem mobile / 3 rem desktop, normal weight, tight tracking                   |
-| UI labels            | 0.75 rem, uppercase, `0.1–0.3em` letter-spacing, medium weight                    |
-| Rhythm               | 8 px base: 8, 16, 24, 32, 48, 64, 96, 128 px                                      |
-| Content width        | 87.5 rem / 1400 px; 24 px mobile and 48 px desktop gutters                        |
+| Role               | Family                             | Weight / treatment                        | Use                                                  |
+| ------------------ | ---------------------------------- | ----------------------------------------- | ---------------------------------------------------- |
+| Display            | `Playfair Display`, Georgia, serif | 400–500; italic only for a short emphasis | Masthead, section and event titles                   |
+| Interface and body | `Manrope`, system-ui, sans-serif   | 300–500                                   | Navigation, filters, metadata, body copy and buttons |
+| Small labels       | `Manrope`, system-ui, sans-serif   | 500; uppercase; `0.12em` tracking         | Eyebrows, form labels and status captions            |
 
-## Extracted interaction language
+Use fluid scales rather than fixed desktop-only sizes. The masthead title may
+reach `6rem` on large screens, while section headings live around `2.25rem` and
+event names around `1.75rem`. Keep normal reading copy relaxed (`1rem`–`1.0625rem`)
+with a line height near 1.65.
 
-- Header and controls use colour/border transitions of 150–300 ms with a soft
-  ease-out curve.
-- Framed cards brighten their border toward gold over 500 ms. Their nested icon
-  circles scale to 110%.
-- Editorial imagery uses a 5% scale and opacity increase over 700 ms. FOMO does
-  not add unverified stock or event images; its cards use the same restrained
-  border-and-shadow lift instead.
-- Primary actions are flat gold rectangles that brighten to `#D6B472` on hover.
-  Secondary actions stay transparent and invert to warm white on hover.
-- Text links shift from neutral to gold; the adjacent 2 rem rule shifts at the
-  same time.
-- The example changes its translucent fixed header from 80% to 95% black after
-  50 px of scrolling. FOMO uses a stable opaque reading surface rather than
-  adding scroll JavaScript to the data view.
+## Colour tokens
 
-## Motion and background
+| Token           | Value                 | Purpose                                          |
+| --------------- | --------------------- | ------------------------------------------------ |
+| `--paper`       | `#FDFCF8`             | Main page background                             |
+| `--paper-warm`  | `#F6F0E7`             | Quiet section and date surfaces                  |
+| `--surface`     | `#FFFEFB`             | Cards, panels and floating controls              |
+| `--ink`         | `#3E2723`             | Headlines, primary buttons and strong text       |
+| `--ink-soft`    | `#5D4037`             | Body text and hover tone for dark buttons        |
+| `--muted`       | `#8D6E63`             | Supporting copy and labels                       |
+| `--accent`      | `#D84315`             | Active controls, links, focus and small emphasis |
+| `--accent-deep` | `#BF360C`             | Accent hover state                               |
+| `--latte`       | `#BCAAA4`             | Text selection and subdued decorative detail     |
+| `--line`        | `rgb(62 39 35 / 10%)` | Standard dividers and borders                    |
+| `--line-quiet`  | `rgb(62 39 35 / 6%)`  | Low-contrast separators                          |
 
-The reference is photo-led: large restaurant images get dark gradient overlays,
-subtle scale treatment, and a small bouncing “discover” affordance.
+Selected text uses a `--latte` background with white text. Never use low-contrast
+cream text on white controls; every filter option and action must remain clearly
+readable in its native browser state.
 
-FOMO mirrors its atmosphere without importing external photographs:
+## Layout and surfaces
 
-- a fixed, CSS-only midnight gradient supplies a warm lamp-like glow;
-- two large, low-contrast framed shapes create depth behind the hero;
-- the glow drifts slowly using only `transform` and `opacity`;
-- all animation and hover transforms stop under `prefers-reduced-motion`.
+- The content column is capped at `80rem` with responsive side gutters of
+  `1.25rem`–`3rem`.
+- The masthead is an airy editorial introduction, not a dark full-screen hero.
+  It uses a lightly translucent warm surface, a subtle bottom rule and a soft
+  daylight wash in the background.
+- Cards are warm-white, bordered with `--line-quiet`, and use an `1.25rem` to
+  `1.75rem` radius. Panels can be a little rounder (`2rem`); do not round every
+  internal row.
+- Use thin, brown hairline rules to create hierarchy. Shadow is restrained:
+  a low, warm lift on hover only.
+- On desktop, filters occupy a readable left column and remain vertically
+  scrollable inside the viewport. They must never create a horizontal scrollbar.
+- On small screens, filters begin collapsed and expand on demand. The event list
+  always remains usable without opening them.
 
-There is no canvas, stock photography, parallax plugin, analytics, or third-party
-script dependency.
+## Components
 
-## FOMO token set
+### Navigation and language switcher
 
-```css
---midnight: #0a0a0a;
---midnight-deep: #080808;
---midnight-soft: #0d0d0d;
---surface: #171717;
---surface-quiet: rgba(23, 23, 23, 0.34);
---gold: #c5a059;
---gold-hover: #d6b472;
---ink: #fafafa;
---ink-soft: #d4d4d4;
---muted: #a3a3a3;
---quiet: #737373;
---line: #262626;
---line-strong: #404040;
---focus: #f0d08b;
-```
+The header is sticky with a translucent `--paper` backdrop and a soft blur. The
+language control is a compact outlined pill; its active option is `--ink` with
+light text. The repository link is understated text with a fine underline or
+accent underline on hover.
 
-The accent stays at the reference’s exact gold. It is intentionally visual only:
-ranking, ticket status, price, and freshness continue to have their own text and
-badge treatment.
+### Quick views and buttons
 
-## Component rules
+Quick views are horizontally scrollable pills on narrow screens, without a
+visible heavy scrollbar. Inactive pills use a warm surface and fine border;
+their active state is dark brown with light text. Primary event actions are
+full-round brown buttons. Secondary actions are outlined, light pills. Both use
+clear keyboard focus and should never depend on colour alone.
 
-### Masthead
+### Filters and custom menus
 
-- The first viewport is an editorial cover: a serif `FOMO Côte d’Azur` title,
-  centred-leaning composition, and broad negative space.
-- A small uppercase gold eyebrow is flanked by rules. Language and GitHub actions
-  remain visible as utility controls at the top of the cover.
-- The lede and the data timestamp use light Jost with subdued neutral text.
-
-### Quick views and filters
-
-- Quick views are thin, square outlined controls. The active view uses gold fill
-  with dark type.
-- The filter rail is a framed, low-contrast panel with concise uppercase labels.
-- Inputs are transparent with one clear border. Focus gains a gold border and
-  an accessible `--focus` outline.
+The filter panel is a warm, paper-like card with a serif heading and understated
+uppercase labels. Inputs have a single calm field surface and a `1rem` radius.
+Custom option menus are solid light surfaces with dark text, a clear selected
+row, and a bounded vertical scroll area. They must open above nearby content,
+not be clipped by the panel, and never cause horizontal overflow.
 
 ### Event cards
 
-- Cards are editorial rows with a calm date rail, 1 px border, and generous
-  interior spacing.
-- Titles use Cormorant Garamond; factual metadata stays in Jost for scanning.
-- Hover lifts the card by 2 px, warms its border, and slightly brightens the
-  surface. Nothing required to understand an event is hidden on hover.
-- `must_go` has a gold date-rim rather than a louder colour field.
+An event card has a soft date block, restrained ranking/free badges, a strong
+serif title, practical metadata and straightforward actions. Hovering can lift
+the card by a few pixels and strengthen the border/shadow. `must go` events may
+receive a terracotta edge or badge, but all ranking levels stay equally legible.
 
-### Buttons, links, and focus
+### Empty states and run history
 
-- Primary actions are gold rectangles; secondary actions are transparent outlined
-  rectangles. Buttons remain at least 44 px high on touch devices.
-- Links use neutral text by default, gold on hover, and retain an underline or
-  border treatment where needed.
-- Keyboard focus always uses a visible warm-gold outline; colour alone is never
-  the sole state indicator.
+Use the same warm surface and editorial hierarchy. Avoid neon icons, heavy
+gradients, faux terminal language and excess decoration. Warnings should be
+visibly distinct but calm: a pale terracotta wash and text, not a bright alert.
+
+## Motion and interaction
+
+The reference relies primarily on stillness. FOMO adds only small functional
+motion:
+
+- Page content may fade upward once on load (`180–360ms`).
+- Buttons, links, pills, menu options and cards transition colour, border,
+  shadow and a small transform over `150–220ms ease-out`.
+- No looping background animation, parallax, flashing, automatic carousels or
+  ornamental motion.
+- Under `prefers-reduced-motion: reduce`, disable all non-essential animation
+  and smooth scrolling.
 
 ## Responsive and accessibility rules
 
-- The cover retains a minimum 600 px height but scales type with `clamp()` so it
-  never overwhelms narrow screens.
-- Filters sit above results on small screens and become a sticky left rail at
-  70 rem and above.
-- Event date rails stack above content below 42 rem.
-- Motion is removed for reduced-motion users.
-- Decoration is `aria-hidden` and ignores pointer events.
-- The dark palette must keep readable contrast for text, borders, and controls.
+- Preserve a 44px minimum target for touch actions where practical.
+- Use visible `:focus-visible` outlines in `--accent`.
+- Keep body text and form values at a contrast level suitable for long reading.
+- Do not hide essential labels behind hover states.
+- Cards may become single-column below `42rem`; date, status and actions must
+  remain readable in that order.
+- Do not use external UI kits merely to style native controls. The custom menu
+  implementation should remain lightweight, accessible and consistent with
+  this document.
 
 ## Non-goals
 
-- Do not add the restaurant’s photos, name, logo, navigation, testimonials,
-  reservation UI, icon library, Tailwind CDN, or its runtime scripts.
-- Do not introduce fake event imagery or make a visual accent imply an event is
-  verified, free, on sale, or high ranking.
-- Do not replace FOMO’s filtering, calendar export, public-data safeguards, or
-  Ukrainian/English language switcher.
+- Do not copy restaurant content, food imagery, site identity, analytics,
+  scripts or third-party dependencies from `sample_again.html`.
+- Do not put operational or canonical event logic in the visual layer.
+- Do not turn the public radar into a dashboard, a dark terminal, or a heavily
+  animated landing page.
