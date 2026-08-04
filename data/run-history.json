@@ -191,6 +191,39 @@
         "reports/daily/2026-08-03.md"
       ],
       "summary": "Focused astronomy evidence check added the 12 August 2026 deep partial solar eclipse visible from Nice, using current local circumstances from the Association Française d’Astronomie and IMCCE."
+    },
+    {
+      "id": "daily-2026-08-04-1330",
+      "mode": "daily",
+      "started_at": "2026-08-04T13:30:45+02:00",
+      "ended_at": "2026-08-04T13:34:21+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 13,
+      "search_queries": 3,
+      "candidate_events_found": 3,
+      "new_events": 3,
+      "updated_events": 1,
+      "possible_duplicates": 0,
+      "rejected_candidates": 2,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "The configured Observatoire page was available only as a three-week-old crawl; no new observatory event was inferred from it.",
+        "The configured IMCCE page is historical and does not independently establish new 2026 local circumstances; the current AFA / Éclipse Info dossier supplied the refreshed Nice evidence.",
+        "Pathé did not establish a dated, venue-specific cinema highlight suitable for a concise record.",
+        "PREFERENCES.md names Vallauris as a destination, but Vallauris is absent from preferences.yaml zones. YAML remains authoritative until the profile is synchronised."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-04.md"
+      ],
+      "summary": "Daily scan checked all 13 enabled official sources, added three individually verified Opéra Nice classical-music listings, and refreshed local evidence for the 12 August partial solar eclipse visible from Nice; selected existing records had no material changes."
     }
   ]
 }

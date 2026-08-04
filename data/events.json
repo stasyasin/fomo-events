@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-03T13:59:49+02:00",
+  "generated_at": "2026-08-04T13:30:45+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -2782,7 +2782,7 @@
           "name": "Association Française d’Astronomie — Éclipse Info: circumstances for Nice",
           "type": "other",
           "trust": "high",
-          "checked_at": "2026-08-03T13:59:49+02:00",
+          "checked_at": "2026-08-04T13:30:45+02:00",
           "supports": ["identity", "date", "time", "city", "description"]
         },
         {
@@ -2790,14 +2790,206 @@
           "name": "IMCCE — 2026 solar eclipse visibility in metropolitan France",
           "type": "other",
           "trust": "high",
-          "checked_at": "2026-08-03T13:59:49+02:00",
+          "checked_at": "2026-08-04T13:30:45+02:00",
           "supports": ["identity", "date", "description"]
         }
       ],
       "tracking": {
         "first_seen_at": "2026-08-03T13:59:49+02:00",
-        "last_seen_at": "2026-08-03T13:59:49+02:00",
-        "last_verified_at": "2026-08-03T13:59:49+02:00",
+        "last_seen_at": "2026-08-04T13:30:45+02:00",
+        "last_verified_at": "2026-08-04T13:30:45+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "60-minutes-de-violoncelle-nice-2026-10-03",
+      "title": "60 minutes de violoncelle",
+      "description": "Carte blanche for the Octuor de violoncelles de l'Orchestre Philharmonique de Nice.",
+      "categories": ["classical_music"],
+      "tags": [],
+      "start_at": "2026-10-03T18:00:00+02:00",
+      "end_at": null,
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Opéra Nice Côte d’Azur",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 10,
+        "maximum": 20,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "The official agenda lists prices from EUR 10 to EUR 20."
+      },
+      "ticketing": {
+        "status": "available",
+        "official_url": "https://www.opera-nice.org/agenda/",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 22,
+        "level": "strong_match",
+        "reasons": ["Classical music", "Core travel zone", "Official price listed"]
+      },
+      "status": "on_sale",
+      "timezone": "Europe/Paris",
+      "sources": [
+        {
+          "url": "https://www.opera-nice.org/agenda/",
+          "name": "Opéra Nice Côte d’Azur — 60 minutes de violoncelle",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-04T13:30:45+02:00",
+          "supports": ["identity", "date", "time", "venue", "price", "ticket_status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-04T13:30:45+02:00",
+        "last_seen_at": "2026-08-04T13:30:45+02:00",
+        "last_verified_at": "2026-08-04T13:30:45+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "60-minutes-de-decouvertes-1-nice-2026-10-15",
+      "title": "60 minutes de découvertes #1",
+      "description": "The official Opéra Nice Côte d’Azur agenda lists this concert at the Musée national Marc Chagall.",
+      "categories": ["classical_music"],
+      "tags": [],
+      "start_at": "2026-10-15T20:00:00+02:00",
+      "end_at": null,
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Musée national Marc Chagall",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 10,
+        "maximum": 20,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "The official agenda lists prices from EUR 10 to EUR 20."
+      },
+      "ticketing": {
+        "status": "available",
+        "official_url": "https://www.opera-nice.org/agenda/",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 22,
+        "level": "strong_match",
+        "reasons": ["Classical music", "Core travel zone", "Distinctive museum concert setting"]
+      },
+      "status": "on_sale",
+      "timezone": "Europe/Paris",
+      "sources": [
+        {
+          "url": "https://www.opera-nice.org/agenda/",
+          "name": "Opéra Nice Côte d’Azur — 60 minutes de découvertes #1",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-04T13:30:45+02:00",
+          "supports": ["identity", "date", "time", "venue", "price", "ticket_status"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-04T13:30:45+02:00",
+        "last_seen_at": "2026-08-04T13:30:45+02:00",
+        "last_verified_at": "2026-08-04T13:30:45+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "mari-schumann-gershwin-ravel-nice-2026-11-27",
+      "title": "Mari / Schumann / Gershwin / Ravel",
+      "description": "Symphonic programme led by Lionel Bringuier with cellist Victor Julien-Laferrière and the Orchestre Philharmonique de Nice.",
+      "categories": ["classical_music"],
+      "tags": [],
+      "start_at": "2026-11-27",
+      "end_at": "2026-11-28",
+      "date_precision": "range",
+      "venue": {
+        "name": "Opéra Nice Côte d’Azur",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 10,
+        "maximum": 34,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "The official listing publishes prices from EUR 10 to EUR 34."
+      },
+      "ticketing": {
+        "status": "available",
+        "official_url": "https://www.opera-nice.org/agenda/mari-schumann-gershwin-ravel/",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 22,
+        "level": "strong_match",
+        "reasons": ["Classical music", "Core travel zone", "Official price listed"]
+      },
+      "status": "on_sale",
+      "timezone": "Europe/Paris",
+      "sources": [
+        {
+          "url": "https://www.opera-nice.org/agenda/mari-schumann-gershwin-ravel/",
+          "name": "Opéra Nice Côte d’Azur — Mari / Schumann / Gershwin / Ravel",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-04T13:30:45+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "venue",
+            "description",
+            "price",
+            "ticket_status",
+            "ticket_url"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-04T13:30:45+02:00",
+        "last_seen_at": "2026-08-04T13:30:45+02:00",
+        "last_verified_at": "2026-08-04T13:30:45+02:00",
         "content_hash": null
       }
     }

@@ -132,7 +132,7 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** unknown
 - **Ranking:** must_go — 95.1% local obscuration confirmed for Nice; High-priority locally visible astronomy; Rare deep partial solar eclipse with published local circumstances
 - **Source:** [Association Française d’Astronomie — Éclipse Info: circumstances for Nice](https://www.afastronomie.fr/media/default/0001/28/DP_ECLIPSEinfo-web-69f3.pdf)
-- **Last verified:** 2026-08-03T13:59:49+02:00
+- **Last verified:** 2026-08-04T13:30:45+02:00
 
 ## Joho Pyro Professional Fireworks AB (Finlande)
 
@@ -266,6 +266,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Un festival c'est trop court](https://www.explorenicecotedazur.com/evenement/un-festival-cest-trop-court/)
 - **Last verified:** 2026-08-01T02:33:12+02:00
 
+## 60 minutes de violoncelle
+
+- **When:** 2026-10-03 18:00 GMT+2
+- **Where:** Opéra Nice Côte d’Azur, Nice
+- **Categories:** classical_music
+- **Price:** EUR 10–20
+- **Language:** Language unknown
+- **Tickets:** available
+- **Ranking:** strong_match — Classical music; Core travel zone; Official price listed
+- **Source:** [Opéra Nice Côte d’Azur — 60 minutes de violoncelle](https://www.opera-nice.org/agenda/)
+- **Last verified:** 2026-08-04T13:30:45+02:00
+
 ## EVO FRANCE 2026
 
 - **When:** 2026-10-09
@@ -289,6 +301,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-08-01T19:44:06+02:00
+
+## 60 minutes de découvertes #1
+
+- **When:** 2026-10-15 20:00 GMT+2
+- **Where:** Musée national Marc Chagall, Nice
+- **Categories:** classical_music
+- **Price:** EUR 10–20
+- **Language:** Language unknown
+- **Tickets:** available
+- **Ranking:** strong_match — Classical music; Core travel zone; Distinctive museum concert setting
+- **Source:** [Opéra Nice Côte d’Azur — 60 minutes de découvertes #1](https://www.opera-nice.org/agenda/)
+- **Last verified:** 2026-08-04T13:30:45+02:00
 
 ## Jean-Christophe Maillot & Ioannis Mandafounis
 
@@ -361,6 +385,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-08-01T19:44:06+02:00
+
+## Mari / Schumann / Gershwin / Ravel
+
+- **When:** 2026-11-27
+- **Where:** Opéra Nice Côte d’Azur, Nice
+- **Categories:** classical_music
+- **Price:** EUR 10–34
+- **Language:** Language unknown
+- **Tickets:** available
+- **Ranking:** strong_match — Classical music; Core travel zone; Official price listed
+- **Source:** [Opéra Nice Côte d’Azur — Mari / Schumann / Gershwin / Ravel](https://www.opera-nice.org/agenda/mari-schumann-gershwin-ravel/)
+- **Last verified:** 2026-08-04T13:30:45+02:00
 
 ## OGC Nice vs Troyes
 
