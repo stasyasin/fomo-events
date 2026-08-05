@@ -224,6 +224,39 @@
         "reports/daily/2026-08-04.md"
       ],
       "summary": "Daily scan checked all 13 enabled official sources, added three individually verified Opéra Nice classical-music listings, and refreshed local evidence for the 12 August partial solar eclipse visible from Nice; selected existing records had no material changes."
+    },
+    {
+      "id": "daily-2026-08-05-1550",
+      "mode": "daily",
+      "started_at": "2026-08-05T15:42:00+02:00",
+      "ended_at": "2026-08-05T15:50:18+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 13,
+      "search_queries": 0,
+      "candidate_events_found": 0,
+      "new_events": 0,
+      "updated_events": 1,
+      "possible_duplicates": 0,
+      "rejected_candidates": 2,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "The Ville de Nice agenda returned no usable listing content and the Cannes agenda landing page returned an internal error; only individually accessible official Cannes listings were used for rechecks.",
+        "The configured Observatoire and IMCCE landing pages did not provide fresh current-programme or 2026 local-circumstances evidence; no new astronomy fact was inferred from them. The current AFA / Éclipse Info dossier was rechecked for the existing Nice partial-eclipse record.",
+        "Pathé lists special-programme titles, but no checked individual page established a dated, venue-specific Nice cinema highlight suitable for the concise monthly shortlist.",
+        "PREFERENCES.md names Vallauris as a destination, but Vallauris is absent from preferences.yaml zones. YAML remains authoritative until the profile is synchronised."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-05.md"
+      ],
+      "summary": "Daily scan checked all 13 enabled official sources, found no new individually verified high-signal event or material availability change, and archived the past 4 August Cannes fireworks record."
     }
   ]
 }

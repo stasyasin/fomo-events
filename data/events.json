@@ -978,7 +978,7 @@
         "level": "must_go",
         "reasons": ["Extended travel zone", "Fireworks directly prioritised", "Free entry"]
       },
-      "status": "scheduled",
+      "status": "expired",
       "timezone": "Europe/Paris",
       "sources": [
         {
