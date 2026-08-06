@@ -291,6 +291,40 @@
         "reports/daily/2026-08-06.md"
       ],
       "summary": "Daily scan checked all 21 enabled official sources, added six individually verified high-signal event records, and refreshed current AFA / Éclipse Info local evidence for the 12 August partial solar eclipse visible from Nice; no material cancellation, sold-out status, or schedule change was found in the selected records."
+    },
+    {
+      "id": "daily-2026-08-06-1139",
+      "mode": "daily",
+      "started_at": "2026-08-06T11:14:00+02:00",
+      "ended_at": "2026-08-06T11:39:24+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 21,
+      "search_queries": 0,
+      "candidate_events_found": 5,
+      "new_events": 5,
+      "updated_events": 1,
+      "possible_duplicates": 0,
+      "rejected_candidates": 2,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "The configured Observatoire page was served from an older crawl and the configured IMCCE landing page was not current; no new record was inferred from them. Current AFA / Éclipse Info sources reverified the existing Nice partial-eclipse record.",
+        "Pathé Nice returned an internal error in this environment, so no dated, venue-specific cinema highlight was inferred from it.",
+        "The Cannes agenda relies on JavaScript for its full listing; existing future fireworks records were rechecked separately where accessible, and no unverified listing was added.",
+        "PREFERENCES.md names Vallauris as a travel destination, but Vallauris is absent from preferences.yaml zones. YAML remains authoritative until the profile is synchronised.",
+        "À Deux Sous les Étoiles costs EUR 250 per person, exceeding the configured hard maximum; it is retained only as an exceptional, clearly labelled fit."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-06.md"
+      ],
+      "summary": "Daily scan checked all 21 enabled official sources, added five individually verified high-signal records, refreshed the AFA / Éclipse Info local evidence for the 12 August partial solar eclipse visible from Nice, and found no material cancellation, sold-out status or schedule change in selected existing records."
     }
   ]
 }

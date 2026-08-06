@@ -134,6 +134,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Festival Saint Jazz Cap Ferrat – 14ème édition](https://www.explorenicecotedazur.com/evenement/festival-saint-jazz-cap-ferrat-14eme-edition/)
 - **Last verified:** 2026-08-01T17:17:27+02:00
 
+## Tour de France Femmes 2026 – final stages in Nice
+
+- **When:** 2026-08-08
+- **Where:** Promenade des Anglais and Jardin Albert 1er, Nice
+- **Categories:** sports, city_events, outdoor
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** must_go — Major international sporting finale in the core zone; Free official Fan Zone on 9 August; Outdoor programme on the Promenade des Anglais
+- **Source:** [Ville de Nice — Arrivée du Tour de France Femmes à Nice](https://www.nice.fr/agenda/arrivee-du-tour-de-france-femmes-a-nice/)
+- **Last verified:** 2026-08-06T11:37:22+02:00
+
 ## Partial solar eclipse visible from Nice
 
 - **When:** 2026-08-12 19:31 GMT+2
@@ -144,7 +156,19 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** unknown
 - **Ranking:** must_go — 95.1% local obscuration confirmed for Nice; High-priority locally visible astronomy; Rare deep partial solar eclipse with published local circumstances
 - **Source:** [Association Française d’Astronomie — Éclipse Info: circumstances for Nice](https://www.afastronomie.fr/media/default/0001/28/DP_ECLIPSEinfo-web-69f3.pdf)
-- **Last verified:** 2026-08-06T10:08:15+02:00
+- **Last verified:** 2026-08-06T11:37:22+02:00
+
+## La Farandole – spectacle d’ouverture
+
+- **When:** 2026-08-13 18:00 GMT+2
+- **Where:** Place Saint-François, Nice
+- **Categories:** festivals, city_events, free_events, outdoor
+- **Price:** Free (confirmed)
+- **Language:** Language unknown
+- **Tickets:** free_entry
+- **Ranking:** must_go — Core travel zone; Free outdoor festival opening; International music-and-dance programme
+- **Source:** [Ville de Nice — La Farandole, Festival International de Folklore de Nice](https://www.nice.fr/la-farandole-festival-international-de-folklore-de-nice/)
+- **Last verified:** 2026-08-06T11:37:22+02:00
 
 ## Joho Pyro Professional Fireworks AB (Finlande)
 
@@ -158,6 +182,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Mairie de Cannes — Joho Pyro Professional Fireworks AB (Finlande)](https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/joho-pyro-professional-fireworks-ab-finlande.html)
 - **Last verified:** 2026-08-01T17:17:27+02:00
 
+## À Deux Sous les Étoiles
+
+- **When:** 2026-08-19 20:00 GMT+2
+- **Where:** Villa et Jardins Ephrussi de Rothschild, Saint-Jean-Cap-Ferrat
+- **Categories:** food_and_wine, outdoor, unusual_experiences
+- **Price:** EUR 250
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Distinctive garden dinner with public star observation; Core travel zone; Price exceeds the profile hard maximum; included only as an exceptional fit
+- **Source:** [Villa et Jardins Ephrussi de Rothschild — À Deux Sous les Étoiles](https://www.villa-ephrussi.com/fr/deux-sous-etoiles)
+- **Last verified:** 2026-08-06T11:37:22+02:00
+
 ## Championnat du monde de boules carrées
 
 - **When:** 2026-08-22
@@ -169,6 +205,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** maybe — Admission details need clarification; Core travel zone; Unusual local sports event
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Championnat du monde de boules carrées](https://www.explorenicecotedazur.com/evenement/championnat-du-monde-de-boules-carrees/)
 - **Last verified:** 2026-08-01T02:33:12+02:00
+
+## Mamma Mia! – open-air screening
+
+- **When:** 2026-08-22 20:00 GMT+2
+- **Where:** Place et jardin Arson, Nice
+- **Categories:** cinema, cinema_highlights, free_events, outdoor
+- **Price:** Free (confirmed)
+- **Language:** Language unknown
+- **Tickets:** free_entry
+- **Ranking:** strong_match — Official municipal open-air cinema selection; Core travel zone; Free evening screening in a garden setting
+- **Source:** [Ville de Nice — Mon été Cinéma](https://www.nice.fr/mon-ete-cinema/)
+- **Last verified:** 2026-08-06T11:37:22+02:00
 
 ## OGC Nice vs Lorient
 
@@ -205,6 +253,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-08-01T19:44:06+02:00
+
+## Comité de lecture 2026
+
+- **When:** 2026-09-09
+- **Where:** Salle des Franciscains, Théâtre National de Nice, Nice
+- **Categories:** theatre, free_events
+- **Price:** Free (confirmed)
+- **Language:** fr
+- **Tickets:** unknown
+- **Ranking:** maybe — Core travel zone; Free public theatre readings; French language is material
+- **Source:** [Théâtre National de Nice — Comité de lecture 2026](https://www.tnn.fr/fr/evenements/comite-lecture-2026)
+- **Last verified:** 2026-08-06T11:37:22+02:00
 
 ## Brahms / Chostakovitch
 

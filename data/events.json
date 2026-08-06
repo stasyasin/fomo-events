@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-06T10:08:15+02:00",
+  "generated_at": "2026-08-06T11:37:22+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -2782,7 +2782,7 @@
           "name": "Association Française d’Astronomie — Éclipse Info: circumstances for Nice",
           "type": "other",
           "trust": "high",
-          "checked_at": "2026-08-06T10:08:15+02:00",
+          "checked_at": "2026-08-06T11:37:22+02:00",
           "supports": ["identity", "date", "time", "city", "description"]
         },
         {
@@ -2796,8 +2796,8 @@
       ],
       "tracking": {
         "first_seen_at": "2026-08-03T13:59:49+02:00",
-        "last_seen_at": "2026-08-06T10:08:15+02:00",
-        "last_verified_at": "2026-08-06T10:08:15+02:00",
+        "last_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_verified_at": "2026-08-06T11:37:22+02:00",
         "content_hash": null
       }
     },
@@ -3368,6 +3368,339 @@
         "first_seen_at": "2026-08-06T08:34:33+02:00",
         "last_seen_at": "2026-08-06T08:34:33+02:00",
         "last_verified_at": "2026-08-06T08:34:33+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "tour-de-france-femmes-2026-final-stages-in-nice-nice-2026-08-08",
+      "title": "Tour de France Femmes 2026 – final stages in Nice",
+      "description": "Nice hosts the final two stages: Sisteron to Nice on 8 August and Nice to Nice on 9 August. The city lists a free Fan Zone at Jardin Albert 1er on 9 August, with live coverage, activities, cycling shows and DJ sets.",
+      "categories": ["sports", "city_events", "outdoor"],
+      "tags": ["major_event"],
+      "start_at": "2026-08-08",
+      "end_at": "2026-08-09",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Promenade des Anglais and Jardin Albert 1er",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official listing confirms free entry for the 9 August Fan Zone; it does not state a general admission policy for the sporting stages."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 35,
+        "level": "must_go",
+        "reasons": [
+          "Major international sporting finale in the core zone",
+          "Free official Fan Zone on 9 August",
+          "Outdoor programme on the Promenade des Anglais"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.nice.fr/agenda/arrivee-du-tour-de-france-femmes-a-nice/",
+          "name": "Ville de Nice — Arrivée du Tour de France Femmes à Nice",
+          "type": "official_city",
+          "trust": "high",
+          "checked_at": "2026-08-06T11:37:22+02:00",
+          "supports": ["identity", "date", "time", "description", "venue", "free_entry"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_verified_at": "2026-08-06T11:37:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "la-farandole-opening-performance-nice-2026-08-13",
+      "title": "La Farandole – spectacle d’ouverture",
+      "description": "Free opening performance of Nice’s international folklore festival, preceded by music and dancing on the Parvis de l’Europe and a parade along the Promenade du Paillon. The performance begins at 19:30.",
+      "categories": ["festivals", "city_events", "free_events", "outdoor"],
+      "tags": [],
+      "start_at": "2026-08-13T18:00:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Place Saint-François",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "free_entry",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 34,
+        "level": "must_go",
+        "reasons": [
+          "Core travel zone",
+          "Free outdoor festival opening",
+          "International music-and-dance programme"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.nice.fr/la-farandole-festival-international-de-folklore-de-nice/",
+          "name": "Ville de Nice — La Farandole, Festival International de Folklore de Nice",
+          "type": "official_city",
+          "trust": "high",
+          "checked_at": "2026-08-06T11:37:22+02:00",
+          "supports": ["identity", "date", "time", "description", "venue", "free_entry"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_verified_at": "2026-08-06T11:37:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "mamma-mia-open-air-screening-nice-2026-08-22",
+      "title": "Mamma Mia! – open-air screening",
+      "description": "Free municipal open-air screening of the 2008 musical film at Place et jardin Arson.",
+      "categories": ["cinema", "cinema_highlights", "free_events", "outdoor"],
+      "tags": [],
+      "start_at": "2026-08-22T20:00:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Place et jardin Arson",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not state the screening language or subtitle version."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": "Entry is free within the limit of available places."
+      },
+      "ticketing": {
+        "status": "free_entry",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 27,
+        "level": "strong_match",
+        "reasons": [
+          "Official municipal open-air cinema selection",
+          "Core travel zone",
+          "Free evening screening in a garden setting"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.nice.fr/mon-ete-cinema/",
+          "name": "Ville de Nice — Mon été Cinéma",
+          "type": "official_city",
+          "trust": "high",
+          "checked_at": "2026-08-06T11:37:22+02:00",
+          "supports": ["identity", "date", "time", "description", "venue", "free_entry"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_verified_at": "2026-08-06T11:37:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "comite-de-lecture-2026-nice-2026-09-09",
+      "title": "Comité de lecture 2026",
+      "description": "The TNN troupe reads the texts selected by its Comité de lecture in public on three evenings; each reading starts at 19:30 and is free with reservation.",
+      "categories": ["theatre", "free_events"],
+      "tags": [],
+      "start_at": "2026-09-09",
+      "end_at": "2026-09-11",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Salle des Franciscains, Théâtre National de Nice",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": ["fr"],
+        "importance": "high",
+        "notes": "French-language public readings."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": "Free with reservation."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.tnn.fr/fr/evenements/comite-lecture-2026",
+        "sale_starts_at": null,
+        "reservation_required": true
+      },
+      "ranking": {
+        "score": 18,
+        "level": "maybe",
+        "reasons": [
+          "Core travel zone",
+          "Free public theatre readings",
+          "French language is material"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.tnn.fr/fr/evenements/comite-lecture-2026",
+          "name": "Théâtre National de Nice — Comité de lecture 2026",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-06T11:37:22+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "description",
+            "venue",
+            "free_entry",
+            "ticket_url"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_verified_at": "2026-08-06T11:37:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "a-deux-sous-les-etoiles-saint-jean-cap-ferrat-2026-08-19",
+      "title": "À Deux Sous les Étoiles",
+      "description": "A reservation-only full-moon dinner in the Villa Ephrussi gardens, with star observation through a telescope, a visit of the villa and gardens, and a sound-and-light show.",
+      "categories": ["food_and_wine", "outdoor", "unusual_experiences"],
+      "tags": [],
+      "start_at": "2026-08-19T20:00:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Villa et Jardins Ephrussi de Rothschild",
+        "city": "Saint-Jean-Cap-Ferrat",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official French page does not state the programme language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 250,
+        "maximum": 250,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "EUR 250 per person, all included."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.villa-ephrussi.com/fr/deux-sous-etoiles",
+        "sale_starts_at": null,
+        "reservation_required": true
+      },
+      "ranking": {
+        "score": 20,
+        "level": "strong_match",
+        "reasons": [
+          "Distinctive garden dinner with public star observation",
+          "Core travel zone",
+          "Price exceeds the profile hard maximum; included only as an exceptional fit"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.villa-ephrussi.com/fr/deux-sous-etoiles",
+          "name": "Villa et Jardins Ephrussi de Rothschild — À Deux Sous les Étoiles",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-06T11:37:22+02:00",
+          "supports": ["identity", "date", "time", "description", "venue", "price", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_seen_at": "2026-08-06T11:37:22+02:00",
+        "last_verified_at": "2026-08-06T11:37:22+02:00",
         "content_hash": null
       }
     }
