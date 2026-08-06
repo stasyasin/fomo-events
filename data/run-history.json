@@ -257,6 +257,39 @@
         "reports/daily/2026-08-05.md"
       ],
       "summary": "Daily scan checked all 13 enabled official sources, found no new individually verified high-signal event or material availability change, and archived the past 4 August Cannes fireworks record."
+    },
+    {
+      "id": "daily-2026-08-06-1008",
+      "mode": "daily",
+      "started_at": "2026-08-06T10:00:00+02:00",
+      "ended_at": "2026-08-06T10:08:15+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 13,
+      "search_queries": 0,
+      "candidate_events_found": 3,
+      "new_events": 1,
+      "updated_events": 1,
+      "possible_duplicates": 0,
+      "rejected_candidates": 2,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "The configured Observatoire and IMCCE landing pages were available only from older crawls; no new observatory programme or new 2026 local-circumstances fact was inferred from them.",
+        "Pathé’s reviewed special-programme pages did not establish a dated, venue-specific Nice session suitable for the concise cinema shortlist.",
+        "PREFERENCES.md names Vallauris as a travel destination, but Vallauris is absent from preferences.yaml zones. YAML remains authoritative until the profile is synchronised.",
+        "Face à face – Orlando has a confirmed free price, but the official listing does not state whether booking is required; ticket status remains unknown."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-06.md"
+      ],
+      "summary": "Daily scan checked all 13 enabled official sources, added one verified free Opéra Nice discussion, and refreshed current AFA / Éclipse Info local evidence for the 12 August partial solar eclipse visible from Nice; no material cancellation, sold-out status, or schedule change was found in the selected records."
     }
   ]
 }

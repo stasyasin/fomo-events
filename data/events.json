@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-04T13:30:45+02:00",
+  "generated_at": "2026-08-06T10:08:15+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -2782,7 +2782,7 @@
           "name": "Association Française d’Astronomie — Éclipse Info: circumstances for Nice",
           "type": "other",
           "trust": "high",
-          "checked_at": "2026-08-04T13:30:45+02:00",
+          "checked_at": "2026-08-06T10:08:15+02:00",
           "supports": ["identity", "date", "time", "city", "description"]
         },
         {
@@ -2796,8 +2796,8 @@
       ],
       "tracking": {
         "first_seen_at": "2026-08-03T13:59:49+02:00",
-        "last_seen_at": "2026-08-04T13:30:45+02:00",
-        "last_verified_at": "2026-08-04T13:30:45+02:00",
+        "last_seen_at": "2026-08-06T10:08:15+02:00",
+        "last_verified_at": "2026-08-06T10:08:15+02:00",
         "content_hash": null
       }
     },
@@ -2990,6 +2990,67 @@
         "first_seen_at": "2026-08-04T13:30:45+02:00",
         "last_seen_at": "2026-08-04T13:30:45+02:00",
         "last_verified_at": "2026-08-04T13:30:45+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "face-a-face-orlando-nice-2026-09-29",
+      "title": "Face à face – Orlando",
+      "description": "Public discussion with Jean-Christophe Spinosi (musical director) and Mariame Clément (stage director) before the Opéra Nice production of Handel’s Orlando.",
+      "categories": ["free_events", "opera_and_ballet"],
+      "tags": [],
+      "start_at": "2026-09-29T18:00:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Foyer Montserrat Caballé de l'Opéra",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not state the discussion language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 23,
+        "level": "strong_match",
+        "reasons": ["Core travel zone", "Free public discussion", "Opera and ballet priority"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.opera-nice.org/agenda/",
+          "name": "Opéra Nice Côte d’Azur — agenda — Face à face – Orlando",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-06T10:08:15+02:00",
+          "supports": ["date", "description", "identity", "price", "time", "venue"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T10:08:15+02:00",
+        "last_seen_at": "2026-08-06T10:08:15+02:00",
+        "last_verified_at": "2026-08-06T10:08:15+02:00",
         "content_hash": null
       }
     }

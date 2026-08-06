@@ -132,7 +132,7 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** unknown
 - **Ranking:** must_go — 95.1% local obscuration confirmed for Nice; High-priority locally visible astronomy; Rare deep partial solar eclipse with published local circumstances
 - **Source:** [Association Française d’Astronomie — Éclipse Info: circumstances for Nice](https://www.afastronomie.fr/media/default/0001/28/DP_ECLIPSEinfo-web-69f3.pdf)
-- **Last verified:** 2026-08-04T13:30:45+02:00
+- **Last verified:** 2026-08-06T10:08:15+02:00
 
 ## Joho Pyro Professional Fireworks AB (Finlande)
 
@@ -241,6 +241,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-08-01T19:44:06+02:00
+
+## Face à face – Orlando
+
+- **When:** 2026-09-29 18:00 GMT+2
+- **Where:** Foyer Montserrat Caballé de l'Opéra, Nice
+- **Categories:** free_events, opera_and_ballet
+- **Price:** Free (confirmed)
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Free public discussion; Opera and ballet priority
+- **Source:** [Opéra Nice Côte d’Azur — agenda — Face à face – Orlando](https://www.opera-nice.org/agenda/)
+- **Last verified:** 2026-08-06T10:08:15+02:00
 
 ## Orlando
 
