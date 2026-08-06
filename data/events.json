@@ -3053,6 +3053,323 @@
         "last_verified_at": "2026-08-06T10:08:15+02:00",
         "content_hash": null
       }
+    },
+    {
+      "id": "nice-classic-festival-nice-2026-07-21",
+      "title": "Nice Classic Festival",
+      "description": "The 2026 festival presents 24 classical, jazz and dance events, including concerts in the Cloître du Monastère de Cimiez, which opens to the public for the festival.",
+      "categories": ["festivals", "classical_music", "jazz_and_blues"],
+      "tags": [],
+      "start_at": "2026-07-21",
+      "end_at": "2026-08-09",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Cloître du Monastère de Cimiez",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official tourism listing is in English; performance language is not specified."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official listing does not state a ticket price."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://cotedazurfrance.com/offers/nice-classic-festival-nice-en-5027277/",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 28,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Classical and jazz festival",
+          "Distinctive annual cloister setting"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://cotedazurfrance.com/offers/nice-classic-festival-nice-en-5027277/",
+          "name": "Côte d’Azur France — Nice Classic Festival",
+          "type": "official_tourism",
+          "trust": "high",
+          "checked_at": "2026-08-06T08:34:33+02:00",
+          "supports": ["identity", "date", "description", "venue"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_verified_at": "2026-08-06T08:34:33+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "saigon-nice-2026-10-08",
+      "title": "Saigon",
+      "description": "Theatre work by Caroline Guiela Nguyen, set between 1950s Vietnam and 1990s France and centred on exile, family and memory.",
+      "categories": ["theatre"],
+      "tags": [],
+      "start_at": "2026-10-08T19:30:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Théâtre National de Nice",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not specify the performance language."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official listing does not state a ticket price."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.tnn.fr/fr/spectacles/saison-2026-2027/saigon",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 22,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Current TNN theatre programme",
+          "Distinctive contemporary theatre work"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.tnn.fr/fr/spectacles/saison-2026-2027/saigon",
+          "name": "Théâtre National de Nice — Saigon",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-06T08:34:33+02:00",
+          "supports": ["identity", "date", "time", "description", "venue", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_verified_at": "2026-08-06T08:34:33+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "saigon-nice-2026-10-09",
+      "title": "Saigon",
+      "description": "Theatre work by Caroline Guiela Nguyen, set between 1950s Vietnam and 1990s France and centred on exile, family and memory.",
+      "categories": ["theatre"],
+      "tags": [],
+      "start_at": "2026-10-09T19:30:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Théâtre National de Nice",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not specify the performance language."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official listing does not state a ticket price."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.tnn.fr/fr/spectacles/saison-2026-2027/saigon",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 22,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Current TNN theatre programme",
+          "Distinctive contemporary theatre work"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.tnn.fr/fr/spectacles/saison-2026-2027/saigon",
+          "name": "Théâtre National de Nice — Saigon",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-06T08:34:33+02:00",
+          "supports": ["identity", "date", "time", "description", "venue", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_verified_at": "2026-08-06T08:34:33+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "etienne-daho-antibes-2027-01-05",
+      "title": "Étienne Daho",
+      "description": "Étienne Daho performs Pop Satori and Eden in full with his musicians, marking 45 years of his career.",
+      "categories": ["concerts"],
+      "tags": [],
+      "start_at": "2027-01-05T20:00:00+01:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Salle Jacques Audiberti, anthéa",
+        "city": "Antibes",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official French listing does not specify the performance language."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official listing does not state a ticket price."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.anthea-antibes.fr/fr/spectacles/saison-2026-2027/privilege-spectacle-vivant/etienne-daho",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 24,
+        "level": "strong_match",
+        "reasons": ["Core travel zone", "Individually confirmed concert", "Major French pop artist"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.anthea-antibes.fr/fr/spectacles/saison-2026-2027/privilege-spectacle-vivant/etienne-daho",
+          "name": "anthéa, Antipolis Théâtre d’Antibes — Étienne Daho",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-06T08:34:33+02:00",
+          "supports": ["identity", "date", "time", "description", "venue"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_verified_at": "2026-08-06T08:34:33+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "etienne-daho-antibes-2027-01-06",
+      "title": "Étienne Daho",
+      "description": "Étienne Daho performs Pop Satori and Eden in full with his musicians, marking 45 years of his career.",
+      "categories": ["concerts"],
+      "tags": [],
+      "start_at": "2027-01-06T20:30:00+01:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Salle Jacques Audiberti, anthéa",
+        "city": "Antibes",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official French listing does not specify the performance language."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official listing does not state a ticket price."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.anthea-antibes.fr/fr/spectacles/saison-2026-2027/privilege-spectacle-vivant/etienne-daho",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 24,
+        "level": "strong_match",
+        "reasons": ["Core travel zone", "Individually confirmed concert", "Major French pop artist"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.anthea-antibes.fr/fr/spectacles/saison-2026-2027/privilege-spectacle-vivant/etienne-daho",
+          "name": "anthéa, Antipolis Théâtre d’Antibes — Étienne Daho",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-06T08:34:33+02:00",
+          "supports": ["identity", "date", "time", "description", "venue"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_seen_at": "2026-08-06T08:34:33+02:00",
+        "last_verified_at": "2026-08-06T08:34:33+02:00",
+        "content_hash": null
+      }
     }
   ]
 }

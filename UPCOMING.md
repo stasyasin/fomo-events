@@ -86,6 +86,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Étoiles grandeur nature](https://www.explorenicecotedazur.com/evenement/etoiles-grandeur-nature/)
 - **Last verified:** 2026-08-02T10:54:51+02:00
 
+## Nice Classic Festival
+
+- **When:** 2026-07-21
+- **Where:** Cloître du Monastère de Cimiez, Nice
+- **Categories:** festivals, classical_music, jazz_and_blues
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Classical and jazz festival; Distinctive annual cloister setting
+- **Source:** [Côte d’Azur France — Nice Classic Festival](https://cotedazurfrance.com/offers/nice-classic-festival-nice-en-5027277/)
+- **Last verified:** 2026-08-06T08:34:33+02:00
+
 ## Grande Nuit Vénitienne
 
 - **When:** 2026-08-01 20:45 GMT+2
@@ -290,6 +302,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Opéra Nice Côte d’Azur — 60 minutes de violoncelle](https://www.opera-nice.org/agenda/)
 - **Last verified:** 2026-08-04T13:30:45+02:00
 
+## Saigon
+
+- **When:** 2026-10-08 19:30 GMT+2
+- **Where:** Théâtre National de Nice, Nice
+- **Categories:** theatre
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Current TNN theatre programme; Distinctive contemporary theatre work
+- **Source:** [Théâtre National de Nice — Saigon](https://www.tnn.fr/fr/spectacles/saison-2026-2027/saigon)
+- **Last verified:** 2026-08-06T08:34:33+02:00
+
 ## EVO FRANCE 2026
 
 - **When:** 2026-10-09
@@ -301,6 +325,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** maybe — Core travel zone; Dates confirmed by official listing; Major esports competition
 - **Source:** [Office de Tourisme Nice Côte d’Azur — EVO FRANCE 2026](https://www.explorenicecotedazur.com/evenement/evo-france-2026/)
 - **Last verified:** 2026-08-01T02:33:12+02:00
+
+## Saigon
+
+- **When:** 2026-10-09 19:30 GMT+2
+- **Where:** Théâtre National de Nice, Nice
+- **Categories:** theatre
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Current TNN theatre programme; Distinctive contemporary theatre work
+- **Source:** [Théâtre National de Nice — Saigon](https://www.tnn.fr/fr/spectacles/saison-2026-2027/saigon)
+- **Last verified:** 2026-08-06T08:34:33+02:00
 
 ## OGC Nice vs Strasbourg
 
@@ -433,6 +469,30 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-08-01T19:44:06+02:00
+
+## Étienne Daho
+
+- **When:** 2027-01-05 20:00 GMT+1
+- **Where:** Salle Jacques Audiberti, anthéa, Antibes
+- **Categories:** concerts
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Individually confirmed concert; Major French pop artist
+- **Source:** [anthéa, Antipolis Théâtre d’Antibes — Étienne Daho](https://www.anthea-antibes.fr/fr/spectacles/saison-2026-2027/privilege-spectacle-vivant/etienne-daho)
+- **Last verified:** 2026-08-06T08:34:33+02:00
+
+## Étienne Daho
+
+- **When:** 2027-01-06 20:30 GMT+1
+- **Where:** Salle Jacques Audiberti, anthéa, Antibes
+- **Categories:** concerts
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Individually confirmed concert; Major French pop artist
+- **Source:** [anthéa, Antipolis Théâtre d’Antibes — Étienne Daho](https://www.anthea-antibes.fr/fr/spectacles/saison-2026-2027/privilege-spectacle-vivant/etienne-daho)
+- **Last verified:** 2026-08-06T08:34:33+02:00
 
 ## OGC Nice vs Le Havre
 
