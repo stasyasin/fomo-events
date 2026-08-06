@@ -3,6 +3,38 @@
 # here.
 version: 1
 sources:
+  - name: Côte d’Azur France — Events in Nice
+    url: https://cotedazurfrance.com/discover/your-stay/nice-cote-dazur/events-in-nice/
+    type: official_tourism
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope:
+      [
+        concerts,
+        classical_music,
+        theatre,
+        comedy,
+        cinema,
+        cinema_highlights,
+        exhibitions,
+        festivals,
+        city_events,
+        free_events,
+        food_and_wine,
+        markets,
+        business_and_tech,
+        outdoor,
+        open_air_music,
+        dj_and_electronic,
+        creative_workshops,
+      ]
+    language: en
+    priority: 98
+    trust: high
+    notes: >-
+      Official Côte d’Azur France Tourism agenda. Use its filters and individual listings as a
+      high-signal discovery index, then verify material facts on the organiser, venue, city, or
+      ticketing page before creating an event.
   - name: Office de Tourisme Nice Côte d’Azur — agenda
     url: https://www.explorenicecotedazur.com/evenements/agenda-de-tous-les-evenements/
     type: official_tourism
@@ -55,6 +87,112 @@ sources:
       Official city agenda for public programming. Use individual listings for facts. For cinema,
       music, DJs, and workshops, apply the owner's curation rules instead of adding every routine
       activity or every screening.
+  - name: Ville de Nice — Mon été Cinéma
+    url: https://www.nice.fr/mon-ete-cinema/
+    type: official_city
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope: [cinema, cinema_highlights, free_events, outdoor]
+    language: fr
+    priority: 99
+    trust: high
+    notes: >-
+      Official seasonal outdoor-cinema programme. Deliberately inspect future evening screenings
+      in public places and retain a concise, varied shortlist; exclude children-only and daytime
+      continuous-loop projections unless they are exceptionally relevant.
+  - name: Ville de Nice — Mon été à Nice
+    url: https://www.nice.fr/mon-ete-a-nice/
+    type: official_city
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope:
+      [
+        concerts,
+        cinema,
+        cinema_highlights,
+        festivals,
+        city_events,
+        free_events,
+        outdoor,
+        open_air_music,
+        dj_and_electronic,
+        food_and_wine,
+        creative_workshops,
+      ]
+    language: fr
+    priority: 96
+    trust: high
+    notes: >-
+      Official summer programme across public places. Check future listings for open-air music,
+      DJ sets, cinema, food-related festivities, and adult-friendly workshops; do not add generic
+      family animations merely because they appear in the seasonal feed.
+  - name: Théâtre National de Nice — programme
+    url: https://www.tnn.fr/fr/
+    type: official_theatre
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope: [theatre, comedy, festivals, outdoor]
+    language: fr
+    priority: 95
+    trust: high
+    notes: >-
+      Official programme for drama, contemporary work, readings, and festival presentations.
+      Include individual public performances that fit the language and relevance rules, including
+      confirmed outdoor productions; do not treat a season announcement as a single event.
+  - name: Bobar Comedy Club — programme
+    url: https://www.bobarcomedyclub.fr/
+    type: official_venue
+    enabled: true
+    geographic_scope: [Nice]
+    category_scope: [comedy]
+    language: fr
+    priority: 94
+    trust: high
+    notes: >-
+      Official Nice stand-up venue. Prefer distinctive touring, themed, or English/Ukrainian
+      shows and clearly dated public listings; do not import an undifferentiated recurring
+      house-show schedule.
+  - name: Telecom Valley — events
+    url: https://www.telecom-valley.fr/evenements/
+    type: official_organizer
+    enabled: true
+    geographic_scope: [Nice, Biot, Antibes]
+    category_scope: [business_and_tech]
+    language: fr
+    priority: 96
+    trust: high
+    notes: >-
+      Official Côte d’Azur digital-ecosystem organiser, with events in Nice and Sophia Antipolis.
+      Look specifically for current, individually dated talks, conferences, workshops, and
+      networking events about AI, data, product, UX, design, startups, and software; do not add
+      membership, sponsor, recruitment, or call-for-speaker notices as events.
+  - name: Villa et Jardins Ephrussi de Rothschild — events
+    url: https://www.villa-ephrussi.com/fr/evenements-en-cours-et-a-venir
+    type: official_museum
+    enabled: true
+    geographic_scope: [Saint-Jean-Cap-Ferrat]
+    category_scope:
+      [concerts, classical_music, museums_and_art, food_and_wine, outdoor, open_air_music]
+    language: fr
+    priority: 97
+    trust: high
+    notes: >-
+      Official Villa Ephrussi programme. Check Les Nocturnes and other individually dated public
+      garden concerts, cultural evenings, and gastronomy events; keep venue, price, reservation,
+      and access details exactly as confirmed.
+  - name: anthéa, Antipolis Théâtre d’Antibes — calendar
+    url: https://www.anthea-antibes.fr/fr/calendrier
+    type: official_theatre
+    enabled: true
+    geographic_scope: [Antibes, Juan-les-Pins]
+    category_scope: [theatre, comedy, concerts, classical_music, opera_and_ballet, festivals]
+    language: fr
+    priority: 94
+    trust: high
+    notes: >-
+      Official Antibes theatre calendar. Select individually dated public performances rather
+      than importing the entire season; prioritise strong theatre, comedy, music, dance, and
+      language-friendly listings within the normal travel zone.
   - name: OGC Nice — first-team fixtures
     url: https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro
     type: official_sports

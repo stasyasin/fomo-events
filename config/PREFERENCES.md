@@ -51,14 +51,21 @@ other officially announced tournaments in the French Riviera / Monaco area.
 
 For cinema, I want a **small monthly shortlist**, not every screening. Prioritise films
 that feel like a real outing: major auteur or event releases, acclaimed festival films,
-original-version screenings, previews, restorations, and director or cast discussions.
+original-version screenings, previews, restorations, director or cast discussions, and
+**open-air screenings** in squares, parks, beaches, gardens, or other distinctive places.
 Big cinematic releases in the spirit of _The Odyssey_ or _Spider-Man_ are useful taste
 signals, but do not claim a film is showing unless the cinema's current official
 programme confirms it.
 
-I am also interested in concerts in squares, parks, beaches, or other open-air places;
-DJ and electronic sets in distinctive venues; hands-on creative workshops such as pottery,
-ceramics, clay modelling, or wheel throwing; and astronomy. For astronomy, include public
+I am also interested in concerts in squares, parks, beaches, gardens, museums, or other
+open-air places; DJ and electronic sets in distinctive venues; theatre and stand-up/comedy
+(English or Ukrainian is a bonus, but a strong French-language show is welcome too);
+hands-on adult-friendly creative workshops such as pottery, ceramics, clay modelling, or
+wheel throwing; and astronomy. Include genuinely special food, wine, tasting, and
+gastronomy events, plus occasional non-routine markets such as night, craft, food, or
+seasonal markets — not ordinary weekly shopping markets. I also want business and tech
+events around Nice and Sophia Antipolis, especially AI, product, UX, design, startup,
+developer, and networking events. For astronomy, include public
 observatory activities and genuinely notable sky phenomena when they can actually be seen
 from Nice or another configured French Riviera travel zone. Astronomy is about local sky
 visibility, not the city hosting an event: check the date, local time, altitude/direction,
@@ -81,6 +88,16 @@ when an authoritative source publishes it.
   shortlist rather than an exhaustive timetable.
 - Outdoor live music, DJs/electronic music, and adult-friendly creative workshops. Do not
   treat every children's activity or routine class as a recommendation.
+- Open-air cinema and concerts at places such as the Port, city squares, parks, beaches,
+  the Arènes de Cimiez, and the Villa Ephrussi de Rothschild. Check these deliberately,
+  rather than treating an indoor cinema programme as a substitute.
+- Current theatre, stand-up, and comedy-club listings. French-language comedy is still
+  useful when it is a notably good local show; English or Ukrainian language is a bonus.
+- Business, technology, AI, product, UX, design, startup, and networking events in Nice
+  and Sophia Antipolis. Prefer one-off talks, meetups, workshops, and conferences over
+  generic membership notices.
+- Food, wine, gastronomy, tasting, craft-market, seasonal-market, and night-market events.
+  Avoid routine weekly markets unless a specific edition has a clear special programme.
 - Astronomical phenomena visible from Nice or the configured French Riviera travel zones.
   Treat the 12 August 2026 deep partial solar eclipse in Nice as a priority example: verify
   local circumstances and a clear western/seaward horizon, rather than rejecting it because
