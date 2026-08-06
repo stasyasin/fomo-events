@@ -349,7 +349,7 @@ git status --short
 Do not run `systemctl --user start fomo-events-scan.service` merely to enable the
 schedule: it always starts an immediate real scan.
 
-### Enable the daily timer
+### Enable the weekly timer
 
 After the first manual service run is satisfactory, enable the timer. This starts only
 the schedule; it does **not** start another scan immediately.
@@ -360,11 +360,10 @@ systemctl --user status fomo-events-scan.timer --no-pager
 systemctl --user list-timers --all fomo-events-scan.timer
 ```
 
-The initial timer runs daily around 08:30 in `Europe/Paris` with up to 20 minutes of
-random delay. A calendar event missed during suspend is handled once after resume, and
-`Persistent=true` catches up once when the timer was inactive (for example after the
-computer was powered down). Edit the copied timer and run `systemctl --user daemon-reload`
-to change the schedule.
+The initial timer runs every Monday at 08:30 in `Europe/Paris`. A calendar event missed
+during suspend is handled once after resume, and `Persistent=true` catches up once when
+the timer was inactive (for example after the computer was powered down). Edit the copied
+timer and run `systemctl --user daemon-reload` to change the schedule.
 
 View the most recent completed run without following live output:
 
@@ -425,5 +424,5 @@ their original sources; linked third-party content is not relicensed by this rep
 The first full scan completed on 2026-08-01 using the two enabled official sources. Its
 14 records, run history, and daily report are deliberately a limited starting point, not
 complete regional coverage. Next: review the public event data, add more verified
-official sources, perform the GitHub Pages steps above, and let the daily timer maintain
+official sources, perform the GitHub Pages steps above, and let the weekly timer maintain
 the database.
