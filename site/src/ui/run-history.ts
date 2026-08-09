@@ -11,7 +11,7 @@ export function renderRunHistory(
   if (runs.length === 0) {
     return `
       <section class="run-history" aria-labelledby="updates-title">
-        <p class="section-kicker">${translate(locale, 'updates')}</p>
+        <p class="section-kicker"><span>03</span> ${translate(locale, 'updates')}</p>
         <h2 id="updates-title">${translate(locale, 'noScansTitle')}</h2>
         <p>${translate(locale, 'noScansBody')}</p>
       </section>
@@ -33,5 +33,5 @@ export function renderRunHistory(
       `;
     })
     .join('');
-  return `<section class="run-history" aria-labelledby="updates-title"><p class="section-kicker">${translate(locale, 'updates')}</p><h2 id="updates-title">${translate(locale, 'collectionChanges')}</h2><div class="run-list">${items}</div></section>`;
+  return `<section class="run-history" aria-labelledby="updates-title"><p class="section-kicker"><span>03</span> ${translate(locale, 'updates')}</p><h2 id="updates-title">${translate(locale, 'collectionChanges')}</h2><div class="run-list">${items}</div></section>`;
 }

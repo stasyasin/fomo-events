@@ -4,8 +4,8 @@
   "description": "Події, які шкода пропустити на Лазурному узбережжі.",
   "start_url": "/fomo-events/",
   "display": "standalone",
-  "background_color": "#f6f1e8",
-  "theme_color": "#d85b3e",
+  "background_color": "#f5efe5",
+  "theme_color": "#f5efe5",
   "icons": [
     {
       "src": "/fomo-events/icons/fomo-icon.svg",
