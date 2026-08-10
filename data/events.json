@@ -184,7 +184,7 @@
         "level": "strong_match",
         "reasons": ["Core travel zone", "Jazz festival", "Price within preferred budget"]
       },
-      "status": "on_sale",
+      "status": "expired",
       "timezone": "Europe/Paris",
       "sources": [
         {
@@ -2782,7 +2782,7 @@
           "name": "Association Française d’Astronomie — Éclipse Info: circumstances for Nice",
           "type": "other",
           "trust": "high",
-          "checked_at": "2026-08-06T11:37:22+02:00",
+          "checked_at": "2026-08-10T10:52:31+02:00",
           "supports": ["identity", "date", "time", "city", "description"]
         },
         {
@@ -2796,8 +2796,8 @@
       ],
       "tracking": {
         "first_seen_at": "2026-08-03T13:59:49+02:00",
-        "last_seen_at": "2026-08-06T11:37:22+02:00",
-        "last_verified_at": "2026-08-06T11:37:22+02:00",
+        "last_seen_at": "2026-08-10T10:52:31+02:00",
+        "last_verified_at": "2026-08-10T10:52:31+02:00",
         "content_hash": null
       }
     },
@@ -3101,7 +3101,7 @@
           "Distinctive annual cloister setting"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://cotedazurfrance.com/offers/nice-classic-festival-nice-en-5027277/",
@@ -3418,7 +3418,7 @@
           "Outdoor programme on the Promenade des Anglais"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.nice.fr/agenda/arrivee-du-tour-de-france-femmes-a-nice/",
@@ -3636,6 +3636,144 @@
         "first_seen_at": "2026-08-06T11:37:22+02:00",
         "last_seen_at": "2026-08-06T11:37:22+02:00",
         "last_verified_at": "2026-08-06T11:37:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "soiree-festive-et-familiale-nice-2026-08-21",
+      "title": "Soirée festive et familiale",
+      "description": "Free outdoor music evening with DJ Afroman Radio, saxophonist and DJ Julien Perez, featuring soul, funk, afrobeat and Brazilian rhythms.",
+      "categories": ["concerts", "free_events", "outdoor", "open_air_music", "dj_and_electronic"],
+      "tags": [],
+      "start_at": "2026-08-21T19:00:00+02:00",
+      "end_at": "2026-08-21T22:00:00+02:00",
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Jardin du Cours de l’Université",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not state a programme language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": null
+      },
+      "ticketing": {
+        "status": "free_entry",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 34,
+        "level": "must_go",
+        "reasons": [
+          "Core travel zone",
+          "Free outdoor music evening",
+          "Confirmed DJ and live-saxophone set"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.nice.fr/mon-ete-a-nice/",
+          "name": "Ville de Nice — Mon été à Nice",
+          "type": "official_city",
+          "trust": "high",
+          "checked_at": "2026-08-10T10:52:31+02:00",
+          "supports": ["identity", "date", "time", "description", "venue", "free_entry"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-10T10:52:31+02:00",
+        "last_seen_at": "2026-08-10T10:52:31+02:00",
+        "last_verified_at": "2026-08-10T10:52:31+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "projection-en-plein-air-kirikou-et-la-sorciere-biot-2026-08-28",
+      "title": "Projection en plein air - Kirikou et la sorcière",
+      "description": "Free all-public outdoor screening of Kirikou et la sorcière in the park of the Musée national Fernand Léger, presented with the Cinéma de Beaulieu and Collectif La Bande Passante.",
+      "categories": ["cinema", "cinema_highlights", "free_events", "outdoor"],
+      "tags": [],
+      "start_at": "2026-08-28T20:30:00+02:00",
+      "end_at": "2026-08-28T22:00:00+02:00",
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Parc du Musée national Fernand Léger",
+        "city": "Biot",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not state the screening language or subtitle version."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": "Free entry within the limit of available places."
+      },
+      "ticketing": {
+        "status": "free_entry",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 27,
+        "level": "strong_match",
+        "reasons": [
+          "Official museum open-air cinema selection",
+          "Extended travel zone",
+          "Free all-public evening screening in a museum park"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://musees-nationaux-alpesmaritimes.fr/fleger/agenda/evenement/projection-en-plein-air-kirikou-et-la-sorciere",
+          "name": "Musée national Fernand Léger — Projection en plein air - Kirikou et la sorcière",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-10T10:52:31+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "description",
+            "venue",
+            "free_entry",
+            "ticket_status"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-10T10:52:31+02:00",
+        "last_seen_at": "2026-08-10T10:52:31+02:00",
+        "last_verified_at": "2026-08-10T10:52:31+02:00",
         "content_hash": null
       }
     },

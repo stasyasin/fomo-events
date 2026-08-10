@@ -156,7 +156,7 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** unknown
 - **Ranking:** must_go — 95.1% local obscuration confirmed for Nice; High-priority locally visible astronomy; Rare deep partial solar eclipse with published local circumstances
 - **Source:** [Association Française d’Astronomie — Éclipse Info: circumstances for Nice](https://www.afastronomie.fr/media/default/0001/28/DP_ECLIPSEinfo-web-69f3.pdf)
-- **Last verified:** 2026-08-06T11:37:22+02:00
+- **Last verified:** 2026-08-10T10:52:31+02:00
 
 ## La Farandole – spectacle d’ouverture
 
@@ -193,6 +193,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** strong_match — Distinctive garden dinner with public star observation; Core travel zone; Price exceeds the profile hard maximum; included only as an exceptional fit
 - **Source:** [Villa et Jardins Ephrussi de Rothschild — À Deux Sous les Étoiles](https://www.villa-ephrussi.com/fr/deux-sous-etoiles)
 - **Last verified:** 2026-08-06T11:37:22+02:00
+
+## Soirée festive et familiale
+
+- **When:** 2026-08-21 19:00 GMT+2
+- **Where:** Jardin du Cours de l’Université, Nice
+- **Categories:** concerts, free_events, outdoor, open_air_music, dj_and_electronic
+- **Price:** Free (confirmed)
+- **Language:** Language unknown
+- **Tickets:** free_entry
+- **Ranking:** must_go — Core travel zone; Free outdoor music evening; Confirmed DJ and live-saxophone set
+- **Source:** [Ville de Nice — Mon été à Nice](https://www.nice.fr/mon-ete-a-nice/)
+- **Last verified:** 2026-08-10T10:52:31+02:00
 
 ## Championnat du monde de boules carrées
 
@@ -241,6 +253,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Extended travel zone; Fireworks directly prioritised; Free entry
 - **Source:** [Mairie de Cannes — Flash Barrandov Special Effects (République Tchèque)](https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/flash-barrandov-special-effects-republique-tcheque.html)
 - **Last verified:** 2026-08-01T17:17:27+02:00
+
+## Projection en plein air - Kirikou et la sorcière
+
+- **When:** 2026-08-28 20:30 GMT+2
+- **Where:** Parc du Musée national Fernand Léger, Biot
+- **Categories:** cinema, cinema_highlights, free_events, outdoor
+- **Price:** Free (confirmed)
+- **Language:** Language unknown
+- **Tickets:** free_entry
+- **Ranking:** strong_match — Official museum open-air cinema selection; Extended travel zone; Free all-public evening screening in a museum park
+- **Source:** [Musée national Fernand Léger — Projection en plein air - Kirikou et la sorcière](https://musees-nationaux-alpesmaritimes.fr/fleger/agenda/evenement/projection-en-plein-air-kirikou-et-la-sorciere)
+- **Last verified:** 2026-08-10T10:52:31+02:00
 
 ## OGC Nice vs Le Mans
 
