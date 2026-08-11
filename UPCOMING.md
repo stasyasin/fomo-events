@@ -86,6 +86,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Office de Tourisme Nice Côte d’Azur — Étoiles grandeur nature](https://www.explorenicecotedazur.com/evenement/etoiles-grandeur-nature/)
 - **Last verified:** 2026-08-02T10:54:51+02:00
 
+## Coun – Libera l’Art au Palais Lascaris
+
+- **When:** 2026-06-27
+- **Where:** Palais Lascaris, Nice
+- **Categories:** exhibitions, museums_and_art
+- **Price:** EUR 5
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Current museum exhibition; Confirmed EUR 5 admission
+- **Source:** [Office de Tourisme Nice Côte d’Azur — Coun – Libera l’Art au Palais Lascaris](https://www.explorenicecotedazur.com/evenement/coun-libera-lart-au-palais-lascaris/)
+- **Last verified:** 2026-08-11T11:11:22+02:00
+
 ## Nice Classic Festival
 
 - **When:** 2026-07-21
@@ -146,6 +158,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Ville de Nice — Arrivée du Tour de France Femmes à Nice](https://www.nice.fr/agenda/arrivee-du-tour-de-france-femmes-a-nice/)
 - **Last verified:** 2026-08-06T11:37:22+02:00
 
+## Luz Casal — Les Nocturnes de la Villa
+
+- **When:** 2026-08-11 20:00 GMT+2
+- **Where:** Villa et Jardins Ephrussi de Rothschild, Saint-Jean-Cap-Ferrat
+- **Categories:** concerts, outdoor, open_air_music
+- **Price:** EUR 40
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Official outdoor music festival in the Villa gardens; EUR 40 adult ticket is within the preferred budget
+- **Source:** [Villa et Jardins Ephrussi de Rothschild — Luz Casal](https://www.villa-ephrussi.com/fr/mardi-11-aout-luz-casal-0)
+- **Last verified:** 2026-08-11T11:11:22+02:00
+
 ## Partial solar eclipse visible from Nice
 
 - **When:** 2026-08-12 19:31 GMT+2
@@ -181,6 +205,30 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Extended travel zone; Fireworks directly prioritised; Free entry
 - **Source:** [Mairie de Cannes — Joho Pyro Professional Fireworks AB (Finlande)](https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/joho-pyro-professional-fireworks-ab-finlande.html)
 - **Last verified:** 2026-08-01T17:17:27+02:00
+
+## Jeanne Cherhal — Les Nocturnes de la Villa
+
+- **When:** 2026-08-17 20:00 GMT+2
+- **Where:** Villa et Jardins Ephrussi de Rothschild, Saint-Jean-Cap-Ferrat
+- **Categories:** concerts, outdoor, open_air_music
+- **Price:** EUR 40
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Official outdoor music festival in the Villa gardens; EUR 40 adult ticket is within the preferred budget
+- **Source:** [Villa et Jardins Ephrussi de Rothschild — Jeanne Cherhal](https://www.villa-ephrussi.com/fr/lundi-17-aout-jeanne-cherhal-0)
+- **Last verified:** 2026-08-11T11:11:22+02:00
+
+## Armando Noguera — Les Nocturnes de la Villa
+
+- **When:** 2026-08-18 20:00 GMT+2
+- **Where:** Villa et Jardins Ephrussi de Rothschild, Saint-Jean-Cap-Ferrat
+- **Categories:** concerts, theatre, outdoor, open_air_music
+- **Price:** EUR 40
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Official open-air performance blending music, tango and theatre; EUR 40 adult ticket is within the preferred budget
+- **Source:** [Villa et Jardins Ephrussi de Rothschild — Armando Noguera](https://www.villa-ephrussi.com/fr/mardi-18-aout-armando-noguera)
+- **Last verified:** 2026-08-11T11:11:22+02:00
 
 ## À Deux Sous les Étoiles
 
@@ -242,6 +290,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-08-01T19:44:06+02:00
 
+## Noëmi Waysfeld — Les Nocturnes de la Villa
+
+- **When:** 2026-08-24 20:00 GMT+2
+- **Where:** Villa et Jardins Ephrussi de Rothschild, Saint-Jean-Cap-Ferrat
+- **Categories:** concerts, outdoor, open_air_music
+- **Price:** EUR 40
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Official outdoor music festival in the Villa gardens; EUR 40 adult ticket is within the preferred budget
+- **Source:** [Villa et Jardins Ephrussi de Rothschild — Noëmi Waysfeld](https://www.villa-ephrussi.com/fr/lundi-24-aout-noemi-waysfeld-0)
+- **Last verified:** 2026-08-11T11:11:22+02:00
+
 ## Flash Barrandov Special Effects (République Tchèque)
 
 - **When:** 2026-08-24 22:00 GMT+2
@@ -253,6 +313,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** must_go — Extended travel zone; Fireworks directly prioritised; Free entry
 - **Source:** [Mairie de Cannes — Flash Barrandov Special Effects (République Tchèque)](https://www.cannes.com/fr/agenda/evenements/festival-d-art-pyrotechnique-2026/flash-barrandov-special-effects-republique-tcheque.html)
 - **Last verified:** 2026-08-01T17:17:27+02:00
+
+## Grégoire — Les Nocturnes de la Villa
+
+- **When:** 2026-08-25 20:00 GMT+2
+- **Where:** Villa et Jardins Ephrussi de Rothschild, Saint-Jean-Cap-Ferrat
+- **Categories:** concerts, outdoor, open_air_music
+- **Price:** EUR 40
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Official outdoor music festival in the Villa gardens; EUR 40 adult ticket is within the preferred budget
+- **Source:** [Villa et Jardins Ephrussi de Rothschild — Grégoire](https://www.villa-ephrussi.com/fr/mardi-25-aout-gregoire-0)
+- **Last verified:** 2026-08-11T11:11:22+02:00
 
 ## Projection en plein air - Kirikou et la sorcière
 

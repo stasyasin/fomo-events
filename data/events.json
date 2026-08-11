@@ -3841,6 +3841,432 @@
         "last_verified_at": "2026-08-06T11:37:22+02:00",
         "content_hash": null
       }
+    },
+    {
+      "id": "luz-casal-les-nocturnes-de-la-villa-saint-jean-cap-ferrat-2026-08-11",
+      "title": "Luz Casal — Les Nocturnes de la Villa",
+      "description": "Concert by Luz Casal as part of the Les Nocturnes de la Villa festival.",
+      "categories": ["concerts", "outdoor", "open_air_music"],
+      "tags": [],
+      "start_at": "2026-08-11T20:00:00+02:00",
+      "end_at": "2026-08-12T00:00:00+02:00",
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Villa et Jardins Ephrussi de Rothschild",
+        "city": "Saint-Jean-Cap-Ferrat",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official programme does not state the performance language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 40,
+        "maximum": 40,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Adult ticket. The official programme also lists child and picnic-basket rates."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 27,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Official outdoor music festival in the Villa gardens",
+          "EUR 40 adult ticket is within the preferred budget"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.villa-ephrussi.com/fr/mardi-11-aout-luz-casal-0",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Luz Casal",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["identity", "date", "description"]
+        },
+        {
+          "url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Les Nocturnes de la Villa",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["time", "venue", "price", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_verified_at": "2026-08-11T11:11:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "jeanne-cherhal-les-nocturnes-de-la-villa-saint-jean-cap-ferrat-2026-08-17",
+      "title": "Jeanne Cherhal — Les Nocturnes de la Villa",
+      "description": "Concert by singer-songwriter Jeanne Cherhal and her live band as part of Les Nocturnes de la Villa.",
+      "categories": ["concerts", "outdoor", "open_air_music"],
+      "tags": [],
+      "start_at": "2026-08-17T20:00:00+02:00",
+      "end_at": "2026-08-18T00:00:00+02:00",
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Villa et Jardins Ephrussi de Rothschild",
+        "city": "Saint-Jean-Cap-Ferrat",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official programme does not state the performance language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 40,
+        "maximum": 40,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Adult ticket. The official programme also lists child and picnic-basket rates."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 27,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Official outdoor music festival in the Villa gardens",
+          "EUR 40 adult ticket is within the preferred budget"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.villa-ephrussi.com/fr/lundi-17-aout-jeanne-cherhal-0",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Jeanne Cherhal",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["identity", "date", "description"]
+        },
+        {
+          "url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Les Nocturnes de la Villa",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["time", "venue", "price", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_verified_at": "2026-08-11T11:11:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "armando-noguera-les-nocturnes-de-la-villa-saint-jean-cap-ferrat-2026-08-18",
+      "title": "Armando Noguera — Les Nocturnes de la Villa",
+      "description": "Volver, a hybrid performance by Armando Noguera combining song, tango dance, theatre and image.",
+      "categories": ["concerts", "theatre", "outdoor", "open_air_music"],
+      "tags": [],
+      "start_at": "2026-08-18T20:00:00+02:00",
+      "end_at": "2026-08-19T00:00:00+02:00",
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Villa et Jardins Ephrussi de Rothschild",
+        "city": "Saint-Jean-Cap-Ferrat",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official programme does not state the performance language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 40,
+        "maximum": 40,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Adult ticket. The official programme also lists child and picnic-basket rates."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 28,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Official open-air performance blending music, tango and theatre",
+          "EUR 40 adult ticket is within the preferred budget"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.villa-ephrussi.com/fr/mardi-18-aout-armando-noguera",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Armando Noguera",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["identity", "date", "description"]
+        },
+        {
+          "url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Les Nocturnes de la Villa",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["time", "venue", "price", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_verified_at": "2026-08-11T11:11:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "noemi-waysfeld-les-nocturnes-de-la-villa-saint-jean-cap-ferrat-2026-08-24",
+      "title": "Noëmi Waysfeld — Les Nocturnes de la Villa",
+      "description": "Noëmi Waysfeld sings Barbara in a trio performance with piano and double bass.",
+      "categories": ["concerts", "outdoor", "open_air_music"],
+      "tags": [],
+      "start_at": "2026-08-24T20:00:00+02:00",
+      "end_at": "2026-08-25T00:00:00+02:00",
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Villa et Jardins Ephrussi de Rothschild",
+        "city": "Saint-Jean-Cap-Ferrat",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official programme does not state the performance language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 40,
+        "maximum": 40,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Adult ticket. The official programme also lists child and picnic-basket rates."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 27,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Official outdoor music festival in the Villa gardens",
+          "EUR 40 adult ticket is within the preferred budget"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.villa-ephrussi.com/fr/lundi-24-aout-noemi-waysfeld-0",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Noëmi Waysfeld",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["identity", "date", "description"]
+        },
+        {
+          "url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Les Nocturnes de la Villa",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["time", "venue", "price", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_verified_at": "2026-08-11T11:11:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "gregoire-les-nocturnes-de-la-villa-saint-jean-cap-ferrat-2026-08-25",
+      "title": "Grégoire — Les Nocturnes de la Villa",
+      "description": "Grégoire presents Vivre, a concert programme that combines songs and narrative.",
+      "categories": ["concerts", "outdoor", "open_air_music"],
+      "tags": [],
+      "start_at": "2026-08-25T20:00:00+02:00",
+      "end_at": "2026-08-26T00:00:00+02:00",
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Villa et Jardins Ephrussi de Rothschild",
+        "city": "Saint-Jean-Cap-Ferrat",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official programme does not state the performance language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 40,
+        "maximum": 40,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Adult ticket. The official programme also lists child and picnic-basket rates."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 27,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Official outdoor music festival in the Villa gardens",
+          "EUR 40 adult ticket is within the preferred budget"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.villa-ephrussi.com/fr/mardi-25-aout-gregoire-0",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Grégoire",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["identity", "date", "description"]
+        },
+        {
+          "url": "https://www.villa-ephrussi.com/fr/nocturnes-villa",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Les Nocturnes de la Villa",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["time", "venue", "price", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_verified_at": "2026-08-11T11:11:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "coun-libera-l-art-au-palais-lascaris-nice-2026-06-27",
+      "title": "Coun – Libera l’Art au Palais Lascaris",
+      "description": "Exhibition by artist Coun at Palais Lascaris.",
+      "categories": ["exhibitions", "museums_and_art"],
+      "tags": [],
+      "start_at": "2026-06-27",
+      "end_at": "2027-01-18",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Palais Lascaris",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": "15 rue Droite, 06000 Nice",
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not state exhibition language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 5,
+        "maximum": 5,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Single listed rate."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 24,
+        "level": "strong_match",
+        "reasons": ["Core travel zone", "Current museum exhibition", "Confirmed EUR 5 admission"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/evenement/coun-libera-lart-au-palais-lascaris/",
+          "name": "Office de Tourisme Nice Côte d’Azur — Coun – Libera l’Art au Palais Lascaris",
+          "type": "official_tourism",
+          "trust": "high",
+          "checked_at": "2026-08-11T11:11:22+02:00",
+          "supports": ["identity", "date", "time", "description", "venue", "price"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_seen_at": "2026-08-11T11:11:22+02:00",
+        "last_verified_at": "2026-08-11T11:11:22+02:00",
+        "content_hash": null
+      }
     }
   ]
 }
