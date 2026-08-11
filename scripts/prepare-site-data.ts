@@ -96,6 +96,20 @@ function reproducibleBuildTimestamp(): string | null {
   return Number.isNaN(date.getTime()) ? null : date.toISOString();
 }
 
+function latestCompletedRunAt(runs: unknown[]): string | null {
+  let latest: { value: string; timestamp: number } | undefined;
+
+  for (const run of runs) {
+    if (!isRecord(run) || typeof run.ended_at !== 'string') continue;
+    const timestamp = Date.parse(run.ended_at);
+    if (Number.isNaN(timestamp) || (latest !== undefined && timestamp <= latest.timestamp))
+      continue;
+    latest = { value: run.ended_at, timestamp };
+  }
+
+  return latest?.value ?? null;
+}
+
 async function main(): Promise<void> {
   const [events, runHistory, rejected, attended] = await Promise.all([
     readJson(join(repositoryRoot, 'data', 'events.json')),
@@ -127,7 +141,9 @@ async function main(): Promise<void> {
     run_history: runHistory,
     metadata: {
       build_timestamp: reproducibleBuildTimestamp(),
-      data_updated_at: typeof events.generated_at === 'string' ? events.generated_at : null,
+      data_updated_at:
+        latestCompletedRunAt(runHistory.runs) ??
+        (typeof events.generated_at === 'string' ? events.generated_at : null),
       repository_name: repository.name,
       repository_url: repository.url,
       report_links: reportLinks,
