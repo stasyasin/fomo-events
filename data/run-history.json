@@ -391,6 +391,40 @@
         "reports/daily/2026-08-11.md"
       ],
       "summary": "Daily scan checked all 21 enabled official sources and added five individually dated Les Nocturnes de la Villa performances plus one current Nice museum exhibition. No selected record was cancelled or sold out."
+    },
+    {
+      "id": "daily-2026-08-19-1849",
+      "mode": "daily",
+      "started_at": "2026-08-19T18:44:00+02:00",
+      "ended_at": "2026-08-19T18:49:59+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 21,
+      "search_queries": 0,
+      "candidate_events_found": 0,
+      "new_events": 0,
+      "updated_events": 0,
+      "possible_duplicates": 0,
+      "rejected_candidates": 2,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "The configured Observatoire page confirms the existing 19–20 September Heritage Days listing but did not provide a new dated public astronomy programme. The configured IMCCE landing page was stale, so no astronomy fact was inferred from it.",
+        "Pathé did not establish a dated, venue-specific Nice cinema highlight suitable for the concise monthly shortlist; routine sessions were excluded.",
+        "The Cannes agenda requires JavaScript for complete filtering; no unverified listing was inferred from it.",
+        "PREFERENCES.md names Vallauris as a travel destination, but Vallauris is absent from preferences.yaml zones. YAML remains authoritative until the profile is synchronised.",
+        "The enabled official-source list remains incomplete for several configured zones and categories."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-19.md"
+      ],
+      "summary": "Daily scan checked all 21 enabled official sources, found no new individually verified high-signal event or material availability change, and archived five completed dated records."
     }
   ]
 }

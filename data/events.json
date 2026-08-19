@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-06T11:37:22+02:00",
+  "generated_at": "2026-08-19T18:49:59+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -1048,7 +1048,7 @@
         "level": "must_go",
         "reasons": ["Extended travel zone", "Fireworks directly prioritised", "Free entry"]
       },
-      "status": "scheduled",
+      "status": "expired",
       "timezone": "Europe/Paris",
       "sources": [
         {
@@ -2775,7 +2775,7 @@
           "Rare deep partial solar eclipse with published local circumstances"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.afastronomie.fr/media/default/0001/28/DP_ECLIPSEinfo-web-69f3.pdf",
@@ -3483,7 +3483,7 @@
           "International music-and-dance programme"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.nice.fr/la-farandole-festival-international-de-folklore-de-nice/",
@@ -3889,7 +3889,7 @@
           "EUR 40 adult ticket is within the preferred budget"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.villa-ephrussi.com/fr/mardi-11-aout-luz-casal-0",
@@ -3962,7 +3962,7 @@
           "EUR 40 adult ticket is within the preferred budget"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.villa-ephrussi.com/fr/lundi-17-aout-jeanne-cherhal-0",
