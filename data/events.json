@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T18:49:59+02:00",
+  "generated_at": "2026-08-24T20:36:36+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -258,7 +258,7 @@
           "Unusual local sports event"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "timezone": "Europe/Paris",
       "sources": [
         {
@@ -1335,7 +1335,7 @@
         "level": "must_go",
         "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
@@ -3548,7 +3548,7 @@
           "Free evening screening in a garden setting"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.nice.fr/mon-ete-cinema/",
@@ -3686,7 +3686,7 @@
           "Confirmed DJ and live-saxophone set"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.nice.fr/mon-ete-a-nice/",
@@ -3824,7 +3824,7 @@
           "Price exceeds the profile hard maximum; included only as an exceptional fit"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.villa-ephrussi.com/fr/deux-sous-etoiles",
@@ -4035,7 +4035,7 @@
           "EUR 40 adult ticket is within the preferred budget"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.villa-ephrussi.com/fr/mardi-18-aout-armando-noguera",
@@ -4265,6 +4265,79 @@
         "first_seen_at": "2026-08-11T11:11:22+02:00",
         "last_seen_at": "2026-08-11T11:11:22+02:00",
         "last_verified_at": "2026-08-11T11:11:22+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "la-derniere-fois-qu-on-a-vu-bernard-stasi-nice-2026-09-17",
+      "title": "La dernière fois qu’on a vu Bernard Stasi",
+      "description": "A public staging by the TNN troupe of Grégoire Biseau’s 2025 prize-winning text, directed by Muriel Mayette-Holtz.",
+      "categories": ["theatre", "free_events"],
+      "tags": [],
+      "start_at": "2026-09-17",
+      "end_at": "2026-09-18",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Salle des Franciscains, Théâtre National de Nice",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": ["fr"],
+        "importance": "high",
+        "notes": "French-language public theatre staging."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 0,
+        "maximum": 0,
+        "is_free": true,
+        "is_price_confirmed": true,
+        "notes": "Free with reservation."
+      },
+      "ticketing": {
+        "status": "registration_required",
+        "official_url": "https://www.tnn.fr/fr/evenements/comite-lecture-laureat-2025",
+        "sale_starts_at": null,
+        "reservation_required": true
+      },
+      "ranking": {
+        "score": 18,
+        "level": "maybe",
+        "reasons": [
+          "Core travel zone",
+          "Free public theatre staging",
+          "French language is material"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.tnn.fr/fr/evenements/comite-lecture-laureat-2025",
+          "name": "Théâtre National de Nice — La dernière fois qu’on a vu Bernard Stasi",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-08-24T20:36:36+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "description",
+            "venue",
+            "free_entry",
+            "ticket_url"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-08-24T20:36:36+02:00",
+        "last_seen_at": "2026-08-24T20:36:36+02:00",
+        "last_verified_at": "2026-08-24T20:36:36+02:00",
         "content_hash": null
       }
     }

@@ -374,6 +374,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Opéra Nice Côte d’Azur — Brahms / Chostakovitch](https://www.opera-nice.org/agenda/brahms-chostakovitch/)
 - **Last verified:** 2026-08-01T02:33:12+02:00
 
+## La dernière fois qu’on a vu Bernard Stasi
+
+- **When:** 2026-09-17
+- **Where:** Salle des Franciscains, Théâtre National de Nice, Nice
+- **Categories:** theatre, free_events
+- **Price:** Free (confirmed)
+- **Language:** fr
+- **Tickets:** registration_required
+- **Ranking:** maybe — Core travel zone; Free public theatre staging; French language is material
+- **Source:** [Théâtre National de Nice — La dernière fois qu’on a vu Bernard Stasi](https://www.tnn.fr/fr/evenements/comite-lecture-laureat-2025)
+- **Last verified:** 2026-08-24T20:36:36+02:00
+
 ## Chopin
 
 - **When:** 2026-09-18 18:00 GMT+2

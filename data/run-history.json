@@ -425,6 +425,41 @@
         "reports/daily/2026-08-19.md"
       ],
       "summary": "Daily scan checked all 21 enabled official sources, found no new individually verified high-signal event or material availability change, and archived five completed dated records."
+    },
+    {
+      "id": "daily-2026-08-24-2036",
+      "mode": "daily",
+      "started_at": "2026-08-24T20:36:36+02:00",
+      "ended_at": "2026-08-24T20:41:11+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 21,
+      "search_queries": 0,
+      "candidate_events_found": 1,
+      "new_events": 1,
+      "updated_events": 0,
+      "possible_duplicates": 0,
+      "rejected_candidates": 2,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "Bobar Comedy Club was blocked by an anti-bot verification page; no listing was inferred from it.",
+        "The configured Observatory page confirms the existing 19–20 September Heritage Days listing but supplied no new dated public astronomy programme. The IMCCE landing page was four months old, so no astronomy fact was inferred from it; the AFA landing page was also rechecked.",
+        "Pathé lists special-programme titles but did not establish a dated, venue-specific Nice cinema highlight suitable for the concise monthly shortlist.",
+        "The Cannes agenda requires JavaScript for its complete listings; no unverified future listing was added.",
+        "PREFERENCES.md names Vallauris as a destination, but Vallauris is absent from preferences.yaml travel zones. YAML remains authoritative until the profile is synchronised; the current Picasso museum exhibition there was not added.",
+        "The enabled official-source list remains incomplete for several configured zones and categories."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-08-24.md"
+      ],
+      "summary": "Daily scan checked all 21 enabled official sources, added one individually verified free TNN theatre listing, and archived six completed dated records. No selected record was cancelled or sold out."
     }
   ]
 }
