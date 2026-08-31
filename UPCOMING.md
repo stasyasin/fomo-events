@@ -326,18 +326,6 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Villa et Jardins Ephrussi de Rothschild — Grégoire](https://www.villa-ephrussi.com/fr/mardi-25-aout-gregoire-0)
 - **Last verified:** 2026-08-11T11:11:22+02:00
 
-## Projection en plein air - Kirikou et la sorcière
-
-- **When:** 2026-08-28 20:30 GMT+2
-- **Where:** Parc du Musée national Fernand Léger, Biot
-- **Categories:** cinema, cinema_highlights, free_events, outdoor
-- **Price:** Free (confirmed)
-- **Language:** Language unknown
-- **Tickets:** free_entry
-- **Ranking:** strong_match — Official museum open-air cinema selection; Extended travel zone; Free all-public evening screening in a museum park
-- **Source:** [Musée national Fernand Léger — Projection en plein air - Kirikou et la sorcière](https://musees-nationaux-alpesmaritimes.fr/fleger/agenda/evenement/projection-en-plein-air-kirikou-et-la-sorciere)
-- **Last verified:** 2026-08-10T10:52:31+02:00
-
 ## OGC Nice vs Le Mans
 
 - **When:** 2026-09-05 20:45 GMT+2
@@ -374,6 +362,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Opéra Nice Côte d’Azur — Brahms / Chostakovitch](https://www.opera-nice.org/agenda/brahms-chostakovitch/)
 - **Last verified:** 2026-08-01T02:33:12+02:00
 
+## Fête du Malonat
+
+- **When:** 2026-09-12
+- **Where:** Fête du Malonat, Nice
+- **Categories:** city_events, festivals, free_events
+- **Price:** Free (confirmed)
+- **Language:** fr
+- **Tickets:** free_entry
+- **Ranking:** strong_match — Core travel zone; Free, individually confirmed traditional Nice celebration; Distinctive public procession programme
+- **Source:** [Ville de Nice — Fête du Malonat](https://www.nice.fr/agenda/fete-du-malonat/20260912-2000/)
+- **Last verified:** 2026-08-31T08:32:31+02:00
+
 ## La dernière fois qu’on a vu Bernard Stasi
 
 - **When:** 2026-09-17
@@ -397,6 +397,30 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** strong_match — Classical music; Core travel zone; Free entry
 - **Source:** [Opéra Nice Côte d’Azur — agenda — Chopin](https://www.opera-nice.org/agenda/?_season=saison-2026-2027)
 - **Last verified:** 2026-08-01T02:33:12+02:00
+
+## Projection en plein air - Kirikou et la sorcière
+
+- **When:** 2026-09-18 20:30 GMT+2
+- **Where:** Parc du Musée national Fernand Léger, Biot
+- **Categories:** cinema, cinema_highlights, free_events, outdoor
+- **Price:** Free (confirmed)
+- **Language:** Language unknown
+- **Tickets:** free_entry
+- **Ranking:** strong_match — Official museum open-air cinema selection; Extended travel zone; Free all-public evening screening in a museum park
+- **Source:** [Musée national Fernand Léger — Projection en plein air - Kirikou et la sorcière](https://musees-nationaux-alpesmaritimes.fr/fleger/agenda/evenement/projection-en-plein-air-kirikou-et-la-sorciere)
+- **Last verified:** 2026-08-31T08:32:31+02:00
+
+## Journées européennes du Patrimoine 2026 – Musée national Marc Chagall
+
+- **When:** 2026-09-19
+- **Where:** Musée national Marc Chagall, Nice
+- **Categories:** museums_and_art, city_events
+- **Price:** Price unknown
+- **Language:** fr
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Individually confirmed Heritage Days museum programme; Guided visits and conservation-focused activities
+- **Source:** [Musée national Marc Chagall — Journées européennes du Patrimoine 2026](https://musees-nationaux-alpesmaritimes.fr/chagall/agenda/evenement/journees-europeennes-du-patrimoine-2026)
+- **Last verified:** 2026-08-31T08:32:31+02:00
 
 ## Journées Européennes du Patrimoine 2026 – Observatoire de la Côte d’Azur, Mont-Gros
 
