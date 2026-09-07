@@ -434,9 +434,33 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Observatoire de la Côte d’Azur — Journées Européennes du Patrimoine 2026](https://geoazur.oca.eu/fr/manifestation/5893-jep26)
 - **Last verified:** 2026-08-02T10:54:51+02:00
 
-## OGC Nice vs Lille
+## Journées Européennes du Patrimoine 2026 – Théâtre National de Nice
 
 - **When:** 2026-09-19
+- **Where:** Salle des Franciscains, Théâtre National de Nice, Nice
+- **Categories:** theatre, city_events, free_events
+- **Price:** Free (confirmed)
+- **Language:** fr
+- **Tickets:** unknown
+- **Ranking:** strong_match — Core travel zone; Free, individually confirmed Heritage Days visit; Distinctive behind-the-scenes theatre and heritage experience
+- **Source:** [Théâtre National de Nice — Journées Européennes du Patrimoine 2026 visits](https://www.tnn.fr/fr/actions-artistiques/visites)
+- **Last verified:** 2026-09-07T11:48:45+02:00
+
+## Journées Européennes du Patrimoine 2026 – Villa Ephrussi de Rothschild
+
+- **When:** 2026-09-19
+- **Where:** Villa et Jardins Ephrussi de Rothschild, Saint-Jean-Cap-Ferrat
+- **Categories:** museums_and_art, city_events
+- **Price:** Price unknown
+- **Language:** fr
+- **Tickets:** available
+- **Ranking:** strong_match — Core travel zone; Individually confirmed Heritage Days programme; Extended opening and themed guided visits at a distinctive villa
+- **Source:** [Villa et Jardins Ephrussi de Rothschild — Journées Européennes du Patrimoine 2026](https://www.villa-ephrussi.com/fr/journees-europeennes-patrimoine-0)
+- **Last verified:** 2026-09-07T11:48:45+02:00
+
+## OGC Nice vs Lille
+
+- **When:** 2026-09-20T17:15:00+02:00
 - **Where:** Allianz Riviera, Nice
 - **Categories:** sports, football
 - **Price:** Price unknown
@@ -444,7 +468,7 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** unknown
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
-- **Last verified:** 2026-08-01T19:44:06+02:00
+- **Last verified:** 2026-09-07T11:48:45+02:00
 
 ## Face à face – Orlando
 
@@ -532,7 +556,7 @@ _Generated deterministically from the canonical event database._
 
 ## OGC Nice vs Strasbourg
 
-- **When:** 2026-10-10
+- **When:** 2026-10-11T15:00:00+02:00
 - **Where:** Allianz Riviera, Nice
 - **Categories:** sports, football
 - **Price:** Price unknown
@@ -540,7 +564,7 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** unknown
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
-- **Last verified:** 2026-08-01T19:44:06+02:00
+- **Last verified:** 2026-09-07T11:48:45+02:00
 
 ## 60 minutes de découvertes #1
 
@@ -604,7 +628,7 @@ _Generated deterministically from the canonical event database._
 
 ## OGC Nice vs Rennes
 
-- **When:** 2026-10-31
+- **When:** 2026-10-31T17:15:00+01:00
 - **Where:** Allianz Riviera, Nice
 - **Categories:** sports, football
 - **Price:** Price unknown
@@ -612,7 +636,7 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** unknown
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
-- **Last verified:** 2026-08-01T19:44:06+02:00
+- **Last verified:** 2026-09-07T11:48:45+02:00
 
 ## OGC Nice vs Paris SG
 
