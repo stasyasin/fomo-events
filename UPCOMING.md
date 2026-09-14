@@ -470,6 +470,30 @@ _Generated deterministically from the canonical event database._
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-09-07T11:48:45+02:00
 
+## English Comedy
+
+- **When:** 2026-09-20 17:30 GMT+2
+- **Where:** Bobar Comedy Club, Nice
+- **Categories:** comedy
+- **Price:** Price unknown
+- **Language:** en
+- **Tickets:** unknown
+- **Ranking:** strong_match — English-language comedy; Core travel zone; Individually confirmed Bobar programme
+- **Source:** [Bobar Comedy Club — programme](https://www.bobarcomedyclub.fr/)
+- **Last verified:** 2026-09-14T11:17:41+02:00
+
+## L’Âge bête
+
+- **When:** 2026-09-25
+- **Where:** anthéa, Antipolis Théâtre d’Antibes, Antibes
+- **Categories:** comedy, theatre
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Comedy; Core travel zone; Individually dated anthéa programme
+- **Source:** [anthéa, Antipolis Théâtre d’Antibes — calendar](https://www.anthea-antibes.fr/fr/calendrier)
+- **Last verified:** 2026-09-14T11:17:41+02:00
+
 ## Face à face – Orlando
 
 - **When:** 2026-09-29 18:00 GMT+2
@@ -518,6 +542,18 @@ _Generated deterministically from the canonical event database._
 - **Source:** [Opéra Nice Côte d’Azur — 60 minutes de violoncelle](https://www.opera-nice.org/agenda/)
 - **Last verified:** 2026-08-04T13:30:45+02:00
 
+## Musique de chambre 2026-2027
+
+- **When:** 2026-10-05 12:15 GMT+2
+- **Where:** Foyer Montserrat Caballé de l’Opéra, Nice
+- **Categories:** classical_music
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** available
+- **Ranking:** strong_match — Classical music; Core travel zone; Individually confirmed chamber concert
+- **Source:** [Opéra Nice Côte d’Azur — Musique de chambre](https://www.opera-nice.org/agenda/musique-de-chambre/20261005-1215/)
+- **Last verified:** 2026-09-14T11:17:41+02:00
+
 ## Saigon
 
 - **When:** 2026-10-08 19:30 GMT+2
@@ -529,6 +565,18 @@ _Generated deterministically from the canonical event database._
 - **Ranking:** strong_match — Core travel zone; Current TNN theatre programme; Distinctive contemporary theatre work
 - **Source:** [Théâtre National de Nice — Saigon](https://www.tnn.fr/fr/spectacles/saison-2026-2027/saigon)
 - **Last verified:** 2026-08-06T08:34:33+02:00
+
+## Enoch Arden
+
+- **When:** 2026-10-09
+- **Where:** Théâtre National de Nice, Nice
+- **Categories:** classical_music, theatre
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** unknown
+- **Ranking:** strong_match — Classical music and theatre; Core travel zone; Tennyson poem and Strauss music
+- **Source:** [Théâtre National de Nice — Enoch Arden](https://www.tnn.fr/fr/spectacles/saison-2026-2027/enoch-arden)
+- **Last verified:** 2026-09-14T11:17:41+02:00
 
 ## EVO FRANCE 2026
 
@@ -640,7 +688,7 @@ _Generated deterministically from the canonical event database._
 
 ## OGC Nice vs Paris SG
 
-- **When:** 2026-11-21
+- **When:** 2026-11-21 17:15 GMT+1
 - **Where:** Allianz Riviera, Nice
 - **Categories:** sports, football
 - **Price:** Price unknown
@@ -648,7 +696,7 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** unknown
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
-- **Last verified:** 2026-08-01T19:44:06+02:00
+- **Last verified:** 2026-09-14T11:17:41+02:00
 
 ## Mari / Schumann / Gershwin / Ravel
 
@@ -664,7 +712,7 @@ _Generated deterministically from the canonical event database._
 
 ## OGC Nice vs Troyes
 
-- **When:** 2026-11-28
+- **When:** 2026-11-28 20:45 GMT+1
 - **Where:** Allianz Riviera, Nice
 - **Categories:** sports, football
 - **Price:** Price unknown
@@ -672,7 +720,7 @@ _Generated deterministically from the canonical event database._
 - **Tickets:** unknown
 - **Ranking:** must_go — Favourite team; OGC Nice home match at Allianz Riviera; Core travel zone
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
-- **Last verified:** 2026-08-01T19:44:06+02:00
+- **Last verified:** 2026-09-14T11:17:41+02:00
 
 ## OGC Nice vs Lens
 

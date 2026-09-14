@@ -318,7 +318,7 @@
         "level": "strong_match",
         "reasons": ["Classical music", "Core travel zone", "Official price listed"]
       },
-      "status": "on_sale",
+      "status": "expired",
       "timezone": "Europe/Paris",
       "sources": [
         {
@@ -1600,13 +1600,13 @@
     {
       "id": "ogc-nice-vs-paris-sg-nice-2026-11-21",
       "title": "OGC Nice vs Paris SG",
-      "description": "Ligue 1 McDonald's, Matchday 11. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "description": "Ligue 1 McDonald's, Matchday 11. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is confirmed for 17:15 local time.",
       "categories": ["sports", "football"],
       "tags": ["major_event"],
-      "start_at": "2026-11-21",
+      "start_at": "2026-11-21T17:15:00+01:00",
       "end_at": null,
       "timezone": "Europe/Paris",
-      "date_precision": "date",
+      "date_precision": "datetime",
       "venue": {
         "name": "Allianz Riviera",
         "city": "Nice",
@@ -1647,27 +1647,27 @@
           "name": "OGC Nice — 2026–27 first-team fixtures",
           "type": "official_sports",
           "trust": "high",
-          "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "checked_at": "2026-09-14T11:17:41+02:00",
+          "supports": ["identity", "date", "venue", "status", "time"]
         }
       ],
       "tracking": {
         "first_seen_at": "2026-08-01T19:44:06+02:00",
-        "last_seen_at": "2026-08-01T19:44:06+02:00",
-        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_verified_at": "2026-09-14T11:17:41+02:00",
         "content_hash": null
       }
     },
     {
       "id": "ogc-nice-vs-troyes-nice-2026-11-28",
       "title": "OGC Nice vs Troyes",
-      "description": "Ligue 1 McDonald's, Matchday 12. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is to be confirmed.",
+      "description": "Ligue 1 McDonald's, Matchday 12. The official OGC Nice first-team fixture list confirms a home match at Allianz Riviera; kick-off is confirmed for 20:45 local time.",
       "categories": ["sports", "football"],
       "tags": ["major_event"],
-      "start_at": "2026-11-28",
+      "start_at": "2026-11-28T20:45:00+01:00",
       "end_at": null,
       "timezone": "Europe/Paris",
-      "date_precision": "date",
+      "date_precision": "datetime",
       "venue": {
         "name": "Allianz Riviera",
         "city": "Nice",
@@ -1708,14 +1708,14 @@
           "name": "OGC Nice — 2026–27 first-team fixtures",
           "type": "official_sports",
           "trust": "high",
-          "checked_at": "2026-08-01T19:44:06+02:00",
-          "supports": ["identity", "date", "venue", "status"]
+          "checked_at": "2026-09-14T11:17:41+02:00",
+          "supports": ["identity", "date", "venue", "status", "time"]
         }
       ],
       "tracking": {
         "first_seen_at": "2026-08-01T19:44:06+02:00",
-        "last_seen_at": "2026-08-01T19:44:06+02:00",
-        "last_verified_at": "2026-08-01T19:44:06+02:00",
+        "last_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_verified_at": "2026-09-14T11:17:41+02:00",
         "content_hash": null
       }
     },
@@ -2444,7 +2444,7 @@
           "Published remaining summer dates"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.explorenicecotedazur.com/evenement/etoiles-grandeur-nature/",
@@ -3613,7 +3613,7 @@
           "French language is material"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.tnn.fr/fr/evenements/comite-lecture-2026",
@@ -4388,7 +4388,7 @@
           "Distinctive public procession programme"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.nice.fr/agenda/fete-du-malonat/20260912-2000/",
@@ -4606,6 +4606,266 @@
         "first_seen_at": "2026-08-31T08:32:31+02:00",
         "last_seen_at": "2026-08-31T08:32:31+02:00",
         "last_verified_at": "2026-08-31T08:32:31+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "english-comedy-nice-2026-09-20",
+      "title": "English Comedy",
+      "description": "English-language comedy listed by Bobar Comedy Club.",
+      "categories": ["comedy"],
+      "tags": [],
+      "start_at": "2026-09-20T17:30:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Bobar Comedy Club",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": ["en"],
+        "importance": "high",
+        "notes": "The official programme labels this listing “ENGLISH COMEDY”."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official programme does not state a ticket price."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": null,
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 26,
+        "level": "strong_match",
+        "reasons": [
+          "English-language comedy",
+          "Core travel zone",
+          "Individually confirmed Bobar programme"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.bobarcomedyclub.fr/",
+          "name": "Bobar Comedy Club — programme",
+          "type": "official_venue",
+          "trust": "high",
+          "checked_at": "2026-09-14T11:17:41+02:00",
+          "supports": ["identity", "date", "time", "venue", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_verified_at": "2026-09-14T11:17:41+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "l-age-bete-antibes-2026-09-25",
+      "title": "L’Âge bête",
+      "description": "A comedy presented by anthéa; the official calendar describes it as a work about not being serious at sixty.",
+      "categories": ["comedy", "theatre"],
+      "tags": [],
+      "start_at": "2026-09-25",
+      "end_at": "2026-09-27",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "anthéa, Antipolis Théâtre d’Antibes",
+        "city": "Antibes",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official French listing does not specify the performance language."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official listing does not state a ticket price."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.anthea-antibes.fr/fr/spectacles/saison-2026-2027/privilege-spectacle-vivant/l-age-bete",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 21,
+        "level": "strong_match",
+        "reasons": ["Comedy", "Core travel zone", "Individually dated anthéa programme"]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.anthea-antibes.fr/fr/calendrier",
+          "name": "anthéa, Antipolis Théâtre d’Antibes — calendar",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-09-14T11:17:41+02:00",
+          "supports": ["identity", "date", "description", "venue"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_verified_at": "2026-09-14T11:17:41+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "musique-de-chambre-2026-2027-nice-2026-10-05",
+      "title": "Musique de chambre 2026-2027",
+      "description": "Chamber-music programme with musicians of the Orchestre Philharmonique de Nice, featuring works by Clara and Robert Schumann, Brahms, Mendelssohn and Strauss.",
+      "categories": ["classical_music"],
+      "tags": [],
+      "start_at": "2026-10-05T12:15:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Foyer Montserrat Caballé de l’Opéra",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "not_applicable",
+        "notes": null
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official listing does not state a ticket price."
+      },
+      "ticketing": {
+        "status": "available",
+        "official_url": "https://opera-nice.notre-billetterie.org/billets?seance=3531",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 22,
+        "level": "strong_match",
+        "reasons": ["Classical music", "Core travel zone", "Individually confirmed chamber concert"]
+      },
+      "status": "on_sale",
+      "sources": [
+        {
+          "url": "https://www.opera-nice.org/agenda/musique-de-chambre/20261005-1215/",
+          "name": "Opéra Nice Côte d’Azur — Musique de chambre",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-09-14T11:17:41+02:00",
+          "supports": [
+            "identity",
+            "date",
+            "time",
+            "description",
+            "venue",
+            "ticket_url",
+            "ticket_status"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_verified_at": "2026-09-14T11:17:41+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "enoch-arden-nice-2026-10-09",
+      "title": "Enoch Arden",
+      "description": "A TNN performance based on Alfred Tennyson’s poem, with music by Richard Strauss for narrator and piano four hands.",
+      "categories": ["classical_music", "theatre"],
+      "tags": [],
+      "start_at": "2026-10-09",
+      "end_at": "2026-10-10",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Théâtre National de Nice",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not specify the performance language."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official listing does not state a ticket price."
+      },
+      "ticketing": {
+        "status": "unknown",
+        "official_url": "https://www.tnn.fr/fr/spectacles/saison-2026-2027/enoch-arden",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 22,
+        "level": "strong_match",
+        "reasons": [
+          "Classical music and theatre",
+          "Core travel zone",
+          "Tennyson poem and Strauss music"
+        ]
+      },
+      "status": "scheduled",
+      "sources": [
+        {
+          "url": "https://www.tnn.fr/fr/spectacles/saison-2026-2027/enoch-arden",
+          "name": "Théâtre National de Nice — Enoch Arden",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-09-14T11:17:41+02:00",
+          "supports": ["identity", "date", "description", "venue", "ticket_url"]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_seen_at": "2026-09-14T11:17:41+02:00",
+        "last_verified_at": "2026-09-14T11:17:41+02:00",
         "content_hash": null
       }
     }
