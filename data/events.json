@@ -388,7 +388,7 @@
         "level": "strong_match",
         "reasons": ["Classical music", "Core travel zone", "Free entry"]
       },
-      "status": "scheduled",
+      "status": "expired",
       "timezone": "Europe/Paris",
       "sources": [
         {
@@ -1457,7 +1457,7 @@
         "level": "must_go",
         "reasons": ["Favourite team", "OGC Nice home match at Allianz Riviera", "Core travel zone"]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro",
@@ -2517,7 +2517,7 @@
           "Astronomy and heritage programme"
         ]
       },
-      "status": "announced",
+      "status": "expired",
       "sources": [
         {
           "url": "https://geoazur.oca.eu/fr/manifestation/5893-jep26",
@@ -3751,7 +3751,7 @@
           "Free all-public evening screening in a museum park"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://musees-nationaux-alpesmaritimes.fr/fleger/agenda/evenement/projection-en-plein-air-kirikou-et-la-sorciere",
@@ -4315,7 +4315,7 @@
           "French language is material"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.tnn.fr/fr/evenements/comite-lecture-laureat-2025",
@@ -4453,7 +4453,7 @@
           "Distinctive behind-the-scenes theatre and heritage experience"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.tnn.fr/fr/actions-artistiques/visites",
@@ -4526,7 +4526,7 @@
           "Extended opening and themed guided visits at a distinctive villa"
         ]
       },
-      "status": "on_sale",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.villa-ephrussi.com/fr/journees-europeennes-patrimoine-0",
@@ -4591,7 +4591,7 @@
           "Guided visits and conservation-focused activities"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://musees-nationaux-alpesmaritimes.fr/chagall/agenda/evenement/journees-europeennes-du-patrimoine-2026",
@@ -4656,7 +4656,7 @@
           "Individually confirmed Bobar programme"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.bobarcomedyclub.fr/",
