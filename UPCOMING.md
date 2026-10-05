@@ -710,6 +710,30 @@ _Generated deterministically from the canonical event database._
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-09-07T11:48:45+02:00
 
+## Les Jeudis de la Villa 2026-27
+
+- **When:** 2026-11-05
+- **Where:** Villa et Jardins Ephrussi de Rothschild, Saint-Jean-Cap-Ferrat
+- **Categories:** food_and_wine, museums_and_art
+- **Price:** EUR 120
+- **Language:** fr
+- **Tickets:** not_on_sale
+- **Ranking:** maybe — Core travel zone; Distinctive cultural dinner series in the Villa; Confirmed price is within the hard budget but above the preferred budget
+- **Source:** [Villa et Jardins Ephrussi de Rothschild — Les Jeudis de la Villa 2026-27](https://www.villa-ephrussi.com/fr/jeudis-villa-2026-27)
+- **Last verified:** 2026-10-05T11:03:08+02:00
+
+## La Veuve joyeuse
+
+- **When:** 2026-11-11
+- **Where:** Opéra Nice Côte d’Azur, Nice
+- **Categories:** opera_and_ballet
+- **Price:** EUR 6–57
+- **Language:** fr, en
+- **Tickets:** available
+- **Ranking:** strong_match — Opera and ballet priority; Core travel zone; English surtitles listed; Confirmed price within preferred budget
+- **Source:** [Opéra Nice Côte d’Azur — La Veuve joyeuse](https://www.opera-nice.org/agenda/la-veuve-joyeuse/)
+- **Last verified:** 2026-10-05T11:03:08+02:00
+
 ## OGC Nice vs Paris SG
 
 - **When:** 2026-11-21 17:15 GMT+1

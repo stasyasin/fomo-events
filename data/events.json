@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-05T09:08:13+02:00",
+  "generated_at": "2026-10-05T11:03:08+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -5013,6 +5013,156 @@
         "first_seen_at": "2026-10-05T09:08:13+02:00",
         "last_seen_at": "2026-10-05T09:08:13+02:00",
         "last_verified_at": "2026-10-05T09:08:13+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "la-veuve-joyeuse-nice-2026-11-11",
+      "title": "La Veuve joyeuse",
+      "description": "Franz Lehár’s three-act operetta, directed by Benoît Benichou and conducted by Nicolas André, returns in an immersive Opéra Nice production.",
+      "categories": ["opera_and_ballet"],
+      "tags": [],
+      "start_at": "2026-11-11",
+      "end_at": "2026-11-13",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Opéra Nice Côte d’Azur",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": ["fr", "en"],
+        "importance": "medium",
+        "notes": "Performed in French, with French and English surtitles."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 6,
+        "maximum": 57,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Published full-price range; reduced prices are also listed."
+      },
+      "ticketing": {
+        "status": "available",
+        "official_url": "https://www.opera-nice.org/agenda/la-veuve-joyeuse/",
+        "sale_starts_at": null,
+        "reservation_required": true
+      },
+      "ranking": {
+        "score": 23,
+        "level": "strong_match",
+        "reasons": [
+          "Opera and ballet priority",
+          "Core travel zone",
+          "English surtitles listed",
+          "Confirmed price within preferred budget"
+        ]
+      },
+      "status": "on_sale",
+      "sources": [
+        {
+          "url": "https://www.opera-nice.org/agenda/la-veuve-joyeuse/",
+          "name": "Opéra Nice Côte d’Azur — La Veuve joyeuse",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-10-05T11:03:08+02:00",
+          "supports": [
+            "date",
+            "description",
+            "identity",
+            "price",
+            "ticket_status",
+            "ticket_url",
+            "time",
+            "venue"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-10-05T11:03:08+02:00",
+        "last_seen_at": "2026-10-05T11:03:08+02:00",
+        "last_verified_at": "2026-10-05T11:03:08+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "les-jeudis-de-la-villa-2026-27-saint-jean-cap-ferrat-2026-11-05",
+      "title": "Les Jeudis de la Villa 2026-27",
+      "description": "A 16-evening dinner-conversation series at Villa Ephrussi de Rothschild, pairing a guest speaker with a dinner by chef Myriam Barda. The announced season runs from 5 November to 10 December 2026 and from 28 January to 1 April 2027.",
+      "categories": ["food_and_wine", "museums_and_art"],
+      "tags": [],
+      "start_at": "2026-11-05",
+      "end_at": "2027-04-01",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Villa et Jardins Ephrussi de Rothschild",
+        "city": "Saint-Jean-Cap-Ferrat",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": ["fr"],
+        "importance": "medium",
+        "notes": "The official listing does not state interpretation or another programme language."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 120,
+        "maximum": 120,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "Per-person price includes champagne, the dinner-conversation, a semi-gastronomic menu, two glasses of wine, coffee and water."
+      },
+      "ticketing": {
+        "status": "not_on_sale",
+        "official_url": "https://www.villa-ephrussi.com/fr/jeudis-villa-2026-27",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 16,
+        "level": "maybe",
+        "reasons": [
+          "Core travel zone",
+          "Distinctive cultural dinner series in the Villa",
+          "Confirmed price is within the hard budget but above the preferred budget"
+        ]
+      },
+      "status": "announced",
+      "sources": [
+        {
+          "url": "https://www.villa-ephrussi.com/fr/jeudis-villa-2026-27",
+          "name": "Villa et Jardins Ephrussi de Rothschild — Les Jeudis de la Villa 2026-27",
+          "type": "official_museum",
+          "trust": "high",
+          "checked_at": "2026-10-05T11:03:08+02:00",
+          "supports": [
+            "city",
+            "date",
+            "description",
+            "identity",
+            "price",
+            "ticket_status",
+            "ticket_url",
+            "time",
+            "venue"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-10-05T11:03:08+02:00",
+        "last_seen_at": "2026-10-05T11:03:08+02:00",
+        "last_verified_at": "2026-10-05T11:03:08+02:00",
         "content_hash": null
       }
     }
