@@ -599,6 +599,40 @@
         "reports/daily/2026-09-21.md"
       ],
       "summary": "Daily scan checked all 21 enabled official sources, found no new individually verified high-signal event or material availability change, and archived nine completed dated records. No selected record was cancelled or sold out."
+    },
+    {
+      "id": "daily-2026-10-05-0900",
+      "mode": "daily",
+      "started_at": "2026-10-05T09:00:00+02:00",
+      "ended_at": "2026-10-05T09:08:13+02:00",
+      "agent": "Codex",
+      "provider": "OpenAI",
+      "model": null,
+      "configuration_version": 1,
+      "sources_checked": 21,
+      "search_queries": 0,
+      "candidate_events_found": 3,
+      "new_events": 2,
+      "updated_events": 0,
+      "possible_duplicates": 2,
+      "rejected_candidates": 1,
+      "sold_out_events": 0,
+      "cancelled_events": 0,
+      "warnings": [
+        "The configured Observatory page was one month old and the configured IMCCE landing page was six months old; neither established a new individually dated public programme or future locally visible astronomy record.",
+        "Pathé exposed a national special-screening page but did not confirm a dated, venue-specific Nice session, so no cinema record was added.",
+        "The Cannes agenda requires JavaScript for complete listings; no unverified event was inferred from it.",
+        "PREFERENCES.md names Vallauris as a destination, but Vallauris is absent from preferences.yaml zones. YAML remains authoritative until the profile is synchronised.",
+        "The enabled official-source list remains incomplete for several configured zones and categories."
+      ],
+      "errors": [],
+      "changed_files": [
+        "UPCOMING.md",
+        "data/events.json",
+        "data/run-history.json",
+        "reports/daily/2026-10-05.md"
+      ],
+      "summary": "Daily scan checked all 21 enabled official sources, added two individually verified TNN listings, and archived five completed dated records. No selected record was cancelled or sold out."
     }
   ]
 }

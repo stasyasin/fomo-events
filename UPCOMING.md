@@ -614,6 +614,30 @@ _Generated deterministically from the canonical event database._
 - **Source:** [OGC Nice — 2026–27 first-team fixtures](https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro)
 - **Last verified:** 2026-09-07T11:48:45+02:00
 
+## Conversation intime avec Jean-François Sivadier
+
+- **When:** 2026-10-12 19:30 GMT+2
+- **Where:** Salle des Franciscains, Théâtre National de Nice, Nice
+- **Categories:** theatre
+- **Price:** EUR 10
+- **Language:** Language unknown
+- **Tickets:** available
+- **Ranking:** strong_match — Core travel zone; Individually confirmed public theatre conversation; Low confirmed price
+- **Source:** [Théâtre National de Nice — Conversation intime avec Jean-François Sivadier](https://www.tnn.fr/fr/evenements/conversation-intime-1-2627)
+- **Last verified:** 2026-10-05T09:08:13+02:00
+
+## Ivanov
+
+- **When:** 2026-10-14
+- **Where:** Salle de La Cuisine, Théâtre National de Nice, Nice
+- **Categories:** theatre
+- **Price:** Price unknown
+- **Language:** Language unknown
+- **Tickets:** available
+- **Ranking:** strong_match — Core travel zone; Individually confirmed three-performance TNN run; Notable Chekhov production
+- **Source:** [Théâtre National de Nice — Ivanov](https://www.tnn.fr/fr/spectacles/saison-2026-2027/ivanov)
+- **Last verified:** 2026-10-05T09:08:13+02:00
+
 ## 60 minutes de découvertes #1
 
 - **When:** 2026-10-15 20:00 GMT+2

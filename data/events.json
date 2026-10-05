@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T11:48:45+02:00",
+  "generated_at": "2026-10-05T09:08:13+02:00",
   "events": [
     {
       "id": "vikings-l-odyssee-jusqu-aux-confins-du-monde-cites-immersives-nice-2026-02-06",
@@ -1192,7 +1192,7 @@
           "Price within preferred budget"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "timezone": "Europe/Paris",
       "sources": [
         {
@@ -2646,7 +2646,7 @@
           "Confirmed price within preferred budget"
         ]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.explorenicecotedazur.com/evenement/henri-matisse-yves-saint-laurent-le-beau-la-mode-et-le-bonheur/",
@@ -2843,7 +2843,7 @@
         "level": "strong_match",
         "reasons": ["Classical music", "Core travel zone", "Official price listed"]
       },
-      "status": "on_sale",
+      "status": "expired",
       "timezone": "Europe/Paris",
       "sources": [
         {
@@ -3036,7 +3036,7 @@
         "level": "strong_match",
         "reasons": ["Core travel zone", "Free public discussion", "Opera and ballet priority"]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.opera-nice.org/agenda/",
@@ -4717,7 +4717,7 @@
         "level": "strong_match",
         "reasons": ["Comedy", "Core travel zone", "Individually dated anthéa programme"]
       },
-      "status": "scheduled",
+      "status": "expired",
       "sources": [
         {
           "url": "https://www.anthea-antibes.fr/fr/calendrier",
@@ -4866,6 +4866,153 @@
         "first_seen_at": "2026-09-14T11:17:41+02:00",
         "last_seen_at": "2026-09-14T11:17:41+02:00",
         "last_verified_at": "2026-09-14T11:17:41+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "conversation-intime-avec-jean-francois-sivadier-nice-2026-10-12",
+      "title": "Conversation intime avec Jean-François Sivadier",
+      "description": "A public conversation with theatre director, actor and author Jean-François Sivadier, presented by Catherine Ceylac.",
+      "categories": ["theatre"],
+      "tags": [],
+      "start_at": "2026-10-12T19:30:00+02:00",
+      "end_at": null,
+      "timezone": "Europe/Paris",
+      "date_precision": "datetime",
+      "venue": {
+        "name": "Salle des Franciscains, Théâtre National de Nice",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not specify the language of the discussion."
+      },
+      "pricing": {
+        "currency": "EUR",
+        "minimum": 10,
+        "maximum": 10,
+        "is_free": false,
+        "is_price_confirmed": true,
+        "notes": "The official listing states EUR 10, free for subscribers and people under 26."
+      },
+      "ticketing": {
+        "status": "available",
+        "official_url": "https://www.tnn.fr/fr/evenements/conversation-intime-1-2627",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 20,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Individually confirmed public theatre conversation",
+          "Low confirmed price"
+        ]
+      },
+      "status": "on_sale",
+      "sources": [
+        {
+          "url": "https://www.tnn.fr/fr/evenements/conversation-intime-1-2627",
+          "name": "Théâtre National de Nice — Conversation intime avec Jean-François Sivadier",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-10-05T09:08:13+02:00",
+          "supports": [
+            "date",
+            "description",
+            "identity",
+            "price",
+            "ticket_status",
+            "ticket_url",
+            "time",
+            "venue"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-10-05T09:08:13+02:00",
+        "last_seen_at": "2026-10-05T09:08:13+02:00",
+        "last_verified_at": "2026-10-05T09:08:13+02:00",
+        "content_hash": null
+      }
+    },
+    {
+      "id": "ivanov-nice-2026-10-14",
+      "title": "Ivanov",
+      "description": "Jean-François Sivadier stages Anton Chekhov’s Ivanov with Nicolas Bouchaud, Norah Krief and a company cast.",
+      "categories": ["theatre"],
+      "tags": [],
+      "start_at": "2026-10-14",
+      "end_at": "2026-10-16",
+      "timezone": "Europe/Paris",
+      "date_precision": "range",
+      "venue": {
+        "name": "Salle de La Cuisine, Théâtre National de Nice",
+        "city": "Nice",
+        "region": "Provence-Alpes-Côte d’Azur",
+        "country": "France",
+        "address": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "language": {
+        "codes": [],
+        "importance": "unknown",
+        "notes": "The official listing does not explicitly state the performance language."
+      },
+      "pricing": {
+        "currency": null,
+        "minimum": null,
+        "maximum": null,
+        "is_free": false,
+        "is_price_confirmed": false,
+        "notes": "The official event page does not state an event-specific price."
+      },
+      "ticketing": {
+        "status": "available",
+        "official_url": "https://www.tnn.fr/fr/spectacles/saison-2026-2027/ivanov",
+        "sale_starts_at": null,
+        "reservation_required": null
+      },
+      "ranking": {
+        "score": 22,
+        "level": "strong_match",
+        "reasons": [
+          "Core travel zone",
+          "Individually confirmed three-performance TNN run",
+          "Notable Chekhov production"
+        ]
+      },
+      "status": "on_sale",
+      "sources": [
+        {
+          "url": "https://www.tnn.fr/fr/spectacles/saison-2026-2027/ivanov",
+          "name": "Théâtre National de Nice — Ivanov",
+          "type": "official_theatre",
+          "trust": "high",
+          "checked_at": "2026-10-05T09:08:13+02:00",
+          "supports": [
+            "date",
+            "description",
+            "identity",
+            "ticket_status",
+            "ticket_url",
+            "time",
+            "venue"
+          ]
+        }
+      ],
+      "tracking": {
+        "first_seen_at": "2026-10-05T09:08:13+02:00",
+        "last_seen_at": "2026-10-05T09:08:13+02:00",
+        "last_verified_at": "2026-10-05T09:08:13+02:00",
         "content_hash": null
       }
     }
